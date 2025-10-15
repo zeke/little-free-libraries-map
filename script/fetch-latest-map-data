@@ -6,21 +6,32 @@ set -e
 
 MAP_ID="1JXOsEi7Fhjretm6aXQEHMxdrHCk"
 OUTPUT_FILE="data/libraries.kml"
+TEMP_KMZ="data/temp.kmz"
 
 echo "Fetching latest map data..."
 
-# Google My Maps KML export URL
+# Google My Maps KML export URL (actually returns KMZ)
 curl -L "https://www.google.com/maps/d/kml?mid=${MAP_ID}" \
-  -o "${OUTPUT_FILE}" \
+  -o "${TEMP_KMZ}" \
   --fail \
   --silent \
   --show-error
 
+echo "Extracting KML from KMZ archive..."
+
+# Extract doc.kml from the KMZ (which is a zip file)
+unzip -o -q "${TEMP_KMZ}" -d data/
+mv data/doc.kml "${OUTPUT_FILE}"
+
+# Clean up
+rm "${TEMP_KMZ}"
+rm -rf data/__MACOSX 2>/dev/null || true
+
 if [ -f "${OUTPUT_FILE}" ]; then
   FILE_SIZE=$(du -h "${OUTPUT_FILE}" | cut -f1)
-  echo "✓ Successfully downloaded map data (${FILE_SIZE})"
+  echo "✓ Successfully downloaded and extracted map data (${FILE_SIZE})"
   echo "✓ Saved to ${OUTPUT_FILE}"
 else
-  echo "✗ Failed to download map data"
+  echo "✗ Failed to extract KML from KMZ"
   exit 1
 fi
