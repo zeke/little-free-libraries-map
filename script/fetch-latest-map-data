@@ -1,0 +1,26 @@
+#!/bin/bash
+set -e
+
+# Fetch latest Little Free Libraries map data from Google My Maps
+# Source: https://www.google.com/maps/d/viewer?mid=1JXOsEi7Fhjretm6aXQEHMxdrHCk
+
+MAP_ID="1JXOsEi7Fhjretm6aXQEHMxdrHCk"
+OUTPUT_FILE="data/libraries.kml"
+
+echo "Fetching latest map data..."
+
+# Google My Maps KML export URL
+curl -L "https://www.google.com/maps/d/kml?mid=${MAP_ID}" \
+  -o "${OUTPUT_FILE}" \
+  --fail \
+  --silent \
+  --show-error
+
+if [ -f "${OUTPUT_FILE}" ]; then
+  FILE_SIZE=$(du -h "${OUTPUT_FILE}" | cut -f1)
+  echo "✓ Successfully downloaded map data (${FILE_SIZE})"
+  echo "✓ Saved to ${OUTPUT_FILE}"
+else
+  echo "✗ Failed to download map data"
+  exit 1
+fi

@@ -19,10 +19,89 @@
             height: 100vh;
             width: 100vw;
         }
+        #style-drawer {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 1000;
+            background: white;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+            max-width: 250px;
+        }
+        #drawer-toggle {
+            padding: 10px 15px;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+            font-weight: bold;
+            user-select: none;
+        }
+        #drawer-toggle:hover {
+            background: #f5f5f5;
+        }
+        #drawer-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        #drawer-content.open {
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        .style-option {
+            padding: 10px 15px;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+        }
+        .style-option:last-child {
+            border-bottom: none;
+        }
+        .style-option:hover {
+            background: #f5f5f5;
+        }
+        .style-option.active {
+            background: #e3f2fd;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <div id="map"></div>
+
+    <!-- Style Drawer -->
+    <div id="style-drawer">
+        <div id="drawer-toggle">Map Styles ▼</div>
+        <div id="drawer-content">
+            <div class="style-option active" data-style="osm">OpenStreetMap</div>
+            <div class="style-option" data-style="osm-humanitarian">OSM Humanitarian</div>
+            <div class="style-option" data-style="positron">CartoDB Positron</div>
+            <div class="style-option" data-style="positron-nolabels">CartoDB Positron (No Labels)</div>
+            <div class="style-option" data-style="darkmatter">CartoDB Dark Matter</div>
+            <div class="style-option" data-style="darkmatter-nolabels">CartoDB Dark Matter (No Labels)</div>
+            <div class="style-option" data-style="voyager">CartoDB Voyager</div>
+            <div class="style-option" data-style="voyager-nolabels">CartoDB Voyager (No Labels)</div>
+            <div class="style-option" data-style="toner">Stamen Toner</div>
+            <div class="style-option" data-style="toner-lite">Stamen Toner Lite</div>
+            <div class="style-option" data-style="toner-background">Stamen Toner Background</div>
+            <div class="style-option" data-style="toner-hybrid">Stamen Toner Hybrid</div>
+            <div class="style-option" data-style="toner-lines">Stamen Toner Lines</div>
+            <div class="style-option" data-style="watercolor">Stamen Watercolor</div>
+            <div class="style-option" data-style="terrain">Stamen Terrain</div>
+            <div class="style-option" data-style="terrain-background">Stamen Terrain Background</div>
+            <div class="style-option" data-style="terrain-lines">Stamen Terrain Lines</div>
+            <div class="style-option" data-style="alidade-smooth">Alidade Smooth</div>
+            <div class="style-option" data-style="alidade-smooth-dark">Alidade Smooth Dark</div>
+            <div class="style-option" data-style="alidade-satellite">Alidade Satellite</div>
+            <div class="style-option" data-style="outdoors">Stadia Outdoors</div>
+            <div class="style-option" data-style="osm-bright">Stadia OSM Bright</div>
+            <div class="style-option" data-style="cycling">OpenCycleMap</div>
+            <div class="style-option" data-style="transport">Transport Map</div>
+            <div class="style-option" data-style="landscape">Thunderforest Landscape</div>
+            <div class="style-option" data-style="pioneer">Thunderforest Pioneer</div>
+            <div class="style-option" data-style="mobile-atlas">Thunderforest Mobile Atlas</div>
+            <div class="style-option" data-style="neighbourhood">Thunderforest Neighbourhood</div>
+        </div>
+    </div>
 
     <!-- Leaflet JavaScript -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -33,14 +112,220 @@
     <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
 
     <script>
-        // Initialize the map (centered on Berkeley, CA)
-        const map = L.map('map').setView([37.8715, -122.2730], 14);
+        // Get saved map position and zoom from localStorage
+        const savedLat = parseFloat(localStorage.getItem('mapLat')) || 37.8715;
+        const savedLng = parseFloat(localStorage.getItem('mapLng')) || -122.2730;
+        const savedZoom = parseInt(localStorage.getItem('mapZoom')) || 14;
 
-        // Add OpenStreetMap tile layer
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-            maxZoom: 19
+        // Initialize the map
+        const map = L.map('map').setView([savedLat, savedLng], savedZoom);
+
+        // Save map position and zoom when user moves or zooms
+        map.on('moveend', function() {
+            const center = map.getCenter();
+            localStorage.setItem('mapLat', center.lat);
+            localStorage.setItem('mapLng', center.lng);
+            localStorage.setItem('mapZoom', map.getZoom());
+        });
+
+        // Define map styles
+        const mapStyles = {
+            osm: {
+                url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            positron: {
+                url: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                maxZoom: 19
+            },
+            'positron-nolabels': {
+                url: 'https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                maxZoom: 19
+            },
+            darkmatter: {
+                url: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                maxZoom: 19
+            },
+            'darkmatter-nolabels': {
+                url: 'https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                maxZoom: 19
+            },
+            voyager: {
+                url: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                maxZoom: 19
+            },
+            'voyager-nolabels': {
+                url: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                maxZoom: 19
+            },
+            toner: {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            'toner-lite': {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            'toner-background': {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_background/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            watercolor: {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 16
+            },
+            terrain: {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 18
+            },
+            'alidade-smooth': {
+                url: 'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            'alidade-smooth-dark': {
+                url: 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            outdoors: {
+                url: 'https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            'osm-humanitarian': {
+                url: 'https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Tiles courtesy of <a href="https://hot.openstreetmap.org/">Humanitarian OpenStreetMap Team</a>',
+                maxZoom: 19
+            },
+            'osm-bright': {
+                url: 'https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            'toner-hybrid': {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_hybrid/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            'toner-lines': {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_lines/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            'terrain-background': {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 18
+            },
+            'terrain-lines': {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_terrain_lines/{z}/{x}/{y}{r}.png',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 18
+            },
+            'alidade-satellite': {
+                url: 'https://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}{r}.jpg',
+                attribution: '&copy; <a href="https://www.stadiamaps.com/">Stadia Maps</a> &copy; CNES, Distribution Airbus DS, © Airbus DS, © PlanetObserver (Contains Copernicus Data)',
+                maxZoom: 20
+            },
+            cycling: {
+                url: 'https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=',
+                attribution: '&copy; <a href="https://www.thunderforest.com/">Thunderforest</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            transport: {
+                url: 'https://tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=',
+                attribution: '&copy; <a href="https://www.thunderforest.com/">Thunderforest</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            landscape: {
+                url: 'https://tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=',
+                attribution: '&copy; <a href="https://www.thunderforest.com/">Thunderforest</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            pioneer: {
+                url: 'https://tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=',
+                attribution: '&copy; <a href="https://www.thunderforest.com/">Thunderforest</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            'mobile-atlas': {
+                url: 'https://tile.thunderforest.com/mobile-atlas/{z}/{x}/{y}.png?apikey=',
+                attribution: '&copy; <a href="https://www.thunderforest.com/">Thunderforest</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            neighbourhood: {
+                url: 'https://tile.thunderforest.com/neighbourhood/{z}/{x}/{y}.png?apikey=',
+                attribution: '&copy; <a href="https://www.thunderforest.com/">Thunderforest</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            }
+        };
+
+        // Get saved style from localStorage or default to 'osm'
+        const savedStyle = localStorage.getItem('mapStyle') || 'osm';
+        const initialStyle = mapStyles[savedStyle] || mapStyles.osm;
+
+        // Add default tile layer
+        let currentTileLayer = L.tileLayer(initialStyle.url, {
+            attribution: initialStyle.attribution,
+            maxZoom: initialStyle.maxZoom
         }).addTo(map);
+
+        // Update active state for saved style
+        document.querySelectorAll('.style-option').forEach(opt => {
+            if (opt.getAttribute('data-style') === savedStyle) {
+                opt.classList.add('active');
+            } else {
+                opt.classList.remove('active');
+            }
+        });
+
+        // Drawer toggle functionality
+        const drawerToggle = document.getElementById('drawer-toggle');
+        const drawerContent = document.getElementById('drawer-content');
+
+        drawerToggle.addEventListener('click', function() {
+            drawerContent.classList.toggle('open');
+            drawerToggle.textContent = drawerContent.classList.contains('open')
+                ? 'Map Styles ▲'
+                : 'Map Styles ▼';
+        });
+
+        // Style switching functionality
+        const styleOptions = document.querySelectorAll('.style-option');
+        styleOptions.forEach(option => {
+            option.addEventListener('click', function() {
+                const styleName = this.getAttribute('data-style');
+                const style = mapStyles[styleName];
+
+                // Remove current tile layer
+                map.removeLayer(currentTileLayer);
+
+                // Add new tile layer
+                currentTileLayer = L.tileLayer(style.url, {
+                    attribution: style.attribution,
+                    maxZoom: style.maxZoom
+                }).addTo(map);
+
+                // Update active state
+                styleOptions.forEach(opt => opt.classList.remove('active'));
+                this.classList.add('active');
+
+                // Save style choice to localStorage
+                localStorage.setItem('mapStyle', styleName);
+            });
+        });
 
         // User location marker
         let userMarker = null;
@@ -68,8 +353,10 @@
                         .addTo(map)
                         .bindPopup('Your Location');
 
-                    // Center map on user location
-                    map.setView([lat, lng], 14);
+                    // Only center on user location if no saved position exists
+                    if (!localStorage.getItem('mapLat')) {
+                        map.setView([lat, lng], 14);
+                    }
                 },
                 function(error) {
                     console.log('Location access denied or unavailable:', error.message);
@@ -86,7 +373,7 @@
         });
 
         // Load KML file
-        const kmlLayer = omnivore.kml('libraries.kml')
+        const kmlLayer = omnivore.kml('data/libraries.kml')
             .on('layeradd', function(e) {
                 // Add popup to each marker
                 const layer = e.layer;
@@ -104,9 +391,11 @@
                         popupContent += `<h3 style="margin: 0 0 10px 0;">${props.name}</h3>`;
                     }
 
-                    // Add description if available (already contains HTML with images and details)
+                    // Add description if available, but strip out images
                     if (props.description) {
-                        popupContent += props.description;
+                        // Remove img tags and their content
+                        const descWithoutImages = props.description.replace(/<img[^>]*>/gi, '');
+                        popupContent += descWithoutImages;
                     }
 
                     // Bind popup to marker
