@@ -2,38 +2,106 @@
 set -e
 
 # Fetch latest Little Free Libraries map data from Google My Maps
-# Source: https://www.google.com/maps/d/viewer?mid=1JXOsEi7Fhjretm6aXQEHMxdrHCk
+# Sources:
+# - Berkeley area: https://www.google.com/maps/d/viewer?mid=1JXOsEi7Fhjretm6aXQEHMxdrHCk
+# - California-wide: https://www.google.com/maps/d/viewer?mid=108krRpy3BwV0mDPKC9OtZXUnmkw
 
-MAP_ID="1JXOsEi7Fhjretm6aXQEHMxdrHCk"
+MAP_ID_1="1JXOsEi7Fhjretm6aXQEHMxdrHCk"
+MAP_ID_2="108krRpy3BwV0mDPKC9OtZXUnmkw"
 OUTPUT_FILE="libraries.kml"
-TEMP_KMZ="temp.kmz"
 TEMP_DIR="temp_extract"
 
-echo "Fetching latest map data..."
+echo "Fetching map data from source 1..."
 
-# Google My Maps KML export URL (actually returns KMZ)
-curl -L "https://www.google.com/maps/d/kml?mid=${MAP_ID}" \
-  -o "${TEMP_KMZ}" \
+# Fetch first map
+curl -L "https://www.google.com/maps/d/kml?mid=${MAP_ID_1}" \
+  -o "temp1.kmz" \
   --fail \
   --silent \
   --show-error
 
-echo "Extracting KML from KMZ archive..."
+echo "Fetching map data from source 2..."
 
-# Extract doc.kml from the KMZ (which is a zip file)
-mkdir -p "${TEMP_DIR}"
-unzip -o -q "${TEMP_KMZ}" -d "${TEMP_DIR}"
-mv "${TEMP_DIR}/doc.kml" "${OUTPUT_FILE}"
+# Fetch second map
+curl -L "https://www.google.com/maps/d/kml?mid=${MAP_ID_2}" \
+  -o "temp2.kmz" \
+  --fail \
+  --silent \
+  --show-error
+
+echo "Extracting KML from KMZ archives..."
+
+# Extract both KMZ files
+mkdir -p "${TEMP_DIR}/map1"
+mkdir -p "${TEMP_DIR}/map2"
+unzip -o -q "temp1.kmz" -d "${TEMP_DIR}/map1"
+unzip -o -q "temp2.kmz" -d "${TEMP_DIR}/map2"
+
+echo "Merging map data..."
+
+# Use Python to merge the KML files
+python3 - <<'PYTHON'
+import xml.etree.ElementTree as ET
+import sys
+
+# Register namespace
+ET.register_namespace('', 'http://www.opengis.net/kml/2.2')
+
+# Parse both KML files
+tree1 = ET.parse('temp_extract/map1/doc.kml')
+tree2 = ET.parse('temp_extract/map2/doc.kml')
+
+root1 = tree1.getroot()
+root2 = tree2.getroot()
+
+# Define namespace
+ns = {'kml': 'http://www.opengis.net/kml/2.2'}
+
+# Find Document elements
+doc1 = root1.find('kml:Document', ns)
+doc2 = root2.find('kml:Document', ns)
+
+if doc1 is None or doc2 is None:
+    print("Error: Could not find Document elements", file=sys.stderr)
+    sys.exit(1)
+
+# Function to get all placemarks from a document (direct or in folders)
+def get_all_placemarks(doc):
+    placemarks = []
+    # Direct placemarks
+    placemarks.extend(doc.findall('kml:Placemark', ns))
+    # Placemarks in folders
+    for folder in doc.findall('kml:Folder', ns):
+        placemarks.extend(folder.findall('kml:Placemark', ns))
+    return placemarks
+
+# Get placemarks from both sources
+placemarks1 = get_all_placemarks(doc1)
+placemarks2 = get_all_placemarks(doc2)
+
+print(f"Source 1 has {len(placemarks1)} placemarks", file=sys.stderr)
+print(f"Source 2 has {len(placemarks2)} placemarks", file=sys.stderr)
+
+# Add all placemarks from source 2 to source 1 document (not in a folder)
+for placemark in placemarks2:
+    doc1.append(placemark)
+
+# Write merged KML
+tree1.write('libraries.kml', encoding='utf-8', xml_declaration=True)
+print(f"Merged {len(placemarks2)} placemarks from source 2")
+PYTHON
 
 # Clean up
-rm "${TEMP_KMZ}"
+rm temp1.kmz temp2.kmz
 rm -rf "${TEMP_DIR}"
 
 if [ -f "${OUTPUT_FILE}" ]; then
   FILE_SIZE=$(du -h "${OUTPUT_FILE}" | cut -f1)
-  echo "✓ Successfully downloaded and extracted map data (${FILE_SIZE})"
+  PLACEMARK_COUNT=$(grep -c "<Placemark>" "${OUTPUT_FILE}" || echo "0")
+  echo "✓ Successfully downloaded and merged map data (${FILE_SIZE})"
+  echo "✓ Total placemarks: ${PLACEMARK_COUNT}"
   echo "✓ Saved to ${OUTPUT_FILE}"
 else
-  echo "✗ Failed to extract KML from KMZ"
+  echo "✗ Failed to create merged KML"
   exit 1
 fi

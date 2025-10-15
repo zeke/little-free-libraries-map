@@ -72,34 +72,14 @@
     <div id="style-drawer">
         <div id="drawer-toggle">Map Styles ▼</div>
         <div id="drawer-content">
-            <div class="style-option active" data-style="osm">OpenStreetMap</div>
+            <div class="style-option" data-style="osm">OpenStreetMap</div>
             <div class="style-option" data-style="osm-humanitarian">OSM Humanitarian</div>
-            <div class="style-option" data-style="positron">CartoDB Positron</div>
+            <div class="style-option active" data-style="positron">CartoDB Positron</div>
             <div class="style-option" data-style="positron-nolabels">CartoDB Positron (No Labels)</div>
             <div class="style-option" data-style="darkmatter">CartoDB Dark Matter</div>
             <div class="style-option" data-style="darkmatter-nolabels">CartoDB Dark Matter (No Labels)</div>
             <div class="style-option" data-style="voyager">CartoDB Voyager</div>
             <div class="style-option" data-style="voyager-nolabels">CartoDB Voyager (No Labels)</div>
-            <div class="style-option" data-style="toner">Stamen Toner</div>
-            <div class="style-option" data-style="toner-lite">Stamen Toner Lite</div>
-            <div class="style-option" data-style="toner-background">Stamen Toner Background</div>
-            <div class="style-option" data-style="toner-hybrid">Stamen Toner Hybrid</div>
-            <div class="style-option" data-style="toner-lines">Stamen Toner Lines</div>
-            <div class="style-option" data-style="watercolor">Stamen Watercolor</div>
-            <div class="style-option" data-style="terrain">Stamen Terrain</div>
-            <div class="style-option" data-style="terrain-background">Stamen Terrain Background</div>
-            <div class="style-option" data-style="terrain-lines">Stamen Terrain Lines</div>
-            <div class="style-option" data-style="alidade-smooth">Alidade Smooth</div>
-            <div class="style-option" data-style="alidade-smooth-dark">Alidade Smooth Dark</div>
-            <div class="style-option" data-style="alidade-satellite">Alidade Satellite</div>
-            <div class="style-option" data-style="outdoors">Stadia Outdoors</div>
-            <div class="style-option" data-style="osm-bright">Stadia OSM Bright</div>
-            <div class="style-option" data-style="cycling">OpenCycleMap</div>
-            <div class="style-option" data-style="transport">Transport Map</div>
-            <div class="style-option" data-style="landscape">Thunderforest Landscape</div>
-            <div class="style-option" data-style="pioneer">Thunderforest Pioneer</div>
-            <div class="style-option" data-style="mobile-atlas">Thunderforest Mobile Atlas</div>
-            <div class="style-option" data-style="neighbourhood">Thunderforest Neighbourhood</div>
         </div>
     </div>
 
@@ -165,116 +145,16 @@
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
                 maxZoom: 19
             },
-            toner: {
-                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.png',
-                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 19
-            },
-            'toner-lite': {
-                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.png',
-                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 19
-            },
-            'toner-background': {
-                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_background/{z}/{x}/{y}{r}.png',
-                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 19
-            },
-            watercolor: {
-                url: 'https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg',
-                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 16
-            },
-            terrain: {
-                url: 'https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}{r}.png',
-                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 18
-            },
-            'alidade-smooth': {
-                url: 'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png',
-                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 19
-            },
-            'alidade-smooth-dark': {
-                url: 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png',
-                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 19
-            },
-            outdoors: {
-                url: 'https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png',
-                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 19
-            },
             'osm-humanitarian': {
                 url: 'https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Tiles courtesy of <a href="https://hot.openstreetmap.org/">Humanitarian OpenStreetMap Team</a>',
                 maxZoom: 19
-            },
-            'osm-bright': {
-                url: 'https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
-                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 19
-            },
-            'toner-hybrid': {
-                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_hybrid/{z}/{x}/{y}{r}.png',
-                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 19
-            },
-            'toner-lines': {
-                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_lines/{z}/{x}/{y}{r}.png',
-                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 19
-            },
-            'terrain-background': {
-                url: 'https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.png',
-                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 18
-            },
-            'terrain-lines': {
-                url: 'https://tiles.stadiamaps.com/tiles/stamen_terrain_lines/{z}/{x}/{y}{r}.png',
-                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 18
-            },
-            'alidade-satellite': {
-                url: 'https://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}{r}.jpg',
-                attribution: '&copy; <a href="https://www.stadiamaps.com/">Stadia Maps</a> &copy; CNES, Distribution Airbus DS, © Airbus DS, © PlanetObserver (Contains Copernicus Data)',
-                maxZoom: 20
-            },
-            cycling: {
-                url: 'https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=',
-                attribution: '&copy; <a href="https://www.thunderforest.com/">Thunderforest</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 19
-            },
-            transport: {
-                url: 'https://tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=',
-                attribution: '&copy; <a href="https://www.thunderforest.com/">Thunderforest</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 19
-            },
-            landscape: {
-                url: 'https://tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=',
-                attribution: '&copy; <a href="https://www.thunderforest.com/">Thunderforest</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 19
-            },
-            pioneer: {
-                url: 'https://tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=',
-                attribution: '&copy; <a href="https://www.thunderforest.com/">Thunderforest</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 19
-            },
-            'mobile-atlas': {
-                url: 'https://tile.thunderforest.com/mobile-atlas/{z}/{x}/{y}.png?apikey=',
-                attribution: '&copy; <a href="https://www.thunderforest.com/">Thunderforest</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 19
-            },
-            neighbourhood: {
-                url: 'https://tile.thunderforest.com/neighbourhood/{z}/{x}/{y}.png?apikey=',
-                attribution: '&copy; <a href="https://www.thunderforest.com/">Thunderforest</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 19
             }
         };
 
-        // Get saved style from localStorage or default to 'osm'
-        const savedStyle = localStorage.getItem('mapStyle') || 'osm';
-        const initialStyle = mapStyles[savedStyle] || mapStyles.osm;
+        // Get saved style from localStorage or default to 'positron'
+        const savedStyle = localStorage.getItem('mapStyle') || 'positron';
+        const initialStyle = mapStyles[savedStyle] || mapStyles.positron;
 
         // Add default tile layer
         let currentTileLayer = L.tileLayer(initialStyle.url, {
