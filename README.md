@@ -18,21 +18,19 @@ Visit the live site: [https://zeke.github.io/little-free-libraries-map/](https:/
 
 Map data is generously provided and maintained by [Berkeley Little Free Libraries](https://berkeleylfl.wordpress.com).
 
-The data is sourced from two Google My Maps:
-- [Berkeley area map](https://www.google.com/maps/d/viewer?mid=1JXOsEi7Fhjretm6aXQEHMxdrHCk)
-- [California-wide map](https://www.google.com/maps/d/viewer?mid=108krRpy3BwV0mDPKC9OtZXUnmkw)
+The data is sourced from their [Google My Maps](https://www.google.com/maps/d/viewer?mid=1JXOsEi7Fhjretm6aXQEHMxdrHCk).
 
 ## Development
 
 ### Updating Map Data
 
-To fetch and merge the latest data from both sources:
+To fetch the latest data:
 
 ```bash
 ./script/fetch-latest-map-data
 ```
 
-This downloads both KMZ files, extracts the KML, merges them, and saves the result as `libraries.kml`.
+This downloads the KMZ file, extracts the KML, and saves it as `libraries.kml`.
 
 ### Local Development
 
