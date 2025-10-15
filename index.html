@@ -42,6 +42,49 @@
             maxZoom: 19
         }).addTo(map);
 
+        // User location marker
+        let userMarker = null;
+
+        // Request user location
+        if ('geolocation' in navigator) {
+            navigator.geolocation.getCurrentPosition(
+                function(position) {
+                    const lat = position.coords.latitude;
+                    const lng = position.coords.longitude;
+
+                    // Create custom icon for user location
+                    const userIcon = L.divIcon({
+                        className: 'user-location-marker',
+                        html: '<div style="background-color: #4285F4; width: 16px; height: 16px; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 4px rgba(0,0,0,0.3);"></div>',
+                        iconSize: [22, 22],
+                        iconAnchor: [11, 11]
+                    });
+
+                    // Add user location marker
+                    userMarker = L.marker([lat, lng], {
+                        icon: userIcon,
+                        zIndexOffset: 1000  // Ensure it appears above all other markers
+                    })
+                        .addTo(map)
+                        .bindPopup('Your Location');
+
+                    // Center map on user location
+                    map.setView([lat, lng], 14);
+                },
+                function(error) {
+                    console.log('Location access denied or unavailable:', error.message);
+                }
+            );
+        }
+
+        // Create simple black dot icon for libraries
+        const libraryIcon = L.divIcon({
+            className: 'library-marker',
+            html: '<div style="background-color: #000000; width: 10px; height: 10px; border-radius: 50%;"></div>',
+            iconSize: [10, 10],
+            iconAnchor: [5, 5]
+        });
+
         // Load KML file
         const kmlLayer = omnivore.kml('libraries.kml')
             .on('layeradd', function(e) {
@@ -50,6 +93,11 @@
                 if (layer.feature && layer.feature.properties) {
                     const props = layer.feature.properties;
                     let popupContent = '';
+
+                    // Replace default icon with simple black dot
+                    if (layer.setIcon) {
+                        layer.setIcon(libraryIcon);
+                    }
 
                     // Add name if available
                     if (props.name) {
