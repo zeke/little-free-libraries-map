@@ -74,7 +74,7 @@
         <div id="drawer-content">
             <div class="style-option" data-style="osm">OpenStreetMap</div>
             <div class="style-option" data-style="osm-humanitarian">OSM Humanitarian</div>
-            <div class="style-option active" data-style="positron">CartoDB Positron</div>
+            <div class="style-option" data-style="positron">CartoDB Positron</div>
             <div class="style-option" data-style="positron-nolabels">CartoDB Positron (No Labels)</div>
             <div class="style-option" data-style="darkmatter">CartoDB Dark Matter</div>
             <div class="style-option" data-style="darkmatter-nolabels">CartoDB Dark Matter (No Labels)</div>
@@ -85,7 +85,7 @@
             <div class="style-option" data-style="toner-background">Stamen Toner Background</div>
             <div class="style-option" data-style="toner-hybrid">Stamen Toner Hybrid</div>
             <div class="style-option" data-style="toner-lines">Stamen Toner Lines</div>
-            <div class="style-option" data-style="watercolor">Stamen Watercolor</div>
+            <div class="style-option active" data-style="watercolor">Stamen Watercolor</div>
             <div class="style-option" data-style="terrain">Stamen Terrain</div>
             <div class="style-option" data-style="terrain-background">Stamen Terrain Background</div>
             <div class="style-option" data-style="terrain-lines">Stamen Terrain Lines</div>
@@ -236,9 +236,9 @@
             }
         };
 
-        // Get saved style from localStorage or default to 'positron'
-        const savedStyle = localStorage.getItem('mapStyle') || 'positron';
-        const initialStyle = mapStyles[savedStyle] || mapStyles.positron;
+        // Get saved style from localStorage or default to 'watercolor'
+        const savedStyle = localStorage.getItem('mapStyle') || 'watercolor';
+        const initialStyle = mapStyles[savedStyle] || mapStyles.watercolor;
 
         // Add default tile layer
         let currentTileLayer = L.tileLayer(initialStyle.url, {
