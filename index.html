@@ -551,9 +551,10 @@
                         layer.setIcon(libraryIcon);
                     }
 
-                    // Add name if available
+                    // Add name if available, make it a Google Maps search link
                     if (props.name) {
-                        popupContent += `<h3 style="margin: 0 0 10px 0;">${props.name}</h3>`;
+                        const encodedName = encodeURIComponent(props.name);
+                        popupContent += `<h3 style="margin: 0 0 10px 0;"><a href="https://www.google.com/maps/search/?api=1&query=${encodedName}" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">${props.name}</a></h3>`;
                     }
 
                     // Add description if available, but strip out images
@@ -566,17 +567,6 @@
                             .replace(/(<br\s*\/?>\s*){3,}/gi, '<br><br>') // Replace 3+ breaks with 2
                             .replace(/\n\s*\n\s*\n+/g, '\n\n') // Remove excessive newlines
                             .trim();
-
-                        // Convert addresses to Google Maps links (keeping same appearance)
-                        // Match common address patterns (number + street name)
-                        descWithoutImages = descWithoutImages.replace(
-                            /(\d+\s+[A-Za-z0-9\s]+(?:Street|St|Avenue|Ave|Road|Rd|Boulevard|Blvd|Drive|Dr|Lane|Ln|Way|Court|Ct|Place|Pl|Circle|Cir)(?:\s+[A-Za-z0-9]+)?)/gi,
-                            function(match) {
-                                const encodedAddress = encodeURIComponent(match);
-                                return `<a href="https://www.google.com/maps/search/?api=1&query=${encodedAddress}" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">${match}</a>`;
-                            }
-                        );
-
                         popupContent += descWithoutImages;
                     }
 
