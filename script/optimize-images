@@ -1,0 +1,60 @@
+#!/bin/bash
+
+# Optimize candidate images to be under 1MB each while preserving EXIF data
+
+CANDIDATES_DIR="$(cd "$(dirname "$0")/.." && pwd)/candidates"
+
+echo "Optimizing images in $CANDIDATES_DIR..."
+echo
+
+# Create a backup directory
+BACKUP_DIR="${CANDIDATES_DIR}_backup_$(date +%Y%m%d_%H%M%S)"
+echo "Creating backup at $BACKUP_DIR..."
+mkdir -p "$BACKUP_DIR"
+cp "$CANDIDATES_DIR"/*.JPG "$BACKUP_DIR/" 2>/dev/null || true
+echo
+
+# Process each JPG file
+for img in "$CANDIDATES_DIR"/*.JPG; do
+  if [ -f "$img" ]; then
+    filename=$(basename "$img")
+    original_size=$(stat -f%z "$img")
+    original_size_mb=$(echo "scale=2; $original_size / 1048576" | bc)
+
+    echo "Processing $filename (${original_size_mb}MB)..."
+
+    # Only process if larger than 1MB
+    if [ $original_size -gt 1048576 ]; then
+      # Use ImageMagick to resize while preserving EXIF
+      # Start with 85% quality and adjust if needed
+      convert "$img" -resize 2048x2048\> -quality 85 -strip -auto-orient "${img}.tmp"
+
+      # Add back EXIF GPS data from original
+      exiftool -TagsFromFile "$img" "-GPSLatitude*" "-GPSLongitude*" "-GPSAltitude*" "-GPSPosition*" "-GPS*" "${img}.tmp" -overwrite_original
+
+      new_size=$(stat -f%z "${img}.tmp")
+      new_size_mb=$(echo "scale=2; $new_size / 1048576" | bc)
+
+      # If still too large, reduce quality more
+      if [ $new_size -gt 1048576 ]; then
+        echo "  Still too large, reducing quality..."
+        convert "$img" -resize 1600x1600\> -quality 75 -strip -auto-orient "${img}.tmp"
+        exiftool -TagsFromFile "$img" "-GPSLatitude*" "-GPSLongitude*" "-GPSAltitude*" "-GPSPosition*" "-GPS*" "${img}.tmp" -overwrite_original
+        new_size=$(stat -f%z "${img}.tmp")
+        new_size_mb=$(echo "scale=2; $new_size / 1048576" | bc)
+      fi
+
+      # Replace original with optimized version
+      mv "${img}.tmp" "$img"
+
+      reduction=$(echo "scale=1; (1 - $new_size / $original_size) * 100" | bc)
+      echo "  ✓ Reduced to ${new_size_mb}MB (${reduction}% reduction)"
+    else
+      echo "  ✓ Already under 1MB, skipping"
+    fi
+  fi
+done
+
+echo
+echo "All images optimized!"
+echo "Originals backed up to: $BACKUP_DIR"
