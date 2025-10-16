@@ -45,7 +45,7 @@
             transition: max-height 0.3s ease;
         }
         #drawer-content.open {
-            max-height: 600px;
+            max-height: 800px;
             overflow-y: auto;
         }
         .style-option {
@@ -80,6 +80,20 @@
             <div class="style-option" data-style="darkmatter-nolabels">CartoDB Dark Matter (No Labels)</div>
             <div class="style-option" data-style="voyager">CartoDB Voyager</div>
             <div class="style-option" data-style="voyager-nolabels">CartoDB Voyager (No Labels)</div>
+            <div class="style-option" data-style="toner">Stamen Toner</div>
+            <div class="style-option" data-style="toner-lite">Stamen Toner Lite</div>
+            <div class="style-option" data-style="toner-background">Stamen Toner Background</div>
+            <div class="style-option" data-style="toner-hybrid">Stamen Toner Hybrid</div>
+            <div class="style-option" data-style="toner-lines">Stamen Toner Lines</div>
+            <div class="style-option" data-style="watercolor">Stamen Watercolor</div>
+            <div class="style-option" data-style="terrain">Stamen Terrain</div>
+            <div class="style-option" data-style="terrain-background">Stamen Terrain Background</div>
+            <div class="style-option" data-style="terrain-lines">Stamen Terrain Lines</div>
+            <div class="style-option" data-style="alidade-smooth">Alidade Smooth</div>
+            <div class="style-option" data-style="alidade-smooth-dark">Alidade Smooth Dark</div>
+            <div class="style-option" data-style="alidade-satellite">Alidade Satellite</div>
+            <div class="style-option" data-style="outdoors">Stadia Outdoors</div>
+            <div class="style-option" data-style="osm-bright">Stadia OSM Bright</div>
         </div>
     </div>
 
@@ -148,6 +162,76 @@
             'osm-humanitarian': {
                 url: 'https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Tiles courtesy of <a href="https://hot.openstreetmap.org/">Humanitarian OpenStreetMap Team</a>',
+                maxZoom: 19
+            },
+            toner: {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.png?api_key=98d589cb-e509-4c1d-8e84-97da5e7bf3e3',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            'toner-lite': {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.png?api_key=98d589cb-e509-4c1d-8e84-97da5e7bf3e3',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            'toner-background': {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_background/{z}/{x}/{y}{r}.png?api_key=98d589cb-e509-4c1d-8e84-97da5e7bf3e3',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            'toner-hybrid': {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_hybrid/{z}/{x}/{y}{r}.png?api_key=98d589cb-e509-4c1d-8e84-97da5e7bf3e3',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            'toner-lines': {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_lines/{z}/{x}/{y}{r}.png?api_key=98d589cb-e509-4c1d-8e84-97da5e7bf3e3',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            watercolor: {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg?api_key=98d589cb-e509-4c1d-8e84-97da5e7bf3e3',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            terrain: {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}{r}.png?api_key=98d589cb-e509-4c1d-8e84-97da5e7bf3e3',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 18
+            },
+            'terrain-background': {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.png?api_key=98d589cb-e509-4c1d-8e84-97da5e7bf3e3',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 18
+            },
+            'terrain-lines': {
+                url: 'https://tiles.stadiamaps.com/tiles/stamen_terrain_lines/{z}/{x}/{y}{r}.png?api_key=98d589cb-e509-4c1d-8e84-97da5e7bf3e3',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 18
+            },
+            'alidade-smooth': {
+                url: 'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=98d589cb-e509-4c1d-8e84-97da5e7bf3e3',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            'alidade-smooth-dark': {
+                url: 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key=98d589cb-e509-4c1d-8e84-97da5e7bf3e3',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            'alidade-satellite': {
+                url: 'https://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}{r}.jpg?api_key=98d589cb-e509-4c1d-8e84-97da5e7bf3e3',
+                attribution: '&copy; <a href="https://www.stadiamaps.com/">Stadia Maps</a> &copy; CNES, Distribution Airbus DS, © Airbus DS, © PlanetObserver (Contains Copernicus Data)',
+                maxZoom: 20
+            },
+            outdoors: {
+                url: 'https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png?api_key=98d589cb-e509-4c1d-8e84-97da5e7bf3e3',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 19
+            },
+            'osm-bright': {
+                url: 'https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png?api_key=98d589cb-e509-4c1d-8e84-97da5e7bf3e3',
+                attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
                 maxZoom: 19
             }
         };

@@ -5,7 +5,7 @@ An interactive map of Little Free Libraries in the Berkeley area.
 ## Features
 
 - **Interactive Map**: Browse 1,100+ Little Free Library locations
-- **Multiple Map Styles**: Choose from 9 different map styles including light, dark, and specialized themes
+- **Multiple Map Styles**: Choose from 22 different map styles including light, dark, specialized themes, and artistic styles
 - **User Location**: Shows your current location on the map
 - **Persistent Settings**: Remembers your preferred map style, position, and zoom level
 - **Mobile Friendly**: Responsive design works on all devices
@@ -89,9 +89,20 @@ The site automatically deploys to GitHub Pages on every push to the `main` branc
 
 ## Map Styles
 
-The map includes free tile providers:
+The map includes 22 different styles from free and premium tile providers:
+
+**Free Styles:**
 - OpenStreetMap & OSM Humanitarian
 - CartoDB Positron, Dark Matter, and Voyager (with label/no-label variants)
+
+**Stadia Maps Styles (via API):**
+- Stamen Toner (5 variants: standard, lite, background, hybrid, lines)
+- Stamen Watercolor (artistic watercolor style)
+- Stamen Terrain (3 variants: standard, background, lines)
+- Alidade Smooth (light and dark variants)
+- Alidade Satellite
+- Stadia Outdoors
+- Stadia OSM Bright
 
 ## Acknowledgments
 
