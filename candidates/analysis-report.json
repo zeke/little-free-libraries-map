@@ -1,0 +1,176 @@
+[
+  {
+    "filename": "IMG_1421.JPG",
+    "hasGPS": true,
+    "latitude": 37.8370555555556,
+    "longitude": -122.282975,
+    "address": "1130 53rd Street, Oakland, California 94608",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1424.JPG",
+    "hasGPS": true,
+    "latitude": 37.865425,
+    "longitude": -122.296463888889,
+    "address": "2131 Sixth Street, Berkeley, California 94710",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1425.JPG",
+    "hasGPS": true,
+    "latitude": 37.8615305555556,
+    "longitude": -122.296502777778,
+    "address": "800 Channing Way, Berkeley, California 94710",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1426.JPG",
+    "hasGPS": true,
+    "latitude": 37.8755694444444,
+    "longitude": -122.296547222222,
+    "address": "1531 Ninth Street, Berkeley, California 94710",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1429.JPG",
+    "hasGPS": true,
+    "latitude": 37.8824,
+    "longitude": -122.294463888889,
+    "address": "1203 Stannage Avenue, Berkeley, California 94710",
+    "nearbyLocations": [
+      {
+        "name": "1203 Stannage Ave",
+        "distance": 4
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1430.JPG",
+    "hasGPS": true,
+    "latitude": 37.8823944444444,
+    "longitude": -122.294455555556,
+    "address": "1203 Stannage Avenue, Berkeley, California 94710",
+    "nearbyLocations": [
+      {
+        "name": "1203 Stannage Ave",
+        "distance": 4
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1431.JPG",
+    "hasGPS": true,
+    "latitude": 37.8846638888889,
+    "longitude": -122.295347222222,
+    "address": "1068 Stannage Avenue, Albany, California 94707",
+    "nearbyLocations": [
+      {
+        "name": "1066 Stannage Ave",
+        "distance": 2
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1434.JPG",
+    "hasGPS": true,
+    "latitude": 37.8706638888889,
+    "longitude": -122.28955,
+    "address": "1903;1905 Curtis Street, Berkeley, California 94702",
+    "nearbyLocations": [
+      {
+        "name": "1907 Curtis St",
+        "distance": 20
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1435.JPG",
+    "hasGPS": true,
+    "latitude": 37.8673277777778,
+    "longitude": -122.287086111111,
+    "address": "2138 Bonar Street, Berkeley, California 94702",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1436.JPG",
+    "hasGPS": true,
+    "latitude": 37.8651277777778,
+    "longitude": -122.285413888889,
+    "address": "1314 Bancroft Way, Berkeley, California 94702",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1437.JPG",
+    "hasGPS": true,
+    "latitude": 37.8633694444444,
+    "longitude": -122.285688888889,
+    "address": "1306 Channing Way, Berkeley, California 94702",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1438.JPG",
+    "hasGPS": true,
+    "latitude": 37.8628805555556,
+    "longitude": -122.286194444444,
+    "address": "2416 Bonar Street, Berkeley, California 94702",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1439.JPG",
+    "hasGPS": true,
+    "latitude": 37.8622972222222,
+    "longitude": -122.285919444444,
+    "address": "2431 Bonar Street, Berkeley, California 94702",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1440.JPG",
+    "hasGPS": true,
+    "latitude": 37.8626888888889,
+    "longitude": -122.287111111111,
+    "address": "2413 Browning Street, Berkeley, California 94702",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1441.JPG",
+    "hasGPS": true,
+    "latitude": 37.8628722222222,
+    "longitude": -122.289488888889,
+    "address": "1112;1114 Channing Way, Berkeley, California 94710",
+    "nearbyLocations": [
+      {
+        "name": "1108 Channing Way",
+        "distance": 16
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1452.JPG",
+    "hasGPS": true,
+    "latitude": 37.8531444444444,
+    "longitude": -122.261925,
+    "address": "3112 Deakin Street, Berkeley, California 94705",
+    "nearbyLocations": [
+      {
+        "name": "3109 Deakin St",
+        "distance": 11
+      }
+    ],
+    "isPotentialDuplicate": true
+  }
+]

@@ -1,0 +1,284 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+const { execSync } = require('child_process');
+const xml2js = require('xml2js');
+const https = require('https');
+
+// Haversine formula to calculate distance between two points in meters
+function calculateDistance(lat1, lon1, lat2, lon2) {
+  const R = 6371e3; // Earth's radius in meters
+  const φ1 = lat1 * Math.PI / 180;
+  const φ2 = lat2 * Math.PI / 180;
+  const Δφ = (lat2 - lat1) * Math.PI / 180;
+  const Δλ = (lon2 - lon1) * Math.PI / 180;
+
+  const a = Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
+            Math.cos(φ1) * Math.cos(φ2) *
+            Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+  return R * c; // Distance in meters
+}
+
+// Reverse geocode coordinates to address using Nominatim API
+function reverseGeocode(lat, lon) {
+  return new Promise((resolve, reject) => {
+    const url = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}&addressdetails=1`;
+
+    https.get(url, {
+      headers: {
+        'User-Agent': 'Little-Free-Libraries-Map/1.0'
+      }
+    }, (res) => {
+      let data = '';
+
+      res.on('data', (chunk) => {
+        data += chunk;
+      });
+
+      res.on('end', () => {
+        try {
+          const result = JSON.parse(data);
+          if (result.address) {
+            const addr = result.address;
+            const street = addr.road || addr.street || '';
+            const houseNumber = addr.house_number || '';
+            const city = addr.city || addr.town || addr.village || '';
+            const state = addr.state || '';
+            const postcode = addr.postcode || '';
+
+            let fullAddress = '';
+            if (houseNumber && street) {
+              fullAddress = `${houseNumber} ${street}`;
+            } else if (street) {
+              fullAddress = street;
+            }
+
+            if (city) {
+              fullAddress += fullAddress ? `, ${city}` : city;
+            }
+            if (state) {
+              fullAddress += fullAddress ? `, ${state}` : state;
+            }
+            if (postcode) {
+              fullAddress += fullAddress ? ` ${postcode}` : postcode;
+            }
+
+            resolve(fullAddress || result.display_name || 'Unknown address');
+          } else {
+            resolve('Unknown address');
+          }
+        } catch (error) {
+          resolve('Unknown address');
+        }
+      });
+    }).on('error', (error) => {
+      console.error(`Geocoding error: ${error.message}`);
+      resolve('Unknown address');
+    });
+  });
+}
+
+// Extract GPS coordinates from image EXIF data
+function extractGPSFromImage(imagePath) {
+  try {
+    const output = execSync(`exiftool -GPSLatitude -GPSLongitude -n -s3 "${imagePath}"`, {
+      encoding: 'utf8'
+    });
+
+    const lines = output.trim().split('\n');
+    if (lines.length >= 2) {
+      const lat = parseFloat(lines[0]);
+      const lon = parseFloat(lines[1]);
+
+      if (!isNaN(lat) && !isNaN(lon)) {
+        return { lat, lon };
+      }
+    }
+  } catch (error) {
+    // No GPS data or error extracting
+  }
+
+  return null;
+}
+
+// Parse KML file to extract existing library locations
+async function parseKML(kmlPath) {
+  const kmlContent = fs.readFileSync(kmlPath, 'utf8');
+  const parser = new xml2js.Parser();
+
+  try {
+    const result = await parser.parseStringPromise(kmlContent);
+    const document = result.kml.Document[0];
+
+    // Placemarks might be directly in Document or nested in Folder(s)
+    let placemarks = [];
+
+    // Check for direct placemarks
+    if (document.Placemark) {
+      placemarks = placemarks.concat(document.Placemark);
+    }
+
+    // Check for placemarks in folders
+    if (document.Folder) {
+      for (const folder of document.Folder) {
+        if (folder.Placemark) {
+          placemarks = placemarks.concat(folder.Placemark);
+        }
+      }
+    }
+
+    const locations = placemarks.map(placemark => {
+      const name = placemark.name?.[0] || 'Unknown';
+      const coordinates = placemark.Point?.[0]?.coordinates?.[0];
+
+      if (coordinates) {
+        const coords = coordinates.trim().split(',');
+        return {
+          name,
+          lon: parseFloat(coords[0]),
+          lat: parseFloat(coords[1])
+        };
+      }
+
+      return null;
+    }).filter(loc => loc !== null);
+
+    return locations;
+  } catch (error) {
+    console.error('Error parsing KML:', error.message);
+    return [];
+  }
+}
+
+// Find nearby existing locations
+function findNearbyLocations(candidateLat, candidateLon, existingLocations, thresholdMeters = 20) {
+  const nearby = [];
+
+  for (const location of existingLocations) {
+    const distance = calculateDistance(candidateLat, candidateLon, location.lat, location.lon);
+
+    if (distance <= thresholdMeters) {
+      nearby.push({
+        name: location.name,
+        distance: Math.round(distance)
+      });
+    }
+  }
+
+  return nearby.sort((a, b) => a.distance - b.distance);
+}
+
+// Main analysis function
+async function analyzeCandidates() {
+  const candidatesDir = path.join(__dirname, '..', 'candidates');
+  const kmlPath = path.join(__dirname, '..', 'libraries.kml');
+
+  // Get all JPG files in candidates directory
+  const files = fs.readdirSync(candidatesDir)
+    .filter(file => file.toLowerCase().endsWith('.jpg'))
+    .sort();
+
+  // Parse existing locations from KML
+  console.log('Parsing existing library locations from KML...\n');
+  const existingLocations = await parseKML(kmlPath);
+  console.log(`Found ${existingLocations.length} existing libraries in KML\n`);
+
+  // Analyze each image
+  const results = [];
+
+  for (let i = 0; i < files.length; i++) {
+    const file = files[i];
+    const filePath = path.join(candidatesDir, file);
+    const gps = extractGPSFromImage(filePath);
+
+    console.log(`Processing ${i + 1}/${files.length}: ${file}...`);
+
+    const result = {
+      filename: file,
+      hasGPS: gps !== null,
+      latitude: gps?.lat || null,
+      longitude: gps?.lon || null,
+      address: null,
+      nearbyLocations: [],
+      isPotentialDuplicate: false
+    };
+
+    if (gps) {
+      // Get address from reverse geocoding
+      result.address = await reverseGeocode(gps.lat, gps.lon);
+
+      // Find nearby locations
+      const nearby = findNearbyLocations(gps.lat, gps.lon, existingLocations, 20);
+      result.nearbyLocations = nearby;
+      result.isPotentialDuplicate = nearby.length > 0;
+
+      // Rate limit: wait 1 second between API calls (Nominatim requirement)
+      if (i < files.length - 1) {
+        await new Promise(resolve => setTimeout(resolve, 1000));
+      }
+    }
+
+    results.push(result);
+  }
+
+  console.log();
+
+  // Generate report
+  console.log('═'.repeat(80));
+  console.log('CANDIDATE LIBRARY ANALYSIS REPORT');
+  console.log('═'.repeat(80));
+  console.log();
+
+  const withGPS = results.filter(r => r.hasGPS);
+  const withoutGPS = results.filter(r => !r.hasGPS);
+  const potentialDuplicates = results.filter(r => r.isPotentialDuplicate);
+
+  console.log(`Total images analyzed: ${results.length}`);
+  console.log(`Images with GPS data: ${withGPS.length}`);
+  console.log(`Images without GPS data: ${withoutGPS.length}`);
+  console.log(`Potential duplicates (within 20m of existing): ${potentialDuplicates.length}`);
+  console.log();
+
+  // Detailed results
+  for (const result of results) {
+    console.log('─'.repeat(80));
+    console.log(`FILE: ${result.filename}`);
+
+    if (result.hasGPS) {
+      console.log(`ADDRESS: ${result.address || 'Unknown'}`);
+      console.log(`GPS: ${result.latitude.toFixed(6)}, ${result.longitude.toFixed(6)}`);
+      console.log(`Google Maps: https://www.google.com/maps?q=${result.latitude},${result.longitude}`);
+
+      if (result.isPotentialDuplicate) {
+        console.log('⚠️  POTENTIAL DUPLICATE - Nearby existing locations:');
+        for (const nearby of result.nearbyLocations) {
+          console.log(`   • ${nearby.name} (${nearby.distance}m away)`);
+        }
+      } else {
+        console.log('✓ No nearby duplicates found');
+      }
+    } else {
+      console.log('❌ No GPS data in EXIF');
+    }
+
+    console.log();
+  }
+
+  console.log('═'.repeat(80));
+  console.log('END OF REPORT');
+  console.log('═'.repeat(80));
+
+  // Save JSON report
+  const reportPath = path.join(__dirname, '..', 'candidates', 'analysis-report.json');
+  fs.writeFileSync(reportPath, JSON.stringify(results, null, 2));
+  console.log(`\nJSON report saved to: ${reportPath}`);
+}
+
+// Run analysis
+analyzeCandidates().catch(error => {
+  console.error('Error:', error);
+  process.exit(1);
+});

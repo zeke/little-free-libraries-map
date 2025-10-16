@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candidate Little Free Libraries</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    .stats {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .stat {
+      background: #ecf0f1;
+      padding: 10px 20px;
+      border-radius: 4px;
+    }
+
+    .stat strong {
+      color: #e67e22;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .card.duplicate {
+      border: 3px solid #e74c3c;
+    }
+
+    .card.new {
+      border: 3px solid #27ae60;
+    }
+
+    .image-container {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      background: #000;
+      overflow: hidden;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: white;
+    }
+
+    .badge.duplicate {
+      background: #e74c3c;
+    }
+
+    .badge.new {
+      background: #27ae60;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .filename {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+
+    .address {
+      font-size: 16px;
+      color: #e67e22;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    .coordinates {
+      font-size: 14px;
+      color: #7f8c8d;
+      margin-bottom: 10px;
+      font-family: monospace;
+    }
+
+    .links {
+      margin: 15px 0;
+    }
+
+    .links a {
+      display: inline-block;
+      padding: 8px 16px;
+      background: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 14px;
+      margin-right: 10px;
+      margin-bottom: 5px;
+    }
+
+    .links a:hover {
+      background: #2980b9;
+    }
+
+    .nearby {
+      margin-top: 15px;
+      padding: 15px;
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      border-radius: 4px;
+    }
+
+    .nearby-title {
+      font-weight: bold;
+      color: #856404;
+      margin-bottom: 8px;
+    }
+
+    .nearby-list {
+      list-style: none;
+    }
+
+    .nearby-list li {
+      padding: 4px 0;
+      color: #856404;
+    }
+
+    .nearby-list li::before {
+      content: "• ";
+      font-weight: bold;
+    }
+
+    .filter-bar {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .filter-bar label {
+      font-weight: 500;
+    }
+
+    .filter-bar select {
+      padding: 8px 12px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .stats {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Candidate Little Free Libraries</h1>
+      <p>Analysis of candidate library images from the field</p>
+      <div class="stats">
+        <div class="stat">Total Images: <strong id="total-count">0</strong></div>
+        <div class="stat">New Libraries: <strong id="new-count">0</strong></div>
+        <div class="stat">Potential Duplicates: <strong id="duplicate-count">0</strong></div>
+      </div>
+    </header>
+
+    <div class="filter-bar">
+      <label for="filter">Filter:</label>
+      <select id="filter">
+        <option value="all">All Images</option>
+        <option value="new">New Libraries Only</option>
+        <option value="duplicate">Potential Duplicates Only</option>
+      </select>
+    </div>
+
+    <div class="grid" id="grid"></div>
+  </div>
+
+  <script>
+    async function loadData() {
+      try {
+        const response = await fetch('analysis-report.json');
+        const data = await response.json();
+
+        // Update stats
+        const newCount = data.filter(item => !item.isPotentialDuplicate).length;
+        const duplicateCount = data.filter(item => item.isPotentialDuplicate).length;
+
+        document.getElementById('total-count').textContent = data.length;
+        document.getElementById('new-count').textContent = newCount;
+        document.getElementById('duplicate-count').textContent = duplicateCount;
+
+        // Render cards
+        renderCards(data);
+
+        // Setup filter
+        document.getElementById('filter').addEventListener('change', (e) => {
+          const filterValue = e.target.value;
+          let filtered = data;
+
+          if (filterValue === 'new') {
+            filtered = data.filter(item => !item.isPotentialDuplicate);
+          } else if (filterValue === 'duplicate') {
+            filtered = data.filter(item => item.isPotentialDuplicate);
+          }
+
+          renderCards(filtered);
+        });
+
+      } catch (error) {
+        console.error('Error loading data:', error);
+        document.getElementById('grid').innerHTML = '<p>Error loading analysis data</p>';
+      }
+    }
+
+    function renderCards(data) {
+      const grid = document.getElementById('grid');
+      grid.innerHTML = '';
+
+      // Sort: new libraries first, then duplicates
+      const sorted = [...data].sort((a, b) => {
+        if (a.isPotentialDuplicate === b.isPotentialDuplicate) return 0;
+        return a.isPotentialDuplicate ? 1 : -1;
+      });
+
+      sorted.forEach(item => {
+        const card = document.createElement('div');
+        card.className = `card ${item.isPotentialDuplicate ? 'duplicate' : 'new'}`;
+
+        const mapsUrl = `https://www.google.com/maps?q=${item.latitude},${item.longitude}`;
+        const streetViewUrl = `https://www.google.com/maps?layer=c&cbll=${item.latitude},${item.longitude}`;
+
+        let nearbyHTML = '';
+        if (item.isPotentialDuplicate && item.nearbyLocations.length > 0) {
+          nearbyHTML = `
+            <div class="nearby">
+              <div class="nearby-title">⚠️ Potential Duplicate - Nearby Locations:</div>
+              <ul class="nearby-list">
+                ${item.nearbyLocations.map(loc =>
+                  `<li>${loc.name} (${loc.distance}m away)</li>`
+                ).join('')}
+              </ul>
+            </div>
+          `;
+        }
+
+        card.innerHTML = `
+          <div class="image-container">
+            <img src="${item.filename}" alt="${item.filename}" loading="lazy">
+            <div class="badge ${item.isPotentialDuplicate ? 'duplicate' : 'new'}">
+              ${item.isPotentialDuplicate ? 'Duplicate?' : 'New'}
+            </div>
+          </div>
+          <div class="content">
+            <div class="filename">${item.filename}</div>
+            <div class="address">${item.address || 'Unknown address'}</div>
+            <div class="coordinates">
+              ${item.latitude.toFixed(6)}, ${item.longitude.toFixed(6)}
+            </div>
+            <div class="links">
+              <a href="${mapsUrl}" target="_blank">View on Map</a>
+              <a href="${streetViewUrl}" target="_blank">Street View</a>
+            </div>
+            ${nearbyHTML}
+          </div>
+        `;
+
+        grid.appendChild(card);
+      });
+    }
+
+    // Load data on page load
+    loadData();
+  </script>
+</body>
+</html>
