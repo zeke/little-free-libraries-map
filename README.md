@@ -1,5 +1,7 @@
 # Little Free Libraries Map
 
+![Screenshot of the Little Free Libraries Map](screenshot.png)
+
 An interactive map of Little Free Libraries in the Berkeley area.
 
 ## Features
