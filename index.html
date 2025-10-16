@@ -559,7 +559,13 @@
                     // Add description if available, but strip out images
                     if (props.description) {
                         // Remove img tags and their content
-                        const descWithoutImages = props.description.replace(/<img[^>]*>/gi, '');
+                        let descWithoutImages = props.description.replace(/<img[^>]*>/gi, '');
+                        // Remove excessive line breaks and clean up whitespace
+                        descWithoutImages = descWithoutImages
+                            .replace(/<br\s*\/?>\s*<br\s*\/?>/gi, '<br>') // Replace double breaks with single
+                            .replace(/(<br\s*\/?>\s*){3,}/gi, '<br><br>') // Replace 3+ breaks with 2
+                            .replace(/\n\s*\n\s*\n+/g, '\n\n') // Remove excessive newlines
+                            .trim();
                         popupContent += descWithoutImages;
                     }
 
