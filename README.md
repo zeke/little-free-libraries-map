@@ -12,7 +12,7 @@ An interactive map of Little Free Libraries in the Berkeley area.
 
 ## View the Map
 
-Visit the live site: [https://zeke.github.io/little-free-libraries-map/](https://zeke.github.io/little-free-libraries-map/)
+Visit the live site: [https://libs.ziki.boo](https://libs.ziki.boo)
 
 ## Data Source
 
