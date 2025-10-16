@@ -463,10 +463,8 @@
                         .addTo(map)
                         .bindPopup('Your Location');
 
-                    // Only center on user location if no saved position exists
-                    if (!localStorage.getItem('mapLat')) {
-                        map.setView([lat, lng], 14);
-                    }
+                    // Center on user location
+                    map.setView([lat, lng], 14);
                 },
                 function(error) {
                     console.log('Location access denied or unavailable:', error.message);
