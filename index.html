@@ -164,6 +164,26 @@
                 left: 300px;
             }
         }
+
+        /* Leaflet popup styling fixes */
+        .leaflet-popup-content-wrapper {
+            border-radius: 8px;
+        }
+        .leaflet-popup-content {
+            margin: 15px;
+            line-height: 1.5;
+        }
+        .leaflet-popup-content h3 {
+            margin: 0 0 10px 0;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .leaflet-popup-content p {
+            margin: 0 0 8px 0;
+        }
+        .leaflet-popup-content p:last-child {
+            margin-bottom: 0;
+        }
     </style>
 </head>
 <body>
@@ -547,7 +567,7 @@
                     if (popupContent) {
                         layer.bindPopup(popupContent, {
                             maxWidth: 400,
-                            maxHeight: 500
+                            minWidth: 250
                         });
                     }
                 }
