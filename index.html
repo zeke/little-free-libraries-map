@@ -440,24 +440,25 @@
         // User location marker
         let userMarker = null;
 
-        function getCardinalDirection(heading) {
-            const directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
-            const index = Math.round(heading / 45) % 8;
-            return directions[index];
-        }
-
         function createUserLocationIcon(heading) {
             if (heading !== null && heading !== undefined) {
-                const cardinal = getCardinalDirection(heading);
-                // Icon with cardinal direction
+                // Icon with directional arc
                 return L.divIcon({
                     className: 'user-location-marker',
-                    html: `<div style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
-                        <div style="position: absolute; background-color: #4285F4; width: 16px; height: 16px; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 4px rgba(0,0,0,0.3);"></div>
-                        <div style="position: absolute; top: -8px; background: white; color: #4285F4; font-weight: bold; font-size: 14px; padding: 2px 4px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.3);">${cardinal}</div>
+                    html: `<div style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
+                        <svg width="60" height="60" style="position: absolute; transform: rotate(${heading - 90}deg);">
+                            <defs>
+                                <linearGradient id="arcGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#4285F4;stop-opacity:0.2" />
+                                    <stop offset="100%" style="stop-color:#4285F4;stop-opacity:0.8" />
+                                </linearGradient>
+                            </defs>
+                            <path d="M 30 30 L 30 5 A 25 25 0 0 1 47.5 16.5 Z" fill="url(#arcGradient)" />
+                        </svg>
+                        <div style="position: absolute; background-color: #4285F4; width: 16px; height: 16px; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 4px rgba(0,0,0,0.3); z-index: 1;"></div>
                     </div>`,
-                    iconSize: [50, 50],
-                    iconAnchor: [25, 25]
+                    iconSize: [60, 60],
+                    iconAnchor: [30, 30]
                 });
             } else {
                 // Icon without direction (just a dot)
