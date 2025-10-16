@@ -32,6 +32,46 @@ To fetch the latest data:
 
 This downloads the KMZ file, extracts the KML, and saves it as `libraries.kml`.
 
+### Candidate Library Review Process
+
+New library candidates can be photographed in the field and analyzed for addition to the map.
+
+#### 1. Add Candidate Photos
+
+Place photos (with GPS EXIF data) in the `candidates/` directory.
+
+#### 2. Analyze Candidates
+
+Run the analysis script to extract GPS coordinates, geocode addresses, and detect duplicates:
+
+```bash
+./script/analyze-candidates
+```
+
+This script:
+- Extracts GPS coordinates from image EXIF data using `exiftool`
+- Reverse geocodes coordinates to street addresses via the Nominatim API
+- Detects potential duplicates within 20 meters of existing libraries
+- Generates `candidates/analysis-report.json` with all metadata
+
+#### 3. Review Candidates
+
+Open `candidates/index.html` in a browser to view an interactive gallery showing:
+- Each library photo with its address and coordinates
+- Links to Google Maps and Street View
+- Duplicate warnings for libraries already in the dataset
+- Filter to view new libraries vs. potential duplicates
+
+#### 4. Optimize Images (Optional)
+
+Before committing images to the repository, optimize them to reduce file size:
+
+```bash
+./script/optimize-images
+```
+
+This resizes images to under 1MB while preserving GPS EXIF data.
+
 ### Local Development
 
 Simply open `index.html` in your browser. No build process required.
