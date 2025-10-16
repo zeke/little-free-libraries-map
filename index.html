@@ -225,8 +225,15 @@
         const savedLng = parseFloat(localStorage.getItem('mapLng')) || -122.2730;
         const savedZoom = parseInt(localStorage.getItem('mapZoom')) || 14;
 
-        // Initialize the map
-        const map = L.map('map').setView([savedLat, savedLng], savedZoom);
+        // Initialize the map with zoom controls on the right
+        const map = L.map('map', {
+            zoomControl: false
+        }).setView([savedLat, savedLng], savedZoom);
+
+        // Add zoom control to top-right
+        L.control.zoom({
+            position: 'topright'
+        }).addTo(map);
 
         // Save map position and zoom when user moves or zooms
         map.on('moveend', function() {
