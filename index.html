@@ -440,34 +440,70 @@
         // User location marker
         let userMarker = null;
 
-        // Request user location
+        function getCardinalDirection(heading) {
+            const directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
+            const index = Math.round(heading / 45) % 8;
+            return directions[index];
+        }
+
+        function createUserLocationIcon(heading) {
+            if (heading !== null && heading !== undefined) {
+                const cardinal = getCardinalDirection(heading);
+                // Icon with cardinal direction
+                return L.divIcon({
+                    className: 'user-location-marker',
+                    html: `<div style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                        <div style="position: absolute; background-color: #4285F4; width: 16px; height: 16px; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 4px rgba(0,0,0,0.3);"></div>
+                        <div style="position: absolute; top: -8px; background: white; color: #4285F4; font-weight: bold; font-size: 14px; padding: 2px 4px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.3);">${cardinal}</div>
+                    </div>`,
+                    iconSize: [50, 50],
+                    iconAnchor: [25, 25]
+                });
+            } else {
+                // Icon without direction (just a dot)
+                return L.divIcon({
+                    className: 'user-location-marker',
+                    html: '<div style="background-color: #4285F4; width: 16px; height: 16px; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 4px rgba(0,0,0,0.3);"></div>',
+                    iconSize: [22, 22],
+                    iconAnchor: [11, 11]
+                });
+            }
+        }
+
+        // Request user location with heading if available
         if ('geolocation' in navigator) {
-            navigator.geolocation.getCurrentPosition(
+            navigator.geolocation.watchPosition(
                 function(position) {
                     const lat = position.coords.latitude;
                     const lng = position.coords.longitude;
+                    const heading = position.coords.heading;
 
                     // Create custom icon for user location
-                    const userIcon = L.divIcon({
-                        className: 'user-location-marker',
-                        html: '<div style="background-color: #4285F4; width: 16px; height: 16px; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 4px rgba(0,0,0,0.3);"></div>',
-                        iconSize: [22, 22],
-                        iconAnchor: [11, 11]
-                    });
+                    const userIcon = createUserLocationIcon(heading);
 
-                    // Add user location marker
-                    userMarker = L.marker([lat, lng], {
-                        icon: userIcon,
-                        zIndexOffset: 1000  // Ensure it appears above all other markers
-                    })
-                        .addTo(map)
-                        .bindPopup('Your Location');
+                    if (userMarker) {
+                        // Update existing marker
+                        userMarker.setLatLng([lat, lng]);
+                        userMarker.setIcon(userIcon);
+                    } else {
+                        // Add user location marker
+                        userMarker = L.marker([lat, lng], {
+                            icon: userIcon,
+                            zIndexOffset: 1000  // Ensure it appears above all other markers
+                        })
+                            .addTo(map)
+                            .bindPopup('Your Location');
 
-                    // Center on user location
-                    map.setView([lat, lng], 14);
+                        // Center on user location on first position
+                        map.setView([lat, lng], 14);
+                    }
                 },
                 function(error) {
                     console.log('Location access denied or unavailable:', error.message);
+                },
+                {
+                    enableHighAccuracy: true,
+                    maximumAge: 0
                 }
             );
         }
