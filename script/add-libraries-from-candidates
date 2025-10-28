@@ -1,0 +1,67 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+
+// Read the analysis report
+const reportPath = path.join(__dirname, '..', 'candidates', 'analysis-report.json');
+const report = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
+
+// Filter out duplicates - only keep new libraries
+const newLibraries = report.filter(lib => !lib.isPotentialDuplicate);
+
+console.log(`Found ${newLibraries.length} new libraries to add (${report.length - newLibraries.length} duplicates filtered out)`);
+
+// Read the KML file
+const kmlPath = path.join(__dirname, '..', 'libraries.kml');
+const kmlContent = fs.readFileSync(kmlPath, 'utf8');
+
+// Find the insertion point (before the closing </Folder> tags)
+const insertionPoint = kmlContent.lastIndexOf('    </Folder>');
+
+if (insertionPoint === -1) {
+  console.error('Could not find insertion point in KML file');
+  process.exit(1);
+}
+
+// Generate KML placemarks for new libraries
+const placemarks = newLibraries.map(lib => {
+  // Clean up the address to use as the name
+  const name = lib.address || 'Unknown address';
+
+  return `      <Placemark>
+        <name>${escapeXml(name)}</name>
+        <description>no LFL #</description>
+        <styleUrl>#icon-158</styleUrl>
+        <Point>
+          <coordinates>
+            ${lib.longitude},${lib.latitude},0
+          </coordinates>
+        </Point>
+      </Placemark>`;
+}).join('\n');
+
+// Insert the placemarks
+const newKml = kmlContent.slice(0, insertionPoint) + placemarks + '\n' + kmlContent.slice(insertionPoint);
+
+// Write the updated KML
+fs.writeFileSync(kmlPath, newKml);
+
+console.log(`Added ${newLibraries.length} new libraries to ${kmlPath}`);
+console.log('\nNew libraries added:');
+newLibraries.forEach((lib, i) => {
+  console.log(`  ${i + 1}. ${lib.address}`);
+});
+
+// Helper to escape XML special characters
+function escapeXml(unsafe) {
+  return unsafe.replace(/[<>&'"]/g, (c) => {
+    switch (c) {
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '&': return '&amp;';
+      case '\'': return '&apos;';
+      case '"': return '&quot;';
+    }
+  });
+}

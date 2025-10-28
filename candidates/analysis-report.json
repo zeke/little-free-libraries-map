@@ -172,5 +172,239 @@
       }
     ],
     "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1454.JPG",
+    "hasGPS": true,
+    "latitude": 37.8544444444444,
+    "longitude": -122.262177777778,
+    "address": "3037 Deakin Street, Berkeley, California 94705",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1460.JPG",
+    "hasGPS": true,
+    "latitude": 37.8634527777778,
+    "longitude": -122.2734,
+    "address": "2446 McKinley Avenue, Berkeley, California 94703",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1461.JPG",
+    "hasGPS": true,
+    "latitude": 37.8625694444444,
+    "longitude": -122.263633333333,
+    "address": "2224;2226;2228 Parker Street, Berkeley, California 94701",
+    "nearbyLocations": [
+      {
+        "name": "2224 Parker St",
+        "distance": 5
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1462.JPG",
+    "hasGPS": true,
+    "latitude": 37.8630722222222,
+    "longitude": -122.262786111111,
+    "address": "2537 Ellsworth Street, Berkeley, California 94701",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1466.JPG",
+    "hasGPS": true,
+    "latitude": 37.8612444444444,
+    "longitude": -122.260658333333,
+    "address": "2337 Derby Street, Berkeley, California 94705",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1473.JPG",
+    "hasGPS": true,
+    "latitude": 37.8608166666667,
+    "longitude": -122.271041666667,
+    "address": "1911 Carleton Street, Berkeley, California 94703",
+    "nearbyLocations": [
+      {
+        "name": "1911 Carleton St",
+        "distance": 7
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1474.JPG",
+    "hasGPS": true,
+    "latitude": 37.8605916666667,
+    "longitude": -122.272836111111,
+    "address": "Carleton Street, Berkeley, California 94703",
+    "nearbyLocations": [
+      {
+        "name": "1819 Carleton St",
+        "distance": 5
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1475.JPG",
+    "hasGPS": true,
+    "latitude": 37.8603777777778,
+    "longitude": -122.274711111111,
+    "address": "1725 Carleton Street, Berkeley, California 94703",
+    "nearbyLocations": [
+      {
+        "name": "1725 Carleton St",
+        "distance": 6
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1476.JPG",
+    "hasGPS": true,
+    "latitude": 37.8600583333333,
+    "longitude": -122.278288888889,
+    "address": "2620 California Street, Berkeley, California 94703",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1477.JPG",
+    "hasGPS": true,
+    "latitude": 37.8590472222222,
+    "longitude": -122.285233333333,
+    "address": "1233 Carleton Street, Berkeley, California 94703",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1479.JPG",
+    "hasGPS": true,
+    "latitude": 37.8586916666667,
+    "longitude": -122.287880555556,
+    "address": "1115 Carleton Street, Berkeley, California 94702",
+    "nearbyLocations": [
+      {
+        "name": "1115 Carleton St",
+        "distance": 5
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1592.JPG",
+    "hasGPS": true,
+    "latitude": 37.8645444444444,
+    "longitude": -122.295494444444,
+    "address": "2224 Seventh Street, Berkeley, California 94710",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1609.JPG",
+    "hasGPS": true,
+    "latitude": 37.8669361111111,
+    "longitude": -122.278122222222,
+    "address": "2233 Jefferson Avenue, Berkeley, California 94703",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1610.JPG",
+    "hasGPS": true,
+    "latitude": 37.8758388888889,
+    "longitude": -122.280280555556,
+    "address": "1631 California Street, Berkeley, California 94702",
+    "nearbyLocations": [
+      {
+        "name": "1631 California St",
+        "distance": 5
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1612.JPG",
+    "hasGPS": true,
+    "latitude": 37.876125,
+    "longitude": -122.280533333333,
+    "address": "1620 California Street, Berkeley, California 94702",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1616.JPG",
+    "hasGPS": true,
+    "latitude": 37.8730166666667,
+    "longitude": -122.296219444444,
+    "address": "965 Virginia Street, Berkeley, California 94710",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1617.JPG",
+    "hasGPS": true,
+    "latitude": 37.8729055555556,
+    "longitude": -122.296713888889,
+    "address": "935 Virginia Street, Berkeley, California 94710",
+    "nearbyLocations": [
+      {
+        "name": "935 Virginia St",
+        "distance": 5
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1650.JPG",
+    "hasGPS": true,
+    "latitude": 37.8424111111111,
+    "longitude": -122.280988888889,
+    "address": "1041 59th Street, Oakland, California 94608",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1652.JPG",
+    "hasGPS": true,
+    "latitude": 37.8391722222222,
+    "longitude": -122.276711111111,
+    "address": "959 55th Street, Oakland, California 94608",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1653.JPG",
+    "hasGPS": true,
+    "latitude": 37.8387722222222,
+    "longitude": -122.2798,
+    "address": "1048 55th Street, Oakland, California 94608",
+    "nearbyLocations": [
+      {
+        "name": "1048 55th St",
+        "distance": 5
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1657.JPG",
+    "hasGPS": true,
+    "latitude": 37.8634138888889,
+    "longitude": -122.280336111111,
+    "address": "2416 Spaulding Avenue, Berkeley, California 94703",
+    "nearbyLocations": [
+      {
+        "name": "2414 Spaulding Ave",
+        "distance": 11
+      }
+    ],
+    "isPotentialDuplicate": true
   }
 ]
