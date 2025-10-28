@@ -450,5 +450,126 @@
       }
     ],
     "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1675.JPG",
+    "hasGPS": true,
+    "latitude": 37.8769333333333,
+    "longitude": -122.298461111111,
+    "address": "923 Page Street, Berkeley, California 94710",
+    "nearbyLocations": [],
+    "isPotentialDuplicate": false
+  },
+  {
+    "filename": "IMG_1676.JPG",
+    "hasGPS": true,
+    "latitude": 37.8945222222222,
+    "longitude": -122.297494444444,
+    "address": "627 Cornell Avenue, Albany, California 94707",
+    "nearbyLocations": [
+      {
+        "name": "627 Cornell Ave",
+        "distance": 7
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1677.JPG",
+    "hasGPS": true,
+    "latitude": 37.8953527777778,
+    "longitude": -122.298919444444,
+    "address": "1130 Garfield Avenue, Albany, California 94707",
+    "nearbyLocations": [
+      {
+        "name": "1130 Garfield Ave",
+        "distance": 8
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1682.JPG",
+    "hasGPS": true,
+    "latitude": 37.8910833333333,
+    "longitude": -122.295708333333,
+    "address": "842 Talbot Avenue, Albany, California 94707",
+    "nearbyLocations": [
+      {
+        "name": "842 Talbot Ave",
+        "distance": 8
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1684.JPG",
+    "hasGPS": true,
+    "latitude": 37.8858222222222,
+    "longitude": -122.293938888889,
+    "address": "1044 Talbot Avenue, Albany, California 94710",
+    "nearbyLocations": [
+      {
+        "name": "1044 Talbot Ave",
+        "distance": 4
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1686.JPG",
+    "hasGPS": true,
+    "latitude": 37.8833583333333,
+    "longitude": -122.293005555556,
+    "address": "1133 Talbot Avenue, Albany, California 94710",
+    "nearbyLocations": [
+      {
+        "name": "1135 Talbot Ave",
+        "distance": 8
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1687.JPG",
+    "hasGPS": true,
+    "latitude": 37.8790777777778,
+    "longitude": -122.291733333333,
+    "address": "1409 Santa Fe Avenue, Berkeley, California 94702",
+    "nearbyLocations": [
+      {
+        "name": "1409 Santa Fe Ave",
+        "distance": 7
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1688.JPG",
+    "hasGPS": true,
+    "latitude": 37.8697888888889,
+    "longitude": -122.293722222222,
+    "address": "1908 Tenth Street, Berkeley, California 94710",
+    "nearbyLocations": [
+      {
+        "name": "1908 Tenth Street",
+        "distance": 12
+      }
+    ],
+    "isPotentialDuplicate": true
+  },
+  {
+    "filename": "IMG_1689.JPG",
+    "hasGPS": true,
+    "latitude": 37.8673388888889,
+    "longitude": -122.293722222222,
+    "address": "2101 Ninth Street, Berkeley, California 94710",
+    "nearbyLocations": [
+      {
+        "name": "1004 Addison St",
+        "distance": 3
+      }
+    ],
+    "isPotentialDuplicate": true
   }
 ]
