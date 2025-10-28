@@ -1,0 +1,2883 @@
+{
+  "analysisDate": "2025-10-28T19:34:45.018Z",
+  "summary": {
+    "totalLibraries": 1115,
+    "eastBayLibraries": 939,
+    "desertZoneCount": 1296,
+    "desertClustersIdentified": 267
+  },
+  "desertClusters": [
+    {
+      "center": {
+        "lat": 37.48500000000001,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 25446,
+      "avgDistanceToLibrary": 24419,
+      "googleMapsLink": "https://www.google.com/maps?q=37.485000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.48500000000001,
+        "lon": -122.28999999999996
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 22972,
+      "avgDistanceToLibrary": 21990,
+      "googleMapsLink": "https://www.google.com/maps?q=37.485000,-122.290000"
+    },
+    {
+      "center": {
+        "lat": 37.48500000000001,
+        "lon": -122.25999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 20542,
+      "avgDistanceToLibrary": 19617,
+      "googleMapsLink": "https://www.google.com/maps?q=37.485000,-122.260000"
+    },
+    {
+      "center": {
+        "lat": 37.48500000000001,
+        "lon": -122.22999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 18172,
+      "avgDistanceToLibrary": 17324,
+      "googleMapsLink": "https://www.google.com/maps?q=37.485000,-122.230000"
+    },
+    {
+      "center": {
+        "lat": 37.48500000000001,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 15889,
+      "avgDistanceToLibrary": 15146,
+      "googleMapsLink": "https://www.google.com/maps?q=37.485000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.48500000000001,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 13817,
+      "avgDistanceToLibrary": 13141,
+      "googleMapsLink": "https://www.google.com/maps?q=37.485000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.48500000000001,
+        "lon": -122.13999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 12075,
+      "avgDistanceToLibrary": 11401,
+      "googleMapsLink": "https://www.google.com/maps?q=37.485000,-122.140000"
+    },
+    {
+      "center": {
+        "lat": 37.48500000000001,
+        "lon": -122.10999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 10703,
+      "avgDistanceToLibrary": 9962,
+      "googleMapsLink": "https://www.google.com/maps?q=37.485000,-122.110000"
+    },
+    {
+      "center": {
+        "lat": 37.48500000000001,
+        "lon": -122.07999999999986
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 9324,
+      "avgDistanceToLibrary": 8684,
+      "googleMapsLink": "https://www.google.com/maps?q=37.485000,-122.080000"
+    },
+    {
+      "center": {
+        "lat": 37.50499999999999,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 24781,
+      "avgDistanceToLibrary": 23673,
+      "googleMapsLink": "https://www.google.com/maps?q=37.505000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.50499999999999,
+        "lon": -122.28999999999996
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 22235,
+      "avgDistanceToLibrary": 21159,
+      "googleMapsLink": "https://www.google.com/maps?q=37.505000,-122.290000"
+    },
+    {
+      "center": {
+        "lat": 37.50499999999999,
+        "lon": -122.25999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 19715,
+      "avgDistanceToLibrary": 18681,
+      "googleMapsLink": "https://www.google.com/maps?q=37.505000,-122.260000"
+    },
+    {
+      "center": {
+        "lat": 37.50499999999999,
+        "lon": -122.22999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 17232,
+      "avgDistanceToLibrary": 16257,
+      "googleMapsLink": "https://www.google.com/maps?q=37.505000,-122.230000"
+    },
+    {
+      "center": {
+        "lat": 37.50499999999999,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 14805,
+      "avgDistanceToLibrary": 13914,
+      "googleMapsLink": "https://www.google.com/maps?q=37.505000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.50499999999999,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 12468,
+      "avgDistanceToLibrary": 11701,
+      "googleMapsLink": "https://www.google.com/maps?q=37.505000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.50499999999999,
+        "lon": -122.13999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 10374,
+      "avgDistanceToLibrary": 9707,
+      "googleMapsLink": "https://www.google.com/maps?q=37.505000,-122.140000"
+    },
+    {
+      "center": {
+        "lat": 37.50499999999999,
+        "lon": -122.10999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 8748,
+      "avgDistanceToLibrary": 8077,
+      "googleMapsLink": "https://www.google.com/maps?q=37.505000,-122.110000"
+    },
+    {
+      "center": {
+        "lat": 37.50499999999999,
+        "lon": -122.07999999999986
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 7362,
+      "avgDistanceToLibrary": 6707,
+      "googleMapsLink": "https://www.google.com/maps?q=37.505000,-122.080000"
+    },
+    {
+      "center": {
+        "lat": 37.524999999999984,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 24140,
+      "avgDistanceToLibrary": 23090,
+      "googleMapsLink": "https://www.google.com/maps?q=37.525000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.524999999999984,
+        "lon": -122.28999999999996
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 21701,
+      "avgDistanceToLibrary": 20536,
+      "googleMapsLink": "https://www.google.com/maps?q=37.525000,-122.290000"
+    },
+    {
+      "center": {
+        "lat": 37.524999999999984,
+        "lon": -122.25999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 19111,
+      "avgDistanceToLibrary": 17973,
+      "googleMapsLink": "https://www.google.com/maps?q=37.525000,-122.260000"
+    },
+    {
+      "center": {
+        "lat": 37.524999999999984,
+        "lon": -122.22999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 16539,
+      "avgDistanceToLibrary": 15438,
+      "googleMapsLink": "https://www.google.com/maps?q=37.525000,-122.230000"
+    },
+    {
+      "center": {
+        "lat": 37.524999999999984,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 13994,
+      "avgDistanceToLibrary": 12948,
+      "googleMapsLink": "https://www.google.com/maps?q=37.525000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.524999999999984,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 11494,
+      "avgDistanceToLibrary": 10535,
+      "googleMapsLink": "https://www.google.com/maps?q=37.525000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.524999999999984,
+        "lon": -122.13999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 9076,
+      "avgDistanceToLibrary": 8266,
+      "googleMapsLink": "https://www.google.com/maps?q=37.525000,-122.140000"
+    },
+    {
+      "center": {
+        "lat": 37.524999999999984,
+        "lon": -122.10999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 6946,
+      "avgDistanceToLibrary": 6299,
+      "googleMapsLink": "https://www.google.com/maps?q=37.525000,-122.110000"
+    },
+    {
+      "center": {
+        "lat": 37.524999999999984,
+        "lon": -122.07999999999986
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 5581,
+      "avgDistanceToLibrary": 4815,
+      "googleMapsLink": "https://www.google.com/maps?q=37.525000,-122.080000"
+    },
+    {
+      "center": {
+        "lat": 37.54499999999998,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 22780,
+      "avgDistanceToLibrary": 21985,
+      "googleMapsLink": "https://www.google.com/maps?q=37.545000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.54499999999998,
+        "lon": -122.28999999999996
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 20923,
+      "avgDistanceToLibrary": 20036,
+      "googleMapsLink": "https://www.google.com/maps?q=37.545000,-122.290000"
+    },
+    {
+      "center": {
+        "lat": 37.54499999999998,
+        "lon": -122.25999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 18754,
+      "avgDistanceToLibrary": 17520,
+      "googleMapsLink": "https://www.google.com/maps?q=37.545000,-122.260000"
+    },
+    {
+      "center": {
+        "lat": 37.54499999999998,
+        "lon": -122.22999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 16126,
+      "avgDistanceToLibrary": 14910,
+      "googleMapsLink": "https://www.google.com/maps?q=37.545000,-122.230000"
+    },
+    {
+      "center": {
+        "lat": 37.54499999999998,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 13503,
+      "avgDistanceToLibrary": 12313,
+      "googleMapsLink": "https://www.google.com/maps?q=37.545000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.54499999999998,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 10892,
+      "avgDistanceToLibrary": 9743,
+      "googleMapsLink": "https://www.google.com/maps?q=37.545000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.54499999999998,
+        "lon": -122.13999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 8301,
+      "avgDistanceToLibrary": 7229,
+      "googleMapsLink": "https://www.google.com/maps?q=37.545000,-122.140000"
+    },
+    {
+      "center": {
+        "lat": 37.54499999999998,
+        "lon": -122.10999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 5760,
+      "avgDistanceToLibrary": 4861,
+      "googleMapsLink": "https://www.google.com/maps?q=37.545000,-122.110000"
+    },
+    {
+      "center": {
+        "lat": 37.54499999999998,
+        "lon": -122.07999999999986
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3573,
+      "avgDistanceToLibrary": 2967,
+      "googleMapsLink": "https://www.google.com/maps?q=37.545000,-122.080000"
+    },
+    {
+      "center": {
+        "lat": 37.56499999999999,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 20723,
+      "avgDistanceToLibrary": 20059,
+      "googleMapsLink": "https://www.google.com/maps?q=37.565000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.56499999999999,
+        "lon": -122.28999999999996
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 19506,
+      "avgDistanceToLibrary": 18772,
+      "googleMapsLink": "https://www.google.com/maps?q=37.565000,-122.290000"
+    },
+    {
+      "center": {
+        "lat": 37.56499999999999,
+        "lon": -122.25999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 17792,
+      "avgDistanceToLibrary": 16937,
+      "googleMapsLink": "https://www.google.com/maps?q=37.565000,-122.260000"
+    },
+    {
+      "center": {
+        "lat": 37.56499999999999,
+        "lon": -122.22999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 15932,
+      "avgDistanceToLibrary": 14688,
+      "googleMapsLink": "https://www.google.com/maps?q=37.565000,-122.230000"
+    },
+    {
+      "center": {
+        "lat": 37.56499999999999,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 13370,
+      "avgDistanceToLibrary": 12060,
+      "googleMapsLink": "https://www.google.com/maps?q=37.565000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.56499999999999,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 10727,
+      "avgDistanceToLibrary": 9421,
+      "googleMapsLink": "https://www.google.com/maps?q=37.565000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.56499999999999,
+        "lon": -122.13999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 8084,
+      "avgDistanceToLibrary": 6785,
+      "googleMapsLink": "https://www.google.com/maps?q=37.565000,-122.140000"
+    },
+    {
+      "center": {
+        "lat": 37.56499999999999,
+        "lon": -122.10999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 5443,
+      "avgDistanceToLibrary": 4162,
+      "googleMapsLink": "https://www.google.com/maps?q=37.565000,-122.110000"
+    },
+    {
+      "center": {
+        "lat": 37.58499999999997,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 18705,
+      "avgDistanceToLibrary": 18035,
+      "googleMapsLink": "https://www.google.com/maps?q=37.585000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.58499999999997,
+        "lon": -122.28999999999996
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 17697,
+      "avgDistanceToLibrary": 16939,
+      "googleMapsLink": "https://www.google.com/maps?q=37.585000,-122.290000"
+    },
+    {
+      "center": {
+        "lat": 37.58499999999997,
+        "lon": -122.25999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 16091,
+      "avgDistanceToLibrary": 15408,
+      "googleMapsLink": "https://www.google.com/maps?q=37.585000,-122.260000"
+    },
+    {
+      "center": {
+        "lat": 37.58499999999997,
+        "lon": -122.22999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 14520,
+      "avgDistanceToLibrary": 13773,
+      "googleMapsLink": "https://www.google.com/maps?q=37.585000,-122.230000"
+    },
+    {
+      "center": {
+        "lat": 37.58499999999997,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 12669,
+      "avgDistanceToLibrary": 11801,
+      "googleMapsLink": "https://www.google.com/maps?q=37.585000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.58499999999997,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 10406,
+      "avgDistanceToLibrary": 9366,
+      "googleMapsLink": "https://www.google.com/maps?q=37.585000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.58499999999997,
+        "lon": -122.13999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 8221,
+      "avgDistanceToLibrary": 6958,
+      "googleMapsLink": "https://www.google.com/maps?q=37.585000,-122.140000"
+    },
+    {
+      "center": {
+        "lat": 37.58499999999997,
+        "lon": -122.10999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 5730,
+      "avgDistanceToLibrary": 4400,
+      "googleMapsLink": "https://www.google.com/maps?q=37.585000,-122.110000"
+    },
+    {
+      "center": {
+        "lat": 37.58499999999997,
+        "lon": -122.07999999999986
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3102,
+      "avgDistanceToLibrary": 2048,
+      "googleMapsLink": "https://www.google.com/maps?q=37.585000,-122.080000"
+    },
+    {
+      "center": {
+        "lat": 37.60499999999997,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 16738,
+      "avgDistanceToLibrary": 16063,
+      "googleMapsLink": "https://www.google.com/maps?q=37.605000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.60499999999997,
+        "lon": -122.28999999999996
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 15604,
+      "avgDistanceToLibrary": 14956,
+      "googleMapsLink": "https://www.google.com/maps?q=37.605000,-122.290000"
+    },
+    {
+      "center": {
+        "lat": 37.60499999999997,
+        "lon": -122.25999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 14468,
+      "avgDistanceToLibrary": 13724,
+      "googleMapsLink": "https://www.google.com/maps?q=37.605000,-122.260000"
+    },
+    {
+      "center": {
+        "lat": 37.60499999999997,
+        "lon": -122.22999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 12698,
+      "avgDistanceToLibrary": 12022,
+      "googleMapsLink": "https://www.google.com/maps?q=37.605000,-122.230000"
+    },
+    {
+      "center": {
+        "lat": 37.60499999999997,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 11275,
+      "avgDistanceToLibrary": 10472,
+      "googleMapsLink": "https://www.google.com/maps?q=37.605000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.60499999999997,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 9495,
+      "avgDistanceToLibrary": 8499,
+      "googleMapsLink": "https://www.google.com/maps?q=37.605000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.60499999999997,
+        "lon": -122.13999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 7033,
+      "avgDistanceToLibrary": 6215,
+      "googleMapsLink": "https://www.google.com/maps?q=37.605000,-122.140000"
+    },
+    {
+      "center": {
+        "lat": 37.60499999999997,
+        "lon": -122.10999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 4879,
+      "avgDistanceToLibrary": 4079,
+      "googleMapsLink": "https://www.google.com/maps?q=37.605000,-122.110000"
+    },
+    {
+      "center": {
+        "lat": 37.624999999999964,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 14844,
+      "avgDistanceToLibrary": 14166,
+      "googleMapsLink": "https://www.google.com/maps?q=37.625000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.624999999999964,
+        "lon": -122.28999999999996
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 13553,
+      "avgDistanceToLibrary": 12898,
+      "googleMapsLink": "https://www.google.com/maps?q=37.625000,-122.290000"
+    },
+    {
+      "center": {
+        "lat": 37.624999999999964,
+        "lon": -122.25999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 12687,
+      "avgDistanceToLibrary": 11928,
+      "googleMapsLink": "https://www.google.com/maps?q=37.625000,-122.260000"
+    },
+    {
+      "center": {
+        "lat": 37.624999999999964,
+        "lon": -122.22999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 11024,
+      "avgDistanceToLibrary": 10356,
+      "googleMapsLink": "https://www.google.com/maps?q=37.625000,-122.230000"
+    },
+    {
+      "center": {
+        "lat": 37.624999999999964,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 9350,
+      "avgDistanceToLibrary": 8691,
+      "googleMapsLink": "https://www.google.com/maps?q=37.625000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.624999999999964,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 8201,
+      "avgDistanceToLibrary": 7313,
+      "googleMapsLink": "https://www.google.com/maps?q=37.625000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.624999999999964,
+        "lon": -122.13999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 6421,
+      "avgDistanceToLibrary": 5265,
+      "googleMapsLink": "https://www.google.com/maps?q=37.625000,-122.140000"
+    },
+    {
+      "center": {
+        "lat": 37.624999999999964,
+        "lon": -122.10999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3808,
+      "avgDistanceToLibrary": 2854,
+      "googleMapsLink": "https://www.google.com/maps?q=37.625000,-122.110000"
+    },
+    {
+      "center": {
+        "lat": 37.644999999999975,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 13055,
+      "avgDistanceToLibrary": 12378,
+      "googleMapsLink": "https://www.google.com/maps?q=37.645000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.644999999999975,
+        "lon": -122.28999999999996
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 11566,
+      "avgDistanceToLibrary": 10905,
+      "googleMapsLink": "https://www.google.com/maps?q=37.645000,-122.290000"
+    },
+    {
+      "center": {
+        "lat": 37.644999999999975,
+        "lon": -122.25999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 10539,
+      "avgDistanceToLibrary": 9925,
+      "googleMapsLink": "https://www.google.com/maps?q=37.645000,-122.260000"
+    },
+    {
+      "center": {
+        "lat": 37.644999999999975,
+        "lon": -122.22999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 9577,
+      "avgDistanceToLibrary": 8823,
+      "googleMapsLink": "https://www.google.com/maps?q=37.645000,-122.230000"
+    },
+    {
+      "center": {
+        "lat": 37.644999999999975,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 7590,
+      "avgDistanceToLibrary": 6939,
+      "googleMapsLink": "https://www.google.com/maps?q=37.645000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.644999999999975,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 6120,
+      "avgDistanceToLibrary": 5511,
+      "googleMapsLink": "https://www.google.com/maps?q=37.645000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.644999999999975,
+        "lon": -122.13999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 5510,
+      "avgDistanceToLibrary": 4584,
+      "googleMapsLink": "https://www.google.com/maps?q=37.645000,-122.140000"
+    },
+    {
+      "center": {
+        "lat": 37.644999999999975,
+        "lon": -122.10999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 4021,
+      "avgDistanceToLibrary": 2627,
+      "googleMapsLink": "https://www.google.com/maps?q=37.645000,-122.110000"
+    },
+    {
+      "center": {
+        "lat": 37.654999999999966,
+        "lon": -122.08999999999988
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 2402,
+      "avgDistanceToLibrary": 1793,
+      "googleMapsLink": "https://www.google.com/maps?q=37.655000,-122.090000"
+    },
+    {
+      "center": {
+        "lat": 37.66499999999996,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 11419,
+      "avgDistanceToLibrary": 10752,
+      "googleMapsLink": "https://www.google.com/maps?q=37.665000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.66499999999996,
+        "lon": -122.28999999999996
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 9683,
+      "avgDistanceToLibrary": 9020,
+      "googleMapsLink": "https://www.google.com/maps?q=37.665000,-122.290000"
+    },
+    {
+      "center": {
+        "lat": 37.66499999999996,
+        "lon": -122.25999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 8429,
+      "avgDistanceToLibrary": 7809,
+      "googleMapsLink": "https://www.google.com/maps?q=37.665000,-122.260000"
+    },
+    {
+      "center": {
+        "lat": 37.66499999999996,
+        "lon": -122.22999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 7891,
+      "avgDistanceToLibrary": 7152,
+      "googleMapsLink": "https://www.google.com/maps?q=37.665000,-122.230000"
+    },
+    {
+      "center": {
+        "lat": 37.66499999999996,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 6424,
+      "avgDistanceToLibrary": 5530,
+      "googleMapsLink": "https://www.google.com/maps?q=37.665000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.66499999999996,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 4189,
+      "avgDistanceToLibrary": 3593,
+      "googleMapsLink": "https://www.google.com/maps?q=37.665000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.66499999999996,
+        "lon": -122.13999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3866,
+      "avgDistanceToLibrary": 2975,
+      "googleMapsLink": "https://www.google.com/maps?q=37.665000,-122.140000"
+    },
+    {
+      "center": {
+        "lat": 37.68499999999995,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 10164,
+      "avgDistanceToLibrary": 9366,
+      "googleMapsLink": "https://www.google.com/maps?q=37.685000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.68499999999995,
+        "lon": -122.28999999999996
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 7977,
+      "avgDistanceToLibrary": 7324,
+      "googleMapsLink": "https://www.google.com/maps?q=37.685000,-122.290000"
+    },
+    {
+      "center": {
+        "lat": 37.68499999999995,
+        "lon": -122.25999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 6397,
+      "avgDistanceToLibrary": 5773,
+      "googleMapsLink": "https://www.google.com/maps?q=37.685000,-122.260000"
+    },
+    {
+      "center": {
+        "lat": 37.68499999999995,
+        "lon": -122.22999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 5835,
+      "avgDistanceToLibrary": 5173,
+      "googleMapsLink": "https://www.google.com/maps?q=37.685000,-122.230000"
+    },
+    {
+      "center": {
+        "lat": 37.68499999999995,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 5261,
+      "avgDistanceToLibrary": 4557,
+      "googleMapsLink": "https://www.google.com/maps?q=37.685000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.68499999999995,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3375,
+      "avgDistanceToLibrary": 2261,
+      "googleMapsLink": "https://www.google.com/maps?q=37.685000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.70499999999995,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 8746,
+      "avgDistanceToLibrary": 7973,
+      "googleMapsLink": "https://www.google.com/maps?q=37.705000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.70499999999995,
+        "lon": -122.28999999999996
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 6811,
+      "avgDistanceToLibrary": 5964,
+      "googleMapsLink": "https://www.google.com/maps?q=37.705000,-122.290000"
+    },
+    {
+      "center": {
+        "lat": 37.70499999999995,
+        "lon": -122.25999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 4549,
+      "avgDistanceToLibrary": 3941,
+      "googleMapsLink": "https://www.google.com/maps?q=37.705000,-122.260000"
+    },
+    {
+      "center": {
+        "lat": 37.70499999999995,
+        "lon": -122.22999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3717,
+      "avgDistanceToLibrary": 3001,
+      "googleMapsLink": "https://www.google.com/maps?q=37.705000,-122.230000"
+    },
+    {
+      "center": {
+        "lat": 37.70499999999995,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 4391,
+      "avgDistanceToLibrary": 3666,
+      "googleMapsLink": "https://www.google.com/maps?q=37.705000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.70499999999995,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3995,
+      "avgDistanceToLibrary": 2631,
+      "googleMapsLink": "https://www.google.com/maps?q=37.705000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.70499999999995,
+        "lon": -122.13999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 2191,
+      "avgDistanceToLibrary": 1792,
+      "googleMapsLink": "https://www.google.com/maps?q=37.705000,-122.140000"
+    },
+    {
+      "center": {
+        "lat": 37.71499999999995,
+        "lon": -122.08999999999988
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 2751,
+      "avgDistanceToLibrary": 2026,
+      "googleMapsLink": "https://www.google.com/maps?q=37.715000,-122.090000"
+    },
+    {
+      "center": {
+        "lat": 37.72499999999996,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 6973,
+      "avgDistanceToLibrary": 6266,
+      "googleMapsLink": "https://www.google.com/maps?q=37.725000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.72499999999996,
+        "lon": -122.28999999999996
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 5400,
+      "avgDistanceToLibrary": 4647,
+      "googleMapsLink": "https://www.google.com/maps?q=37.725000,-122.290000"
+    },
+    {
+      "center": {
+        "lat": 37.72499999999996,
+        "lon": -122.25999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3645,
+      "avgDistanceToLibrary": 2683,
+      "googleMapsLink": "https://www.google.com/maps?q=37.725000,-122.260000"
+    },
+    {
+      "center": {
+        "lat": 37.72499999999996,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3614,
+      "avgDistanceToLibrary": 2751,
+      "googleMapsLink": "https://www.google.com/maps?q=37.725000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.72499999999996,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3554,
+      "avgDistanceToLibrary": 2317,
+      "googleMapsLink": "https://www.google.com/maps?q=37.725000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.72499999999996,
+        "lon": -122.06999999999984
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3499,
+      "avgDistanceToLibrary": 2415,
+      "googleMapsLink": "https://www.google.com/maps?q=37.725000,-122.070000"
+    },
+    {
+      "center": {
+        "lat": 37.73499999999995,
+        "lon": -122.10999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3550,
+      "avgDistanceToLibrary": 2270,
+      "googleMapsLink": "https://www.google.com/maps?q=37.735000,-122.110000"
+    },
+    {
+      "center": {
+        "lat": 37.74499999999994,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 5191,
+      "avgDistanceToLibrary": 4451,
+      "googleMapsLink": "https://www.google.com/maps?q=37.745000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.74499999999994,
+        "lon": -122.28999999999996
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3639,
+      "avgDistanceToLibrary": 2925,
+      "googleMapsLink": "https://www.google.com/maps?q=37.745000,-122.290000"
+    },
+    {
+      "center": {
+        "lat": 37.74499999999994,
+        "lon": -122.25999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 2322,
+      "avgDistanceToLibrary": 1555,
+      "googleMapsLink": "https://www.google.com/maps?q=37.745000,-122.260000"
+    },
+    {
+      "center": {
+        "lat": 37.74499999999994,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 2829,
+      "avgDistanceToLibrary": 2190,
+      "googleMapsLink": "https://www.google.com/maps?q=37.745000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.74499999999994,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3038,
+      "avgDistanceToLibrary": 2173,
+      "googleMapsLink": "https://www.google.com/maps?q=37.745000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.74499999999994,
+        "lon": -122.08999999999988
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 4693,
+      "avgDistanceToLibrary": 3943,
+      "googleMapsLink": "https://www.google.com/maps?q=37.745000,-122.090000"
+    },
+    {
+      "center": {
+        "lat": 37.74499999999994,
+        "lon": -122.05999999999985
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 5073,
+      "avgDistanceToLibrary": 4379,
+      "googleMapsLink": "https://www.google.com/maps?q=37.745000,-122.060000"
+    },
+    {
+      "center": {
+        "lat": 37.76499999999994,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3255,
+      "avgDistanceToLibrary": 2624,
+      "googleMapsLink": "https://www.google.com/maps?q=37.765000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.76499999999994,
+        "lon": -122.0999999999999
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 5239,
+      "avgDistanceToLibrary": 4457,
+      "googleMapsLink": "https://www.google.com/maps?q=37.765000,-122.100000"
+    },
+    {
+      "center": {
+        "lat": 37.78499999999993,
+        "lon": -122.0999999999999
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 4857,
+      "avgDistanceToLibrary": 3739,
+      "googleMapsLink": "https://www.google.com/maps?q=37.785000,-122.100000"
+    },
+    {
+      "center": {
+        "lat": 37.80499999999994,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3548,
+      "avgDistanceToLibrary": 2377,
+      "googleMapsLink": "https://www.google.com/maps?q=37.805000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.814999999999934,
+        "lon": -122.18999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 2465,
+      "avgDistanceToLibrary": 1780,
+      "googleMapsLink": "https://www.google.com/maps?q=37.815000,-122.190000"
+    },
+    {
+      "center": {
+        "lat": 37.824999999999925,
+        "lon": -122.31999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 4384,
+      "avgDistanceToLibrary": 2981,
+      "googleMapsLink": "https://www.google.com/maps?q=37.825000,-122.320000"
+    },
+    {
+      "center": {
+        "lat": 37.824999999999925,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3002,
+      "avgDistanceToLibrary": 2291,
+      "googleMapsLink": "https://www.google.com/maps?q=37.825000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.824999999999925,
+        "lon": -122.0999999999999
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 2814,
+      "avgDistanceToLibrary": 1969,
+      "googleMapsLink": "https://www.google.com/maps?q=37.825000,-122.100000"
+    },
+    {
+      "center": {
+        "lat": 37.84499999999992,
+        "lon": -122.0999999999999
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 2999,
+      "avgDistanceToLibrary": 2144,
+      "googleMapsLink": "https://www.google.com/maps?q=37.845000,-122.100000"
+    },
+    {
+      "center": {
+        "lat": 37.86499999999992,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 1869,
+      "avgDistanceToLibrary": 1479,
+      "googleMapsLink": "https://www.google.com/maps?q=37.865000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.924999999999905,
+        "lon": -122.25999999999998
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 2800,
+      "avgDistanceToLibrary": 2045,
+      "googleMapsLink": "https://www.google.com/maps?q=37.925000,-122.260000"
+    },
+    {
+      "center": {
+        "lat": 37.924999999999905,
+        "lon": -122.19999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 4780,
+      "avgDistanceToLibrary": 3631,
+      "googleMapsLink": "https://www.google.com/maps?q=37.925000,-122.200000"
+    },
+    {
+      "center": {
+        "lat": 37.924999999999905,
+        "lon": -122.16999999999992
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3905,
+      "avgDistanceToLibrary": 3313,
+      "googleMapsLink": "https://www.google.com/maps?q=37.925000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.93499999999991,
+        "lon": -122.23999999999994
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 4600,
+      "avgDistanceToLibrary": 3447,
+      "googleMapsLink": "https://www.google.com/maps?q=37.935000,-122.240000"
+    },
+    {
+      "center": {
+        "lat": 37.93499999999991,
+        "lon": -122.11999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 3639,
+      "avgDistanceToLibrary": 2644,
+      "googleMapsLink": "https://www.google.com/maps?q=37.935000,-122.120000"
+    },
+    {
+      "center": {
+        "lat": 37.9449999999999,
+        "lon": -122.21999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 5041,
+      "avgDistanceToLibrary": 3678,
+      "googleMapsLink": "https://www.google.com/maps?q=37.945000,-122.220000"
+    },
+    {
+      "center": {
+        "lat": 37.9449999999999,
+        "lon": -122.18999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 5912,
+      "avgDistanceToLibrary": 5059,
+      "googleMapsLink": "https://www.google.com/maps?q=37.945000,-122.190000"
+    },
+    {
+      "center": {
+        "lat": 37.9449999999999,
+        "lon": -122.1599999999999
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 5913,
+      "avgDistanceToLibrary": 5077,
+      "googleMapsLink": "https://www.google.com/maps?q=37.945000,-122.160000"
+    },
+    {
+      "center": {
+        "lat": 37.9549999999999,
+        "lon": -122.13999999999989
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 4107,
+      "avgDistanceToLibrary": 3222,
+      "googleMapsLink": "https://www.google.com/maps?q=37.955000,-122.140000"
+    },
+    {
+      "center": {
+        "lat": 37.96499999999991,
+        "lon": -122.21999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 4242,
+      "avgDistanceToLibrary": 2949,
+      "googleMapsLink": "https://www.google.com/maps?q=37.965000,-122.220000"
+    },
+    {
+      "center": {
+        "lat": 37.96499999999991,
+        "lon": -122.18999999999993
+      },
+      "pointCount": 6,
+      "maxDistanceToLibrary": 5985,
+      "avgDistanceToLibrary": 5350,
+      "googleMapsLink": "https://www.google.com/maps?q=37.965000,-122.190000"
+    },
+    {
+      "center": {
+        "lat": 37.484,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 27486,
+      "avgDistanceToLibrary": 26676,
+      "googleMapsLink": "https://www.google.com/maps?q=37.484000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.486000000000004,
+        "lon": -122.05299999999984
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 8562,
+      "avgDistanceToLibrary": 7907,
+      "googleMapsLink": "https://www.google.com/maps?q=37.486000,-122.053000"
+    },
+    {
+      "center": {
+        "lat": 37.50399999999999,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 26780,
+      "avgDistanceToLibrary": 25986,
+      "googleMapsLink": "https://www.google.com/maps?q=37.504000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.50599999999999,
+        "lon": -122.05299999999984
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 6371,
+      "avgDistanceToLibrary": 5724,
+      "googleMapsLink": "https://www.google.com/maps?q=37.506000,-122.053000"
+    },
+    {
+      "center": {
+        "lat": 37.52399999999999,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 25865,
+      "avgDistanceToLibrary": 25022,
+      "googleMapsLink": "https://www.google.com/maps?q=37.524000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.52599999999999,
+        "lon": -122.05299999999984
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 4213,
+      "avgDistanceToLibrary": 3593,
+      "googleMapsLink": "https://www.google.com/maps?q=37.526000,-122.053000"
+    },
+    {
+      "center": {
+        "lat": 37.54399999999998,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 23866,
+      "avgDistanceToLibrary": 23163,
+      "googleMapsLink": "https://www.google.com/maps?q=37.544000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.563999999999986,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 21911,
+      "avgDistanceToLibrary": 21190,
+      "googleMapsLink": "https://www.google.com/maps?q=37.564000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.56599999999999,
+        "lon": -122.08299999999986
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 2807,
+      "avgDistanceToLibrary": 1837,
+      "googleMapsLink": "https://www.google.com/maps?q=37.566000,-122.083000"
+    },
+    {
+      "center": {
+        "lat": 37.583999999999975,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 20012,
+      "avgDistanceToLibrary": 19272,
+      "googleMapsLink": "https://www.google.com/maps?q=37.584000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.60399999999997,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 18187,
+      "avgDistanceToLibrary": 17426,
+      "googleMapsLink": "https://www.google.com/maps?q=37.604000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.60599999999997,
+        "lon": -122.08299999999986
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 3157,
+      "avgDistanceToLibrary": 2391,
+      "googleMapsLink": "https://www.google.com/maps?q=37.606000,-122.083000"
+    },
+    {
+      "center": {
+        "lat": 37.62399999999997,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 16461,
+      "avgDistanceToLibrary": 15679,
+      "googleMapsLink": "https://www.google.com/maps?q=37.624000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.64399999999997,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 14867,
+      "avgDistanceToLibrary": 14066,
+      "googleMapsLink": "https://www.google.com/maps?q=37.644000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.66399999999996,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 13453,
+      "avgDistanceToLibrary": 12640,
+      "googleMapsLink": "https://www.google.com/maps?q=37.664000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.683999999999955,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 12141,
+      "avgDistanceToLibrary": 11267,
+      "googleMapsLink": "https://www.google.com/maps?q=37.684000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.70399999999995,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 10319,
+      "avgDistanceToLibrary": 9547,
+      "googleMapsLink": "https://www.google.com/maps?q=37.704000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.70599999999995,
+        "lon": -122.11299999999987
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 2548,
+      "avgDistanceToLibrary": 2028,
+      "googleMapsLink": "https://www.google.com/maps?q=37.706000,-122.113000"
+    },
+    {
+      "center": {
+        "lat": 37.723999999999954,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 8422,
+      "avgDistanceToLibrary": 7686,
+      "googleMapsLink": "https://www.google.com/maps?q=37.724000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.74399999999994,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 6571,
+      "avgDistanceToLibrary": 5834,
+      "googleMapsLink": "https://www.google.com/maps?q=37.744000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.755999999999936,
+        "lon": -122.12299999999989
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 3285,
+      "avgDistanceToLibrary": 2547,
+      "googleMapsLink": "https://www.google.com/maps?q=37.756000,-122.123000"
+    },
+    {
+      "center": {
+        "lat": 37.76399999999994,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 5032,
+      "avgDistanceToLibrary": 4258,
+      "googleMapsLink": "https://www.google.com/maps?q=37.764000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.76599999999994,
+        "lon": -122.07299999999987
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 6821,
+      "avgDistanceToLibrary": 6172,
+      "googleMapsLink": "https://www.google.com/maps?q=37.766000,-122.073000"
+    },
+    {
+      "center": {
+        "lat": 37.77599999999994,
+        "lon": -122.05299999999984
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 7447,
+      "avgDistanceToLibrary": 6896,
+      "googleMapsLink": "https://www.google.com/maps?q=37.776000,-122.053000"
+    },
+    {
+      "center": {
+        "lat": 37.783999999999935,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 4166,
+      "avgDistanceToLibrary": 3462,
+      "googleMapsLink": "https://www.google.com/maps?q=37.784000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.79599999999993,
+        "lon": -122.17299999999992
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 2410,
+      "avgDistanceToLibrary": 1551,
+      "googleMapsLink": "https://www.google.com/maps?q=37.796000,-122.173000"
+    },
+    {
+      "center": {
+        "lat": 37.79599999999993,
+        "lon": -122.05299999999984
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 6916,
+      "avgDistanceToLibrary": 6026,
+      "googleMapsLink": "https://www.google.com/maps?q=37.796000,-122.053000"
+    },
+    {
+      "center": {
+        "lat": 37.80399999999994,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 4893,
+      "avgDistanceToLibrary": 3972,
+      "googleMapsLink": "https://www.google.com/maps?q=37.804000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.80599999999994,
+        "lon": -122.1529999999999
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 3065,
+      "avgDistanceToLibrary": 2675,
+      "googleMapsLink": "https://www.google.com/maps?q=37.806000,-122.153000"
+    },
+    {
+      "center": {
+        "lat": 37.80399999999994,
+        "lon": -122.0969999999999
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 3287,
+      "avgDistanceToLibrary": 2225,
+      "googleMapsLink": "https://www.google.com/maps?q=37.804000,-122.097000"
+    },
+    {
+      "center": {
+        "lat": 37.81599999999993,
+        "lon": -122.05299999999984
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 6323,
+      "avgDistanceToLibrary": 5613,
+      "googleMapsLink": "https://www.google.com/maps?q=37.816000,-122.053000"
+    },
+    {
+      "center": {
+        "lat": 37.82399999999993,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 6039,
+      "avgDistanceToLibrary": 5169,
+      "googleMapsLink": "https://www.google.com/maps?q=37.824000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.83599999999992,
+        "lon": -122.05299999999984
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 5468,
+      "avgDistanceToLibrary": 4715,
+      "googleMapsLink": "https://www.google.com/maps?q=37.836000,-122.053000"
+    },
+    {
+      "center": {
+        "lat": 37.84399999999992,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 5609,
+      "avgDistanceToLibrary": 4830,
+      "googleMapsLink": "https://www.google.com/maps?q=37.844000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.845999999999925,
+        "lon": -122.18299999999992
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 1929,
+      "avgDistanceToLibrary": 1604,
+      "googleMapsLink": "https://www.google.com/maps?q=37.846000,-122.183000"
+    },
+    {
+      "center": {
+        "lat": 37.85599999999992,
+        "lon": -122.05299999999984
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 3331,
+      "avgDistanceToLibrary": 2720,
+      "googleMapsLink": "https://www.google.com/maps?q=37.856000,-122.053000"
+    },
+    {
+      "center": {
+        "lat": 37.86399999999992,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 4963,
+      "avgDistanceToLibrary": 4217,
+      "googleMapsLink": "https://www.google.com/maps?q=37.864000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.88399999999992,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 4446,
+      "avgDistanceToLibrary": 3621,
+      "googleMapsLink": "https://www.google.com/maps?q=37.884000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.88399999999992,
+        "lon": -122.22699999999993
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 2245,
+      "avgDistanceToLibrary": 1713,
+      "googleMapsLink": "https://www.google.com/maps?q=37.884000,-122.227000"
+    },
+    {
+      "center": {
+        "lat": 37.90399999999991,
+        "lon": -122.34700000000001
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 3176,
+      "avgDistanceToLibrary": 2450,
+      "googleMapsLink": "https://www.google.com/maps?q=37.904000,-122.347000"
+    },
+    {
+      "center": {
+        "lat": 37.90599999999991,
+        "lon": -122.24299999999994
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 2570,
+      "avgDistanceToLibrary": 1773,
+      "googleMapsLink": "https://www.google.com/maps?q=37.906000,-122.243000"
+    },
+    {
+      "center": {
+        "lat": 37.90599999999991,
+        "lon": -122.1629999999999
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 2064,
+      "avgDistanceToLibrary": 1621,
+      "googleMapsLink": "https://www.google.com/maps?q=37.906000,-122.163000"
+    },
+    {
+      "center": {
+        "lat": 37.915999999999904,
+        "lon": -122.22299999999993
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 3986,
+      "avgDistanceToLibrary": 3441,
+      "googleMapsLink": "https://www.google.com/maps?q=37.916000,-122.223000"
+    },
+    {
+      "center": {
+        "lat": 37.92599999999991,
+        "lon": -122.14299999999989
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 4167,
+      "avgDistanceToLibrary": 3622,
+      "googleMapsLink": "https://www.google.com/maps?q=37.926000,-122.143000"
+    },
+    {
+      "center": {
+        "lat": 37.93599999999991,
+        "lon": -122.07299999999987
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 1887,
+      "avgDistanceToLibrary": 1612,
+      "googleMapsLink": "https://www.google.com/maps?q=37.936000,-122.073000"
+    },
+    {
+      "center": {
+        "lat": 37.9439999999999,
+        "lon": -122.28699999999996
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 1985,
+      "avgDistanceToLibrary": 1508,
+      "googleMapsLink": "https://www.google.com/maps?q=37.944000,-122.287000"
+    },
+    {
+      "center": {
+        "lat": 37.96599999999991,
+        "lon": -122.05299999999984
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 2165,
+      "avgDistanceToLibrary": 1515,
+      "googleMapsLink": "https://www.google.com/maps?q=37.966000,-122.053000"
+    },
+    {
+      "center": {
+        "lat": 37.9739999999999,
+        "lon": -122.08699999999985
+      },
+      "pointCount": 5,
+      "maxDistanceToLibrary": 2539,
+      "avgDistanceToLibrary": 1719,
+      "googleMapsLink": "https://www.google.com/maps?q=37.974000,-122.087000"
+    },
+    {
+      "center": {
+        "lat": 37.54499999999999,
+        "lon": -122.05499999999984
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2191,
+      "avgDistanceToLibrary": 1842,
+      "googleMapsLink": "https://www.google.com/maps?q=37.545000,-122.055000"
+    },
+    {
+      "center": {
+        "lat": 37.61749999999997,
+        "lon": -122.06499999999986
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2933,
+      "avgDistanceToLibrary": 2286,
+      "googleMapsLink": "https://www.google.com/maps?q=37.617500,-122.065000"
+    },
+    {
+      "center": {
+        "lat": 37.65749999999996,
+        "lon": -122.06499999999986
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 3003,
+      "avgDistanceToLibrary": 2299,
+      "googleMapsLink": "https://www.google.com/maps?q=37.657500,-122.065000"
+    },
+    {
+      "center": {
+        "lat": 37.66749999999996,
+        "lon": -122.1149999999999
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 3125,
+      "avgDistanceToLibrary": 2676,
+      "googleMapsLink": "https://www.google.com/maps?q=37.667500,-122.115000"
+    },
+    {
+      "center": {
+        "lat": 37.68249999999996,
+        "lon": -122.13499999999989
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2220,
+      "avgDistanceToLibrary": 1482,
+      "googleMapsLink": "https://www.google.com/maps?q=37.682500,-122.135000"
+    },
+    {
+      "center": {
+        "lat": 37.68749999999996,
+        "lon": -122.1149999999999
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2792,
+      "avgDistanceToLibrary": 2100,
+      "googleMapsLink": "https://www.google.com/maps?q=37.687500,-122.115000"
+    },
+    {
+      "center": {
+        "lat": 37.722499999999954,
+        "lon": -122.22999999999993
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 1864,
+      "avgDistanceToLibrary": 1419,
+      "googleMapsLink": "https://www.google.com/maps?q=37.722500,-122.230000"
+    },
+    {
+      "center": {
+        "lat": 37.722499999999954,
+        "lon": -122.12499999999989
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2415,
+      "avgDistanceToLibrary": 1617,
+      "googleMapsLink": "https://www.google.com/maps?q=37.722500,-122.125000"
+    },
+    {
+      "center": {
+        "lat": 37.747499999999945,
+        "lon": -122.1449999999999
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2296,
+      "avgDistanceToLibrary": 1727,
+      "googleMapsLink": "https://www.google.com/maps?q=37.747500,-122.145000"
+    },
+    {
+      "center": {
+        "lat": 37.77749999999994,
+        "lon": -122.12499999999989
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 3670,
+      "avgDistanceToLibrary": 2799,
+      "googleMapsLink": "https://www.google.com/maps?q=37.777500,-122.125000"
+    },
+    {
+      "center": {
+        "lat": 37.78749999999994,
+        "lon": -122.1449999999999
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2697,
+      "avgDistanceToLibrary": 2040,
+      "googleMapsLink": "https://www.google.com/maps?q=37.787500,-122.145000"
+    },
+    {
+      "center": {
+        "lat": 37.78749999999994,
+        "lon": -122.07499999999987
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 5407,
+      "avgDistanceToLibrary": 4855,
+      "googleMapsLink": "https://www.google.com/maps?q=37.787500,-122.075000"
+    },
+    {
+      "center": {
+        "lat": 37.79749999999993,
+        "lon": -122.12499999999989
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2633,
+      "avgDistanceToLibrary": 1921,
+      "googleMapsLink": "https://www.google.com/maps?q=37.797500,-122.125000"
+    },
+    {
+      "center": {
+        "lat": 37.80749999999993,
+        "lon": -122.07499999999987
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 4579,
+      "avgDistanceToLibrary": 3800,
+      "googleMapsLink": "https://www.google.com/maps?q=37.807500,-122.075000"
+    },
+    {
+      "center": {
+        "lat": 37.82749999999993,
+        "lon": -122.07499999999987
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 4798,
+      "avgDistanceToLibrary": 3913,
+      "googleMapsLink": "https://www.google.com/maps?q=37.827500,-122.075000"
+    },
+    {
+      "center": {
+        "lat": 37.83499999999992,
+        "lon": -122.30499999999998
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2410,
+      "avgDistanceToLibrary": 1836,
+      "googleMapsLink": "https://www.google.com/maps?q=37.835000,-122.305000"
+    },
+    {
+      "center": {
+        "lat": 37.832499999999925,
+        "lon": -122.14999999999989
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2103,
+      "avgDistanceToLibrary": 1700,
+      "googleMapsLink": "https://www.google.com/maps?q=37.832500,-122.150000"
+    },
+    {
+      "center": {
+        "lat": 37.83749999999992,
+        "lon": -122.12499999999989
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2017,
+      "avgDistanceToLibrary": 1709,
+      "googleMapsLink": "https://www.google.com/maps?q=37.837500,-122.125000"
+    },
+    {
+      "center": {
+        "lat": 37.847499999999926,
+        "lon": -122.32499999999999
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 3558,
+      "avgDistanceToLibrary": 2900,
+      "googleMapsLink": "https://www.google.com/maps?q=37.847500,-122.325000"
+    },
+    {
+      "center": {
+        "lat": 37.847499999999926,
+        "lon": -122.07499999999987
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 3523,
+      "avgDistanceToLibrary": 2967,
+      "googleMapsLink": "https://www.google.com/maps?q=37.847500,-122.075000"
+    },
+    {
+      "center": {
+        "lat": 37.86749999999992,
+        "lon": -122.32499999999999
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 3029,
+      "avgDistanceToLibrary": 2232,
+      "googleMapsLink": "https://www.google.com/maps?q=37.867500,-122.325000"
+    },
+    {
+      "center": {
+        "lat": 37.864999999999924,
+        "lon": -122.07999999999987
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2332,
+      "avgDistanceToLibrary": 1724,
+      "googleMapsLink": "https://www.google.com/maps?q=37.865000,-122.080000"
+    },
+    {
+      "center": {
+        "lat": 37.874999999999915,
+        "lon": -122.05999999999986
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 1785,
+      "avgDistanceToLibrary": 1328,
+      "googleMapsLink": "https://www.google.com/maps?q=37.875000,-122.060000"
+    },
+    {
+      "center": {
+        "lat": 37.88499999999992,
+        "lon": -122.32499999999999
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2549,
+      "avgDistanceToLibrary": 1848,
+      "googleMapsLink": "https://www.google.com/maps?q=37.885000,-122.325000"
+    },
+    {
+      "center": {
+        "lat": 37.897499999999916,
+        "lon": -122.21499999999993
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2660,
+      "avgDistanceToLibrary": 1897,
+      "googleMapsLink": "https://www.google.com/maps?q=37.897500,-122.215000"
+    },
+    {
+      "center": {
+        "lat": 37.907499999999914,
+        "lon": -122.19499999999994
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2489,
+      "avgDistanceToLibrary": 1793,
+      "googleMapsLink": "https://www.google.com/maps?q=37.907500,-122.195000"
+    },
+    {
+      "center": {
+        "lat": 37.907499999999914,
+        "lon": -122.13499999999989
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2003,
+      "avgDistanceToLibrary": 1672,
+      "googleMapsLink": "https://www.google.com/maps?q=37.907500,-122.135000"
+    },
+    {
+      "center": {
+        "lat": 37.917499999999905,
+        "lon": -122.1149999999999
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2530,
+      "avgDistanceToLibrary": 1760,
+      "googleMapsLink": "https://www.google.com/maps?q=37.917500,-122.115000"
+    },
+    {
+      "center": {
+        "lat": 37.94499999999991,
+        "lon": -122.04999999999984
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2502,
+      "avgDistanceToLibrary": 1875,
+      "googleMapsLink": "https://www.google.com/maps?q=37.945000,-122.050000"
+    },
+    {
+      "center": {
+        "lat": 37.9674999999999,
+        "lon": -122.1649999999999
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 5320,
+      "avgDistanceToLibrary": 4570,
+      "googleMapsLink": "https://www.google.com/maps?q=37.967500,-122.165000"
+    },
+    {
+      "center": {
+        "lat": 37.9674999999999,
+        "lon": -122.12499999999989
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 2031,
+      "avgDistanceToLibrary": 1584,
+      "googleMapsLink": "https://www.google.com/maps?q=37.967500,-122.125000"
+    },
+    {
+      "center": {
+        "lat": 37.9774999999999,
+        "lon": -122.1449999999999
+      },
+      "pointCount": 4,
+      "maxDistanceToLibrary": 3448,
+      "avgDistanceToLibrary": 2630,
+      "googleMapsLink": "https://www.google.com/maps?q=37.977500,-122.145000"
+    },
+    {
+      "center": {
+        "lat": 37.58333333333331,
+        "lon": -122.04833333333318
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 2046,
+      "avgDistanceToLibrary": 1685,
+      "googleMapsLink": "https://www.google.com/maps?q=37.583333,-122.048333"
+    },
+    {
+      "center": {
+        "lat": 37.60666666666664,
+        "lon": -122.04833333333318
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 2229,
+      "avgDistanceToLibrary": 1855,
+      "googleMapsLink": "https://www.google.com/maps?q=37.606667,-122.048333"
+    },
+    {
+      "center": {
+        "lat": 37.62666666666664,
+        "lon": -122.04833333333318
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 3389,
+      "avgDistanceToLibrary": 3039,
+      "googleMapsLink": "https://www.google.com/maps?q=37.626667,-122.048333"
+    },
+    {
+      "center": {
+        "lat": 37.63666666666663,
+        "lon": -122.06166666666651
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 2456,
+      "avgDistanceToLibrary": 1921,
+      "googleMapsLink": "https://www.google.com/maps?q=37.636667,-122.061667"
+    },
+    {
+      "center": {
+        "lat": 37.64666666666663,
+        "lon": -122.04833333333318
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 3627,
+      "avgDistanceToLibrary": 3268,
+      "googleMapsLink": "https://www.google.com/maps?q=37.646667,-122.048333"
+    },
+    {
+      "center": {
+        "lat": 37.66666666666663,
+        "lon": -122.04833333333318
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 3363,
+      "avgDistanceToLibrary": 2591,
+      "googleMapsLink": "https://www.google.com/maps?q=37.666667,-122.048333"
+    },
+    {
+      "center": {
+        "lat": 37.67666666666662,
+        "lon": -122.0983333333332
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 1949,
+      "avgDistanceToLibrary": 1387,
+      "googleMapsLink": "https://www.google.com/maps?q=37.676667,-122.098333"
+    },
+    {
+      "center": {
+        "lat": 37.69333333333329,
+        "lon": -122.0783333333332
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 1474,
+      "avgDistanceToLibrary": 1262,
+      "googleMapsLink": "https://www.google.com/maps?q=37.693333,-122.078333"
+    },
+    {
+      "center": {
+        "lat": 37.72666666666662,
+        "lon": -122.04833333333318
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 2726,
+      "avgDistanceToLibrary": 2339,
+      "googleMapsLink": "https://www.google.com/maps?q=37.726667,-122.048333"
+    },
+    {
+      "center": {
+        "lat": 37.739999999999945,
+        "lon": -122.22499999999992
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 1741,
+      "avgDistanceToLibrary": 1318,
+      "googleMapsLink": "https://www.google.com/maps?q=37.740000,-122.225000"
+    },
+    {
+      "center": {
+        "lat": 37.756666666666604,
+        "lon": -122.04833333333318
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 6059,
+      "avgDistanceToLibrary": 5668,
+      "googleMapsLink": "https://www.google.com/maps?q=37.756667,-122.048333"
+    },
+    {
+      "center": {
+        "lat": 37.76333333333327,
+        "lon": -122.29499999999996
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 1816,
+      "avgDistanceToLibrary": 1663,
+      "googleMapsLink": "https://www.google.com/maps?q=37.763333,-122.295000"
+    },
+    {
+      "center": {
+        "lat": 37.75999999999994,
+        "lon": -122.1649999999999
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 1245,
+      "avgDistanceToLibrary": 1158,
+      "googleMapsLink": "https://www.google.com/maps?q=37.760000,-122.165000"
+    },
+    {
+      "center": {
+        "lat": 37.77666666666661,
+        "lon": -122.21833333333326
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 1316,
+      "avgDistanceToLibrary": 1290,
+      "googleMapsLink": "https://www.google.com/maps?q=37.776667,-122.218333"
+    },
+    {
+      "center": {
+        "lat": 37.786666666666605,
+        "lon": -122.32833333333332
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 2392,
+      "avgDistanceToLibrary": 1850,
+      "googleMapsLink": "https://www.google.com/maps?q=37.786667,-122.328333"
+    },
+    {
+      "center": {
+        "lat": 37.789999999999935,
+        "lon": -122.26499999999994
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 1330,
+      "avgDistanceToLibrary": 1249,
+      "googleMapsLink": "https://www.google.com/maps?q=37.790000,-122.265000"
+    },
+    {
+      "center": {
+        "lat": 37.8166666666666,
+        "lon": -122.13833333333322
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 2149,
+      "avgDistanceToLibrary": 1572,
+      "googleMapsLink": "https://www.google.com/maps?q=37.816667,-122.138333"
+    },
+    {
+      "center": {
+        "lat": 37.87666666666658,
+        "lon": -122.13833333333322
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 1174,
+      "avgDistanceToLibrary": 1082,
+      "googleMapsLink": "https://www.google.com/maps?q=37.876667,-122.138333"
+    },
+    {
+      "center": {
+        "lat": 37.92333333333324,
+        "lon": -122.35166666666667
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 1792,
+      "avgDistanceToLibrary": 1451,
+      "googleMapsLink": "https://www.google.com/maps?q=37.923333,-122.351667"
+    },
+    {
+      "center": {
+        "lat": 37.92666666666658,
+        "lon": -122.04833333333318
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 2867,
+      "avgDistanceToLibrary": 2316,
+      "googleMapsLink": "https://www.google.com/maps?q=37.926667,-122.048333"
+    },
+    {
+      "center": {
+        "lat": 37.94666666666657,
+        "lon": -122.26166666666661
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 2138,
+      "avgDistanceToLibrary": 1665,
+      "googleMapsLink": "https://www.google.com/maps?q=37.946667,-122.261667"
+    },
+    {
+      "center": {
+        "lat": 37.943333333333236,
+        "lon": -122.10499999999989
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 2008,
+      "avgDistanceToLibrary": 1700,
+      "googleMapsLink": "https://www.google.com/maps?q=37.943333,-122.105000"
+    },
+    {
+      "center": {
+        "lat": 37.96666666666657,
+        "lon": -122.32833333333332
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 1394,
+      "avgDistanceToLibrary": 1311,
+      "googleMapsLink": "https://www.google.com/maps?q=37.966667,-122.328333"
+    },
+    {
+      "center": {
+        "lat": 37.9799999999999,
+        "lon": -122.32499999999999
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 1850,
+      "avgDistanceToLibrary": 1625,
+      "googleMapsLink": "https://www.google.com/maps?q=37.980000,-122.325000"
+    },
+    {
+      "center": {
+        "lat": 37.9799999999999,
+        "lon": -122.22499999999992
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 3190,
+      "avgDistanceToLibrary": 2334,
+      "googleMapsLink": "https://www.google.com/maps?q=37.980000,-122.225000"
+    },
+    {
+      "center": {
+        "lat": 37.9799999999999,
+        "lon": -122.19499999999994
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 5802,
+      "avgDistanceToLibrary": 4930,
+      "googleMapsLink": "https://www.google.com/maps?q=37.980000,-122.195000"
+    },
+    {
+      "center": {
+        "lat": 37.9799999999999,
+        "lon": -122.06499999999984
+      },
+      "pointCount": 3,
+      "maxDistanceToLibrary": 2357,
+      "avgDistanceToLibrary": 2236,
+      "googleMapsLink": "https://www.google.com/maps?q=37.980000,-122.065000"
+    },
+    {
+      "center": {
+        "lat": 37.56499999999998,
+        "lon": -122.04999999999984
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1581,
+      "avgDistanceToLibrary": 1333,
+      "googleMapsLink": "https://www.google.com/maps?q=37.565000,-122.050000"
+    },
+    {
+      "center": {
+        "lat": 37.62499999999997,
+        "lon": -122.08999999999986
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1861,
+      "avgDistanceToLibrary": 1591,
+      "googleMapsLink": "https://www.google.com/maps?q=37.625000,-122.090000"
+    },
+    {
+      "center": {
+        "lat": 37.674999999999955,
+        "lon": -122.06999999999985
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1747,
+      "avgDistanceToLibrary": 1399,
+      "googleMapsLink": "https://www.google.com/maps?q=37.675000,-122.070000"
+    },
+    {
+      "center": {
+        "lat": 37.68499999999996,
+        "lon": -122.04499999999985
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1620,
+      "avgDistanceToLibrary": 1515,
+      "googleMapsLink": "https://www.google.com/maps?q=37.685000,-122.045000"
+    },
+    {
+      "center": {
+        "lat": 37.764999999999944,
+        "lon": -122.1399999999999
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1814,
+      "avgDistanceToLibrary": 1716,
+      "googleMapsLink": "https://www.google.com/maps?q=37.765000,-122.140000"
+    },
+    {
+      "center": {
+        "lat": 37.804999999999936,
+        "lon": -122.29999999999998
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1487,
+      "avgDistanceToLibrary": 1383,
+      "googleMapsLink": "https://www.google.com/maps?q=37.805000,-122.300000"
+    },
+    {
+      "center": {
+        "lat": 37.83499999999992,
+        "lon": -122.22999999999993
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1218,
+      "avgDistanceToLibrary": 1140,
+      "googleMapsLink": "https://www.google.com/maps?q=37.835000,-122.230000"
+    },
+    {
+      "center": {
+        "lat": 37.85499999999992,
+        "lon": -122.30999999999997
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1581,
+      "avgDistanceToLibrary": 1507,
+      "googleMapsLink": "https://www.google.com/maps?q=37.855000,-122.310000"
+    },
+    {
+      "center": {
+        "lat": 37.85499999999992,
+        "lon": -122.1699999999999
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1398,
+      "avgDistanceToLibrary": 1348,
+      "googleMapsLink": "https://www.google.com/maps?q=37.855000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.904999999999916,
+        "lon": -122.32999999999998
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1281,
+      "avgDistanceToLibrary": 1193,
+      "googleMapsLink": "https://www.google.com/maps?q=37.905000,-122.330000"
+    },
+    {
+      "center": {
+        "lat": 37.91499999999991,
+        "lon": -122.05999999999986
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1629,
+      "avgDistanceToLibrary": 1330,
+      "googleMapsLink": "https://www.google.com/maps?q=37.915000,-122.060000"
+    },
+    {
+      "center": {
+        "lat": 37.9549999999999,
+        "lon": -122.355
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1451,
+      "avgDistanceToLibrary": 1296,
+      "googleMapsLink": "https://www.google.com/maps?q=37.955000,-122.355000"
+    },
+    {
+      "center": {
+        "lat": 37.9549999999999,
+        "lon": -122.23999999999995
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1808,
+      "avgDistanceToLibrary": 1740,
+      "googleMapsLink": "https://www.google.com/maps?q=37.955000,-122.240000"
+    },
+    {
+      "center": {
+        "lat": 37.9549999999999,
+        "lon": -122.08499999999987
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1581,
+      "avgDistanceToLibrary": 1466,
+      "googleMapsLink": "https://www.google.com/maps?q=37.955000,-122.085000"
+    },
+    {
+      "center": {
+        "lat": 37.9699999999999,
+        "lon": -122.35
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1448,
+      "avgDistanceToLibrary": 1361,
+      "googleMapsLink": "https://www.google.com/maps?q=37.970000,-122.350000"
+    },
+    {
+      "center": {
+        "lat": 37.9799999999999,
+        "lon": -122.29499999999997
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 1034,
+      "avgDistanceToLibrary": 1025,
+      "googleMapsLink": "https://www.google.com/maps?q=37.980000,-122.295000"
+    },
+    {
+      "center": {
+        "lat": 37.9799999999999,
+        "lon": -122.1699999999999
+      },
+      "pointCount": 2,
+      "maxDistanceToLibrary": 5201,
+      "avgDistanceToLibrary": 4763,
+      "googleMapsLink": "https://www.google.com/maps?q=37.980000,-122.170000"
+    },
+    {
+      "center": {
+        "lat": 37.77999999999994,
+        "lon": -122.23499999999994
+      },
+      "pointCount": 1,
+      "maxDistanceToLibrary": 1043,
+      "avgDistanceToLibrary": 1043,
+      "googleMapsLink": "https://www.google.com/maps?q=37.780000,-122.235000"
+    },
+    {
+      "center": {
+        "lat": 37.789999999999935,
+        "lon": -122.20499999999993
+      },
+      "pointCount": 1,
+      "maxDistanceToLibrary": 1030,
+      "avgDistanceToLibrary": 1030,
+      "googleMapsLink": "https://www.google.com/maps?q=37.790000,-122.205000"
+    },
+    {
+      "center": {
+        "lat": 37.79999999999993,
+        "lon": -122.25499999999995
+      },
+      "pointCount": 1,
+      "maxDistanceToLibrary": 1177,
+      "avgDistanceToLibrary": 1177,
+      "googleMapsLink": "https://www.google.com/maps?q=37.800000,-122.255000"
+    },
+    {
+      "center": {
+        "lat": 37.85999999999992,
+        "lon": -122.11499999999988
+      },
+      "pointCount": 1,
+      "maxDistanceToLibrary": 1200,
+      "avgDistanceToLibrary": 1200,
+      "googleMapsLink": "https://www.google.com/maps?q=37.860000,-122.115000"
+    },
+    {
+      "center": {
+        "lat": 37.86999999999992,
+        "lon": -122.17499999999991
+      },
+      "pointCount": 1,
+      "maxDistanceToLibrary": 1061,
+      "avgDistanceToLibrary": 1061,
+      "googleMapsLink": "https://www.google.com/maps?q=37.870000,-122.175000"
+    },
+    {
+      "center": {
+        "lat": 37.889999999999915,
+        "lon": -122.06499999999986
+      },
+      "pointCount": 1,
+      "maxDistanceToLibrary": 1165,
+      "avgDistanceToLibrary": 1165,
+      "googleMapsLink": "https://www.google.com/maps?q=37.890000,-122.065000"
+    },
+    {
+      "center": {
+        "lat": 37.89999999999991,
+        "lon": -122.04499999999985
+      },
+      "pointCount": 1,
+      "maxDistanceToLibrary": 1030,
+      "avgDistanceToLibrary": 1030,
+      "googleMapsLink": "https://www.google.com/maps?q=37.900000,-122.045000"
+    },
+    {
+      "center": {
+        "lat": 37.9799999999999,
+        "lon": -122.27499999999996
+      },
+      "pointCount": 1,
+      "maxDistanceToLibrary": 1102,
+      "avgDistanceToLibrary": 1102,
+      "googleMapsLink": "https://www.google.com/maps?q=37.980000,-122.275000"
+    },
+    {
+      "center": {
+        "lat": 37.9799999999999,
+        "lon": -122.04499999999985
+      },
+      "pointCount": 1,
+      "maxDistanceToLibrary": 2855,
+      "avgDistanceToLibrary": 2855,
+      "googleMapsLink": "https://www.google.com/maps?q=37.980000,-122.045000"
+    }
+  ],
+  "neighborhoodAnalysis": [
+    {
+      "name": "Fremont",
+      "lat": 37.548,
+      "lon": -121.989,
+      "librariesWithin2km": 0,
+      "nearestLibraryDistance": 4658,
+      "googleMapsLink": "https://www.google.com/maps?q=37.548,-121.989"
+    },
+    {
+      "name": "San Leandro",
+      "lat": 37.725,
+      "lon": -122.156,
+      "librariesWithin2km": 1,
+      "nearestLibraryDistance": 1003,
+      "googleMapsLink": "https://www.google.com/maps?q=37.725,-122.156"
+    },
+    {
+      "name": "Castro Valley",
+      "lat": 37.694,
+      "lon": -122.087,
+      "librariesWithin2km": 1,
+      "nearestLibraryDistance": 569,
+      "googleMapsLink": "https://www.google.com/maps?q=37.694,-122.087"
+    },
+    {
+      "name": "Hayward",
+      "lat": 37.669,
+      "lon": -122.081,
+      "librariesWithin2km": 1,
+      "nearestLibraryDistance": 621,
+      "googleMapsLink": "https://www.google.com/maps?q=37.669,-122.081"
+    },
+    {
+      "name": "Union City",
+      "lat": 37.593,
+      "lon": -122.044,
+      "librariesWithin2km": 1,
+      "nearestLibraryDistance": 1427,
+      "googleMapsLink": "https://www.google.com/maps?q=37.593,-122.044"
+    },
+    {
+      "name": "Oakland (East)",
+      "lat": 37.772,
+      "lon": -122.179,
+      "librariesWithin2km": 9,
+      "nearestLibraryDistance": 296,
+      "googleMapsLink": "https://www.google.com/maps?q=37.772,-122.179"
+    },
+    {
+      "name": "Oakland (Downtown)",
+      "lat": 37.805,
+      "lon": -122.271,
+      "librariesWithin2km": 11,
+      "nearestLibraryDistance": 277,
+      "googleMapsLink": "https://www.google.com/maps?q=37.805,-122.271"
+    },
+    {
+      "name": "Richmond",
+      "lat": 37.936,
+      "lon": -122.348,
+      "librariesWithin2km": 14,
+      "nearestLibraryDistance": 346,
+      "googleMapsLink": "https://www.google.com/maps?q=37.936,-122.348"
+    },
+    {
+      "name": "Oakland (Fruitvale)",
+      "lat": 37.775,
+      "lon": -122.224,
+      "librariesWithin2km": 22,
+      "nearestLibraryDistance": 1052,
+      "googleMapsLink": "https://www.google.com/maps?q=37.775,-122.224"
+    },
+    {
+      "name": "Piedmont",
+      "lat": 37.824,
+      "lon": -122.232,
+      "librariesWithin2km": 34,
+      "nearestLibraryDistance": 738,
+      "googleMapsLink": "https://www.google.com/maps?q=37.824,-122.232"
+    },
+    {
+      "name": "Emeryville",
+      "lat": 37.831,
+      "lon": -122.285,
+      "librariesWithin2km": 55,
+      "nearestLibraryDistance": 437,
+      "googleMapsLink": "https://www.google.com/maps?q=37.831,-122.285"
+    },
+    {
+      "name": "Alameda",
+      "lat": 37.765,
+      "lon": -122.242,
+      "librariesWithin2km": 74,
+      "nearestLibraryDistance": 138,
+      "googleMapsLink": "https://www.google.com/maps?q=37.765,-122.242"
+    },
+    {
+      "name": "El Cerrito",
+      "lat": 37.917,
+      "lon": -122.311,
+      "librariesWithin2km": 75,
+      "nearestLibraryDistance": 357,
+      "googleMapsLink": "https://www.google.com/maps?q=37.917,-122.311"
+    },
+    {
+      "name": "Oakland (Temescal)",
+      "lat": 37.834,
+      "lon": -122.263,
+      "librariesWithin2km": 108,
+      "nearestLibraryDistance": 70,
+      "googleMapsLink": "https://www.google.com/maps?q=37.834,-122.263"
+    },
+    {
+      "name": "Albany",
+      "lat": 37.887,
+      "lon": -122.298,
+      "librariesWithin2km": 165,
+      "nearestLibraryDistance": 266,
+      "googleMapsLink": "https://www.google.com/maps?q=37.887,-122.298"
+    },
+    {
+      "name": "Oakland (North)",
+      "lat": 37.844,
+      "lon": -122.267,
+      "librariesWithin2km": 166,
+      "nearestLibraryDistance": 239,
+      "googleMapsLink": "https://www.google.com/maps?q=37.844,-122.267"
+    },
+    {
+      "name": "Berkeley (South)",
+      "lat": 37.856,
+      "lon": -122.268,
+      "librariesWithin2km": 187,
+      "nearestLibraryDistance": 194,
+      "googleMapsLink": "https://www.google.com/maps?q=37.856,-122.268"
+    },
+    {
+      "name": "Berkeley (Central)",
+      "lat": 37.871,
+      "lon": -122.272,
+      "librariesWithin2km": 201,
+      "nearestLibraryDistance": 361,
+      "googleMapsLink": "https://www.google.com/maps?q=37.871,-122.272"
+    },
+    {
+      "name": "Berkeley (North)",
+      "lat": 37.885,
+      "lon": -122.276,
+      "librariesWithin2km": 239,
+      "nearestLibraryDistance": 193,
+      "googleMapsLink": "https://www.google.com/maps?q=37.885,-122.276"
+    }
+  ],
+  "underservedAreas": [
+    {
+      "name": "Fremont",
+      "lat": 37.548,
+      "lon": -121.989,
+      "librariesWithin2km": 0,
+      "nearestLibraryDistance": 4658,
+      "googleMapsLink": "https://www.google.com/maps?q=37.548,-121.989"
+    },
+    {
+      "name": "San Leandro",
+      "lat": 37.725,
+      "lon": -122.156,
+      "librariesWithin2km": 1,
+      "nearestLibraryDistance": 1003,
+      "googleMapsLink": "https://www.google.com/maps?q=37.725,-122.156"
+    },
+    {
+      "name": "Castro Valley",
+      "lat": 37.694,
+      "lon": -122.087,
+      "librariesWithin2km": 1,
+      "nearestLibraryDistance": 569,
+      "googleMapsLink": "https://www.google.com/maps?q=37.694,-122.087"
+    },
+    {
+      "name": "Hayward",
+      "lat": 37.669,
+      "lon": -122.081,
+      "librariesWithin2km": 1,
+      "nearestLibraryDistance": 621,
+      "googleMapsLink": "https://www.google.com/maps?q=37.669,-122.081"
+    },
+    {
+      "name": "Union City",
+      "lat": 37.593,
+      "lon": -122.044,
+      "librariesWithin2km": 1,
+      "nearestLibraryDistance": 1427,
+      "googleMapsLink": "https://www.google.com/maps?q=37.593,-122.044"
+    }
+  ],
+  "methodology": {
+    "gridSpacing": "~1.1km",
+    "desertThreshold": "1000m (1km)",
+    "clusterRadius": "2000m (2km)",
+    "neighborhoodRadius": "2000m (2km)"
+  }
+}

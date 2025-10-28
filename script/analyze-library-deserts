@@ -1,0 +1,362 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+const xml2js = require('xml2js');
+
+// Haversine formula to calculate distance between two points in meters
+function calculateDistance(lat1, lon1, lat2, lon2) {
+  const R = 6371e3; // Earth's radius in meters
+  const φ1 = lat1 * Math.PI / 180;
+  const φ2 = lat2 * Math.PI / 180;
+  const Δφ = (lat2 - lat1) * Math.PI / 180;
+  const Δλ = (lon2 - lon1) * Math.PI / 180;
+
+  const a = Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
+            Math.cos(φ1) * Math.cos(φ2) *
+            Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+  return R * c; // Distance in meters
+}
+
+// Parse KML file to extract library locations
+async function parseKML(kmlPath) {
+  const kmlContent = fs.readFileSync(kmlPath, 'utf8');
+  const parser = new xml2js.Parser();
+
+  try {
+    const result = await parser.parseStringPromise(kmlContent);
+    const document = result.kml.Document[0];
+
+    let placemarks = [];
+
+    if (document.Placemark) {
+      placemarks = placemarks.concat(document.Placemark);
+    }
+
+    if (document.Folder) {
+      for (const folder of document.Folder) {
+        if (folder.Placemark) {
+          placemarks = placemarks.concat(folder.Placemark);
+        }
+      }
+    }
+
+    const locations = placemarks.map(placemark => {
+      const name = placemark.name?.[0] || 'Unknown';
+      const coordinates = placemark.Point?.[0]?.coordinates?.[0];
+
+      if (coordinates) {
+        const coords = coordinates.trim().split(',');
+        return {
+          name,
+          lon: parseFloat(coords[0]),
+          lat: parseFloat(coords[1])
+        };
+      }
+
+      return null;
+    }).filter(loc => loc !== null);
+
+    return locations;
+  } catch (error) {
+    console.error('Error parsing KML:', error.message);
+    return [];
+  }
+}
+
+// Define East Bay boundaries (approximate)
+const EAST_BAY_BOUNDS = {
+  // Richmond to Fremont area
+  north: 37.985,
+  south: 37.480,
+  west: -122.355,
+  east: -122.040
+};
+
+// Check if coordinates are in East Bay
+function isInEastBay(lat, lon) {
+  return lat >= EAST_BAY_BOUNDS.south &&
+         lat <= EAST_BAY_BOUNDS.north &&
+         lon >= EAST_BAY_BOUNDS.west &&
+         lon <= EAST_BAY_BOUNDS.east;
+}
+
+// Generate a grid of points covering the East Bay
+function generateGridPoints(spacing = 0.01) {
+  const points = [];
+
+  for (let lat = EAST_BAY_BOUNDS.south; lat <= EAST_BAY_BOUNDS.north; lat += spacing) {
+    for (let lon = EAST_BAY_BOUNDS.west; lon <= EAST_BAY_BOUNDS.east; lon += spacing) {
+      points.push({ lat, lon });
+    }
+  }
+
+  return points;
+}
+
+// Find the nearest library to a given point
+function findNearestLibrary(lat, lon, libraries) {
+  let minDistance = Infinity;
+  let nearestLibrary = null;
+
+  for (const library of libraries) {
+    const distance = calculateDistance(lat, lon, library.lat, library.lon);
+    if (distance < minDistance) {
+      minDistance = distance;
+      nearestLibrary = library;
+    }
+  }
+
+  return { library: nearestLibrary, distance: minDistance };
+}
+
+// Identify desert areas (areas far from any library)
+function identifyDesertAreas(libraries, desertThresholdMeters = 1000) {
+  console.log(`Analyzing library coverage in the East Bay area...`);
+  console.log(`Desert threshold: ${desertThresholdMeters}m (${(desertThresholdMeters/1000).toFixed(1)}km)\n`);
+
+  // Filter to East Bay libraries
+  const eastBayLibraries = libraries.filter(lib => isInEastBay(lib.lat, lib.lon));
+  console.log(`Found ${eastBayLibraries.length} libraries in East Bay area\n`);
+
+  // Generate grid points (approximately 1km spacing)
+  const gridSpacing = 0.01; // ~1.1km at this latitude
+  const gridPoints = generateGridPoints(gridSpacing);
+  console.log(`Analyzing ${gridPoints.length} grid points across the region...\n`);
+
+  // Find desert zones
+  const desertZones = [];
+
+  for (const point of gridPoints) {
+    const { library, distance } = findNearestLibrary(point.lat, point.lon, eastBayLibraries);
+
+    if (distance > desertThresholdMeters) {
+      desertZones.push({
+        lat: point.lat,
+        lon: point.lon,
+        nearestLibrary: library?.name || 'Unknown',
+        distanceToNearest: Math.round(distance)
+      });
+    }
+  }
+
+  return { eastBayLibraries, desertZones, totalGridPoints: gridPoints.length };
+}
+
+// Cluster nearby desert zones into regions
+function clusterDesertZones(desertZones, clusterRadius = 2000) {
+  const clusters = [];
+  const visited = new Set();
+
+  for (let i = 0; i < desertZones.length; i++) {
+    if (visited.has(i)) continue;
+
+    const cluster = [desertZones[i]];
+    visited.add(i);
+
+    for (let j = i + 1; j < desertZones.length; j++) {
+      if (visited.has(j)) continue;
+
+      const distance = calculateDistance(
+        desertZones[i].lat, desertZones[i].lon,
+        desertZones[j].lat, desertZones[j].lon
+      );
+
+      if (distance <= clusterRadius) {
+        cluster.push(desertZones[j]);
+        visited.add(j);
+      }
+    }
+
+    // Calculate cluster center
+    const centerLat = cluster.reduce((sum, z) => sum + z.lat, 0) / cluster.length;
+    const centerLon = cluster.reduce((sum, z) => sum + z.lon, 0) / cluster.length;
+    const maxDistance = Math.max(...cluster.map(z => z.distanceToNearest));
+    const avgDistance = Math.round(cluster.reduce((sum, z) => sum + z.distanceToNearest, 0) / cluster.length);
+
+    clusters.push({
+      center: { lat: centerLat, lon: centerLon },
+      pointCount: cluster.length,
+      maxDistanceToLibrary: maxDistance,
+      avgDistanceToLibrary: avgDistance,
+      googleMapsLink: `https://www.google.com/maps?q=${centerLat.toFixed(6)},${centerLon.toFixed(6)}`
+    });
+  }
+
+  // Sort by size (largest deserts first)
+  clusters.sort((a, b) => b.pointCount - a.pointCount);
+
+  return clusters;
+}
+
+// Analyze neighborhoods by examining library density
+function analyzeNeighborhoodDensity(libraries) {
+  // Define key East Bay cities/neighborhoods with their approximate centers
+  const neighborhoods = [
+    { name: 'Richmond', lat: 37.936, lon: -122.348 },
+    { name: 'El Cerrito', lat: 37.917, lon: -122.311 },
+    { name: 'Albany', lat: 37.887, lon: -122.298 },
+    { name: 'Berkeley (North)', lat: 37.885, lon: -122.276 },
+    { name: 'Berkeley (Central)', lat: 37.871, lon: -122.272 },
+    { name: 'Berkeley (South)', lat: 37.856, lon: -122.268 },
+    { name: 'Emeryville', lat: 37.831, lon: -122.285 },
+    { name: 'Oakland (North)', lat: 37.844, lon: -122.267 },
+    { name: 'Oakland (Temescal)', lat: 37.834, lon: -122.263 },
+    { name: 'Oakland (Downtown)', lat: 37.805, lon: -122.271 },
+    { name: 'Oakland (Fruitvale)', lat: 37.775, lon: -122.224 },
+    { name: 'Oakland (East)', lat: 37.772, lon: -122.179 },
+    { name: 'Piedmont', lat: 37.824, lon: -122.232 },
+    { name: 'Alameda', lat: 37.765, lon: -122.242 },
+    { name: 'San Leandro', lat: 37.725, lon: -122.156 },
+    { name: 'Castro Valley', lat: 37.694, lon: -122.087 },
+    { name: 'Hayward', lat: 37.669, lon: -122.081 },
+    { name: 'Union City', lat: 37.593, lon: -122.044 },
+    { name: 'Fremont', lat: 37.548, lon: -121.989 }
+  ];
+
+  const analysis = neighborhoods.map(neighborhood => {
+    // Find libraries within 2km radius
+    const nearbyLibraries = libraries.filter(lib => {
+      const distance = calculateDistance(
+        neighborhood.lat, neighborhood.lon,
+        lib.lat, lib.lon
+      );
+      return distance <= 2000; // 2km radius
+    });
+
+    // Find distance to nearest library
+    const { distance } = findNearestLibrary(neighborhood.lat, neighborhood.lon, libraries);
+
+    return {
+      name: neighborhood.name,
+      lat: neighborhood.lat,
+      lon: neighborhood.lon,
+      librariesWithin2km: nearbyLibraries.length,
+      nearestLibraryDistance: Math.round(distance),
+      googleMapsLink: `https://www.google.com/maps?q=${neighborhood.lat},${neighborhood.lon}`
+    };
+  });
+
+  // Sort by lowest density (fewest libraries)
+  analysis.sort((a, b) => a.librariesWithin2km - b.librariesWithin2km);
+
+  return analysis;
+}
+
+// Main analysis function
+async function analyzeLibraryDeserts() {
+  const kmlPath = path.join(__dirname, '..', 'libraries.kml');
+
+  console.log('═'.repeat(80));
+  console.log('EAST BAY LITTLE FREE LIBRARY DESERT ANALYSIS');
+  console.log('═'.repeat(80));
+  console.log();
+
+  // Parse existing locations from KML
+  console.log('Parsing library locations from KML...\n');
+  const allLibraries = await parseKML(kmlPath);
+  console.log(`Found ${allLibraries.length} total libraries in dataset\n`);
+
+  // Identify desert areas
+  const { eastBayLibraries, desertZones, totalGridPoints } = identifyDesertAreas(allLibraries, 1000);
+
+  console.log('─'.repeat(80));
+  console.log('DESERT ZONE ANALYSIS');
+  console.log('─'.repeat(80));
+  console.log(`Grid points with no library within 1km: ${desertZones.length} of ${totalGridPoints} (${(desertZones.length/totalGridPoints*100).toFixed(1)}%)`);
+  console.log();
+
+  // Cluster desert zones
+  const desertClusters = clusterDesertZones(desertZones, 2000);
+
+  console.log(`Identified ${desertClusters.length} distinct desert regions:\n`);
+
+  desertClusters.slice(0, 15).forEach((cluster, index) => {
+    console.log(`${index + 1}. Desert Region at ${cluster.center.lat.toFixed(4)}, ${cluster.center.lon.toFixed(4)}`);
+    console.log(`   Coverage: ${cluster.pointCount} grid points`);
+    console.log(`   Distance to nearest library: ${(cluster.avgDistanceToLibrary/1000).toFixed(2)}km avg, ${(cluster.maxDistanceToLibrary/1000).toFixed(2)}km max`);
+    console.log(`   Google Maps: ${cluster.googleMapsLink}`);
+    console.log();
+  });
+
+  // Analyze by neighborhood
+  console.log('─'.repeat(80));
+  console.log('NEIGHBORHOOD DENSITY ANALYSIS');
+  console.log('─'.repeat(80));
+  console.log();
+
+  const neighborhoodAnalysis = analyzeNeighborhoodDensity(eastBayLibraries);
+
+  console.log('Neighborhoods with lowest library density:\n');
+
+  neighborhoodAnalysis.slice(0, 10).forEach((area, index) => {
+    console.log(`${index + 1}. ${area.name}`);
+    console.log(`   Libraries within 2km: ${area.librariesWithin2km}`);
+    console.log(`   Nearest library: ${(area.nearestLibraryDistance/1000).toFixed(2)}km away`);
+    console.log(`   Google Maps: ${area.googleMapsLink}`);
+    console.log();
+  });
+
+  console.log('─'.repeat(80));
+  console.log('RECOMMENDATIONS');
+  console.log('─'.repeat(80));
+  console.log();
+  console.log('Priority areas for new Little Free Libraries:');
+  console.log();
+
+  // Combine insights
+  const underservedAreas = neighborhoodAnalysis
+    .filter(n => n.librariesWithin2km < 5)
+    .slice(0, 5);
+
+  underservedAreas.forEach((area, index) => {
+    console.log(`${index + 1}. ${area.name}`);
+    console.log(`   Current status: Only ${area.librariesWithin2km} libraries within 2km`);
+    console.log(`   Recommendation: High priority for new installations`);
+    console.log(`   Search area: ${area.googleMapsLink}`);
+    console.log();
+  });
+
+  console.log('═'.repeat(80));
+  console.log('END OF ANALYSIS');
+  console.log('═'.repeat(80));
+
+  // Save detailed JSON report
+  const report = {
+    analysisDate: new Date().toISOString(),
+    summary: {
+      totalLibraries: allLibraries.length,
+      eastBayLibraries: eastBayLibraries.length,
+      desertZoneCount: desertZones.length,
+      desertClustersIdentified: desertClusters.length
+    },
+    desertClusters: desertClusters,
+    neighborhoodAnalysis: neighborhoodAnalysis,
+    underservedAreas: underservedAreas,
+    methodology: {
+      gridSpacing: '~1.1km',
+      desertThreshold: '1000m (1km)',
+      clusterRadius: '2000m (2km)',
+      neighborhoodRadius: '2000m (2km)'
+    }
+  };
+
+  const reportPath = path.join(__dirname, '..', 'analysis', 'library-deserts-report.json');
+
+  // Create analysis directory if it doesn't exist
+  const analysisDir = path.join(__dirname, '..', 'analysis');
+  if (!fs.existsSync(analysisDir)) {
+    fs.mkdirSync(analysisDir, { recursive: true });
+  }
+
+  fs.writeFileSync(reportPath, JSON.stringify(report, null, 2));
+  console.log(`\nDetailed JSON report saved to: ${reportPath}`);
+}
+
+// Run analysis
+analyzeLibraryDeserts().catch(error => {
+  console.error('Error:', error);
+  process.exit(1);
+});
