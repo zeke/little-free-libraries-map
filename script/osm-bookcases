@@ -1,0 +1,187 @@
+#!/usr/bin/env python3
+"""Fetch a bounded OSM snapshot or compare it offline with the read-only KML."""
+import argparse
+from collections import Counter
+from datetime import datetime, timezone
+import hashlib
+import json
+import math
+from pathlib import Path
+import sys
+import urllib.parse
+import urllib.request
+import xml.etree.ElementTree as ET
+
+ROOT = Path(__file__).resolve().parent.parent
+BOUNDS = (37.80, -122.34, 37.94, -122.20)  # south, west, north, east
+QUERY = '[out:json][timeout:60];\nnwr["amenity"="public_bookcase"](37.80,-122.34,37.94,-122.20);\nout meta center;\n'
+ENDPOINT = 'https://overpass-api.de/api/interpreter'
+ATTRIBUTION = '© OpenStreetMap contributors'
+LICENSE = 'https://www.openstreetmap.org/copyright'
+NS = {'k': 'http://www.opengis.net/kml/2.2'}
+
+
+def coordinate(lat, lon):
+    if (isinstance(lat, bool) or isinstance(lon, bool)
+            or not isinstance(lat, (int, float)) or not isinstance(lon, (int, float))
+            or not math.isfinite(lat) or not math.isfinite(lon)
+            or not -90 <= lat <= 90 or not -180 <= lon <= 180):
+        raise ValueError('Invalid latitude/longitude')
+    return lat, lon
+
+
+def distance(a, b):
+    """Haversine meters, same spherical radius as analyze-candidates."""
+    lat1, lon1 = map(math.radians, a)
+    lat2, lon2 = map(math.radians, b)
+    h = math.sin((lat2 - lat1) / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin((lon2 - lon1) / 2) ** 2
+    return 6371000 * 2 * math.asin(math.sqrt(min(1, h)))
+
+
+def read_kml(content):
+    root = ET.fromstring(content)
+    locations = []
+    placemarks = root.findall('.//k:Placemark', NS)
+    for index, placemark in enumerate(placemarks, 1):
+        points = placemark.findall('.//k:Point/k:coordinates', NS)
+        for point_index, point in enumerate(points, 1):
+            values = (point.text or '').strip().split(',')
+            if len(values) < 2:
+                raise ValueError('Malformed KML point')
+            lon, lat = map(float, values[:2])
+            coordinate(lat, lon)
+            locations.append({'key': f'placemark-{index}-point-{point_index}',
+                              'name': placemark.findtext('k:name', default='', namespaces=NS),
+                              'lat': lat, 'lon': lon})
+    if not locations:
+        raise ValueError('KML has no points')
+    return locations, len(placemarks)
+
+
+def read_osm(response):
+    if response.get('remark'):
+        raise ValueError('Overpass remark (possibly incomplete): ' + response['remark'])
+    if not isinstance(response.get('elements'), list):
+        raise ValueError('Overpass response lacks elements')
+    records = []
+    seen = set()
+    for element in response['elements']:
+        kind, ident = element.get('type'), element.get('id')
+        if kind not in ('node', 'way', 'relation') or not isinstance(ident, int) or ident <= 0:
+            raise ValueError('Invalid OSM identity')
+        key = f'{kind}/{ident}'
+        if key in seen:
+            raise ValueError('Repeated OSM identity: ' + key)
+        seen.add(key)
+        tags = element.get('tags', {})
+        if tags.get('amenity') != 'public_bookcase':
+            raise ValueError('Unexpected amenity: ' + key)
+        position = element if kind == 'node' else element.get('center', {})
+        lat, lon = coordinate(position.get('lat'), position.get('lon'))
+        south, west, north, east = BOUNDS
+        records.append({'osm_id': key, 'source_url': 'https://www.openstreetmap.org/' + key,
+                        'lat': lat, 'lon': lon, 'position_kind': 'node' if kind == 'node' else 'bounding-box center',
+                        'center_in_bounds': south <= lat <= north and west <= lon <= east,
+                        'tags': tags, 'version': element.get('version'), 'timestamp': element.get('timestamp')})
+    return sorted(records, key=lambda record: record['osm_id'])
+
+
+def compare(records, locations):
+    rows = []
+    for record in records:
+        ranked = sorted([dict(location, distance_m=distance((record['lat'], record['lon']),
+                                                         (location['lat'], location['lon'])))
+                         for location in locations], key=lambda item: (item['distance_m'], item['key']))
+        nearby = [item for item in ranked if item['distance_m'] <= 100]
+        band = 'within-20m' if ranked[0]['distance_m'] <= 20 else 'within-100m' if nearby else 'potential-addition'
+        peers = [{'osm_id': other['osm_id'], 'distance_m': distance((record['lat'], record['lon']), (other['lat'], other['lon']))}
+                 for other in records if other['osm_id'] != record['osm_id']
+                 and distance((record['lat'], record['lon']), (other['lat'], other['lon'])) <= 20]
+        # Normalize only exported distances, after all threshold decisions.
+        # macOS/Linux libm can differ in the final floating-point bits.
+        for item in ranked + peers:
+            item['distance_m'] = round(item['distance_m'], 6)
+        rows.append(dict(record, review_band=band, identity_confirmed=False,
+                         nearest_existing=ranked[0], existing_within_100m=nearby, osm_within_20m=peers))
+    return rows
+
+
+def write_json(path, value):
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n')
+
+
+def fetch_snapshot(output):
+    request = urllib.request.Request(ENDPOINT, data=urllib.parse.urlencode({'data': QUERY}).encode(),
+                                     headers={'User-Agent': 'little-free-libraries-map-osm-spike/1.0 (https://github.com/zeke/little-free-libraries-map)'})
+    with urllib.request.urlopen(request, timeout=90) as response:
+        raw = response.read(4_000_001)
+    if len(raw) > 4_000_000:
+        raise ValueError('Response exceeds 4 MB bound')
+    payload = json.loads(raw)
+    read_osm(payload)  # Fail before writing on partial/error responses.
+    snapshot = {'fetched_at': datetime.now(timezone.utc).isoformat(), 'endpoint': ENDPOINT,
+                'bounds_south_west_north_east': BOUNDS, 'query': QUERY,
+                'attribution': ATTRIBUTION, 'license_url': LICENSE,
+                'response': payload}
+    write_json(output, snapshot)
+    print(f'Fetched {len(payload["elements"])} OSM objects to {output}')
+
+
+def cell(value):
+    return str(value).replace('|', '\\|').replace('\n', ' ').replace('\r', ' ')
+
+
+def analyze(snapshot_path, kml_path, output):
+    snapshot = json.loads(snapshot_path.read_text())
+    if snapshot['query'] != QUERY or tuple(snapshot['bounds_south_west_north_east']) != BOUNDS:
+        raise ValueError('Snapshot query/bounds differ from this spike')
+    kml = kml_path.read_bytes()
+    locations, placemarks = read_kml(kml)
+    records = read_osm(snapshot['response'])
+    rows = compare(records, locations)
+    counts = dict(sorted(Counter(row['review_band'] for row in rows).items()))
+    report = {'attribution': ATTRIBUTION, 'license_url': LICENSE, 'fetched_at': snapshot['fetched_at'],
+              'osm_base_timestamp': snapshot['response'].get('osm3s', {}).get('timestamp_osm_base'),
+              'endpoint': snapshot['endpoint'], 'query': QUERY, 'bounds_south_west_north_east': BOUNDS,
+              'snapshot_sha256': hashlib.sha256(snapshot_path.read_bytes()).hexdigest(),
+              'kml_sha256': hashlib.sha256(kml).hexdigest(), 'kml_placemarks': placemarks,
+              'existing_point_count': len(locations), 'osm_count': len(records), 'counts': counts,
+              'thresholds_m': {'candidate_match': 20, 'broader_review': 100}, 'records': rows}
+    write_json(output / 'report.json', report)
+    lines = ['# OSM public-bookcase review', '', f'{ATTRIBUTION}, [ODbL]({LICENSE}).', '',
+             f'Fetched: {snapshot["fetched_at"]}. OSM database: {report["osm_base_timestamp"]}.', '',
+             f'{len(records)} OSM objects compared with {len(locations)} KML points ({placemarks} placemarks).', '',
+             'Bands: ' + json.dumps(counts, sort_keys=True) + '.', '',
+             'Every row requires human review. Distance is candidate evidence, never proof of identity. '
+             'Potential additions have no KML point within 100 m, not confirmed new libraries. '
+             'See report.json for all tags, all KML neighbors within 100 m, OSM peers within 20 m, hashes and provenance.', '',
+             '| OSM object | Band | Name / address tags | Nearest KML point | Meters |',
+             '| --- | --- | --- | --- | --- |']
+    for row in rows:
+        tags = row['tags']
+        label = ' / '.join(filter(None, [tags.get('name'), tags.get('addr:housenumber'), tags.get('addr:street')]))
+        nearest = row['nearest_existing']
+        lines.append(f'| [{row["osm_id"]}]({row["source_url"]}) | {row["review_band"]} | {cell(label)} | {cell(nearest["name"])} ({nearest["key"]}) | {nearest["distance_m"]:.1f} |')
+    (output / 'report.md').write_text('\n'.join(lines) + '\n')
+    print(json.dumps({key: report[key] for key in ('existing_point_count', 'osm_count', 'counts')}, indent=2))
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('command', choices=['fetch', 'compare'])
+    parser.add_argument('--snapshot', type=Path, default=ROOT / 'osm/snapshot.json')
+    parser.add_argument('--kml', type=Path, default=ROOT / 'libraries.kml')
+    parser.add_argument('--output', type=Path, default=ROOT / 'osm')
+    args = parser.parse_args()
+    if args.command == 'fetch':
+        fetch_snapshot(args.snapshot)
+    else:
+        analyze(args.snapshot, args.kml, args.output)
+
+
+if __name__ == '__main__':
+    try:
+        main()
+    except (ValueError, OSError, ET.ParseError, KeyError) as error:
+        print(f'Error: {error}', file=sys.stderr)
+        sys.exit(1)

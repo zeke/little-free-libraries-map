@@ -1,0 +1,5063 @@
+{
+  "fetched_at": "2026-10-21T00:11:35.206028+00:00",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "bounds_south_west_north_east": [
+    37.8,
+    -122.34,
+    37.94,
+    -122.2
+  ],
+  "query": "[out:json][timeout:60];\nnwr[\"amenity\"=\"public_bookcase\"](37.80,-122.34,37.94,-122.20);\nout meta center;\n",
+  "attribution": "© OpenStreetMap contributors",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "response": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-10-21T00:10:27Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 2983986846,
+        "lat": 37.8309388,
+        "lon": -122.2534367,
+        "timestamp": "2024-10-29T03:45:09Z",
+        "version": 5,
+        "changeset": 158480987,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4235",
+          "addr:postcode": "94611",
+          "addr:street": "Terrace Street",
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-10-28",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4044828821,
+        "lat": 37.8472413,
+        "lon": -122.2733922,
+        "timestamp": "2016-03-06T22:43:45Z",
+        "version": 1,
+        "changeset": 37655403,
+        "user": "npdoty",
+        "uid": 644152,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "King St Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4148200028,
+        "lat": 37.8340277,
+        "lon": -122.2588213,
+        "timestamp": "2024-08-24T18:25:01Z",
+        "version": 3,
+        "changeset": 155709898,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2024-08-24"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4406322339,
+        "lat": 37.8315269,
+        "lon": -122.2590538,
+        "timestamp": "2024-09-09T16:04:48Z",
+        "version": 4,
+        "changeset": 156402172,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-08-09",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5378611210,
+        "lat": 37.8140451,
+        "lon": -122.2493342,
+        "timestamp": "2025-03-31T13:59:52Z",
+        "version": 3,
+        "changeset": 164332124,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-03-28",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5395473370,
+        "lat": 37.8413987,
+        "lon": -122.2500487,
+        "timestamp": "2019-12-16T05:19:08Z",
+        "version": 2,
+        "changeset": 78451800,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "reuse:books": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5583687325,
+        "lat": 37.8095059,
+        "lon": -122.225699,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 5,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5591299855,
+        "lat": 37.8041537,
+        "lon": -122.2191827,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 3,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5695787172,
+        "lat": 37.8022182,
+        "lon": -122.2223802,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 4,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5874034114,
+        "lat": 37.8062098,
+        "lon": -122.221328,
+        "timestamp": "2026-10-06T19:54:19Z",
+        "version": 6,
+        "changeset": 190111402,
+        "user": "lanini",
+        "uid": 24290127,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2026-10-06",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6380073931,
+        "lat": 37.8086167,
+        "lon": -122.217225,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 5,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6483464211,
+        "lat": 37.8925014,
+        "lon": -122.285597,
+        "timestamp": "2022-10-30T06:43:33Z",
+        "version": 2,
+        "changeset": 128234041,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Pequeña Biblioteca Gratuita",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6483464246,
+        "lat": 37.8959881,
+        "lon": -122.2809977,
+        "timestamp": "2019-05-19T08:03:30Z",
+        "version": 1,
+        "changeset": 70403556,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6483464247,
+        "lat": 37.8948763,
+        "lon": -122.2786454,
+        "timestamp": "2022-10-30T06:43:33Z",
+        "version": 2,
+        "changeset": 128234041,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6550874853,
+        "lat": 37.898865,
+        "lon": -122.276538,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 3,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6867893843,
+        "lat": 37.8081368,
+        "lon": -122.2385877,
+        "timestamp": "2019-10-10T18:15:09Z",
+        "version": 1,
+        "changeset": 75528525,
+        "user": "nereocystis",
+        "uid": 1835512,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7041286631,
+        "lat": 37.8031747,
+        "lon": -122.227104,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 5,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7042863106,
+        "lat": 37.8923571,
+        "lon": -122.2828069,
+        "timestamp": "2019-12-09T03:00:11Z",
+        "version": 1,
+        "changeset": 78125150,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7127409931,
+        "lat": 37.8923973,
+        "lon": -122.3023284,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 3,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "opening_hours": "24/7"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7130113690,
+        "lat": 37.8936346,
+        "lon": -122.2938351,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 2,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7142014867,
+        "lat": 37.8961893,
+        "lon": -122.301938,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 5,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7142014868,
+        "lat": 37.8898082,
+        "lon": -122.302018,
+        "timestamp": "2024-08-27T20:31:32Z",
+        "version": 5,
+        "changeset": 155850433,
+        "user": "mapadu",
+        "uid": 9755853,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "direction": "166",
+          "indoor": "no",
+          "location": "outdoor",
+          "name": "Little Free Library",
+          "public_bookcase:type": "wooden_cabinet",
+          "ref": "45425"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7168232781,
+        "lat": 37.8616801,
+        "lon": -122.2418551,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 2,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7227017046,
+        "lat": 37.8862997,
+        "lon": -122.280887,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 3,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "opening_hours": "24/7",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7227017047,
+        "lat": 37.8862971,
+        "lon": -122.2808753,
+        "timestamp": "2020-02-19T09:40:36Z",
+        "version": 1,
+        "changeset": 81213254,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "1728",
+          "opening_hours": "24/7",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7227017067,
+        "lat": 37.8856498,
+        "lon": -122.2780624,
+        "timestamp": "2023-02-26T05:22:48Z",
+        "version": 2,
+        "changeset": 133029365,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "opening_hours": "24/7",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7300487831,
+        "lat": 37.80959,
+        "lon": -122.214421,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 3,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7300494341,
+        "lat": 37.8022018,
+        "lon": -122.220118,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 3,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7370480122,
+        "lat": 37.8913203,
+        "lon": -122.3010988,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 2,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7386155664,
+        "lat": 37.8055042,
+        "lon": -122.2287193,
+        "timestamp": "2020-04-09T16:36:34Z",
+        "version": 1,
+        "changeset": 83320003,
+        "user": "nereocystis",
+        "uid": 1835512,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7416254396,
+        "lat": 37.8806025,
+        "lon": -122.2750877,
+        "timestamp": "2020-04-18T04:45:27Z",
+        "version": 1,
+        "changeset": 83731395,
+        "user": "Kyle Rosenberg",
+        "uid": 1282688,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "shelf"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7434608222,
+        "lat": 37.8022165,
+        "lon": -122.220117,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 3,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7440121981,
+        "lat": 37.8068465,
+        "lon": -122.2261787,
+        "timestamp": "2020-04-24T03:06:31Z",
+        "version": 1,
+        "changeset": 84030885,
+        "user": "nereocystis",
+        "uid": 1835512,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7600246409,
+        "lat": 37.8073571,
+        "lon": -122.225096,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 3,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7786441734,
+        "lat": 37.8818393,
+        "lon": -122.260232,
+        "timestamp": "2022-10-16T04:35:58Z",
+        "version": 3,
+        "changeset": 127597784,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "description": "Charter #47299",
+          "name": "La Lome Steps Little Free Library",
+          "opening_hours": "24/7",
+          "public_bookcase:type": "reading_box",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7790436812,
+        "lat": 37.8792994,
+        "lon": -122.258569,
+        "timestamp": "2026-08-19T19:09:11Z",
+        "version": 3,
+        "changeset": 187708241,
+        "user": "AstroSinclaire",
+        "uid": 17701212,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2026-08-19",
+          "description": "Charter #104854",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7790451050,
+        "lat": 37.8797614,
+        "lon": -122.2578667,
+        "timestamp": "2026-08-21T23:54:53Z",
+        "version": 4,
+        "changeset": 187820913,
+        "user": "AstroSinclaire",
+        "uid": 17701212,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "description": "Charter #105834",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7793149399,
+        "lat": 37.8835283,
+        "lon": -122.268451,
+        "timestamp": "2022-10-15T21:50:04Z",
+        "version": 2,
+        "changeset": 127590713,
+        "user": "Dogman15",
+        "uid": 14845392,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "description": "Charter #18153",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7797138903,
+        "lat": 37.8789182,
+        "lon": -122.272776,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 3,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "description": "Charter #42240",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7805258699,
+        "lat": 37.8841935,
+        "lon": -122.250187,
+        "timestamp": "2022-10-15T07:52:16Z",
+        "version": 2,
+        "changeset": 127558288,
+        "user": "Dogman15",
+        "uid": 14845392,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "description": "Charter #42545",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7933222474,
+        "lat": 37.8857096,
+        "lon": -122.272604,
+        "timestamp": "2023-12-30T14:33:44Z",
+        "version": 2,
+        "changeset": 145700199,
+        "user": "andrewpmk",
+        "uid": 1679,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "description": "Charter #8859",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7933229827,
+        "lat": 37.8901713,
+        "lon": -122.2720335,
+        "timestamp": "2020-09-23T04:49:34Z",
+        "version": 1,
+        "changeset": 91331984,
+        "user": "laloma",
+        "uid": 11596923,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7998424907,
+        "lat": 37.8552339,
+        "lon": -122.2529551,
+        "timestamp": "2025-03-31T13:59:52Z",
+        "version": 2,
+        "changeset": 164332124,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-03-30",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8674745440,
+        "lat": 37.806875,
+        "lon": -122.2339648,
+        "timestamp": "2021-04-28T03:36:11Z",
+        "version": 1,
+        "changeset": 103739523,
+        "user": "nereocystis",
+        "uid": 1835512,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9321528588,
+        "lat": 37.8049208,
+        "lon": -122.2648231,
+        "timestamp": "2026-08-18T20:38:16Z",
+        "version": 3,
+        "changeset": 187659945,
+        "user": "SailorSFBay",
+        "uid": 11429701,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2026-05-22",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9560347013,
+        "lat": 37.9000534,
+        "lon": -122.2882611,
+        "timestamp": "2022-03-07T12:13:44Z",
+        "version": 1,
+        "changeset": 118195127,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9621640318,
+        "lat": 37.9162559,
+        "lon": -122.2816885,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 2,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9689296426,
+        "lat": 37.8861719,
+        "lon": -122.2654701,
+        "timestamp": "2022-04-24T08:20:06Z",
+        "version": 1,
+        "changeset": 120114636,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9689299440,
+        "lat": 37.8925625,
+        "lon": -122.26849,
+        "timestamp": "2022-10-15T07:52:16Z",
+        "version": 2,
+        "changeset": 127558288,
+        "user": "Dogman15",
+        "uid": 14845392,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9689299450,
+        "lat": 37.8894562,
+        "lon": -122.267012,
+        "timestamp": "2022-04-24T08:20:06Z",
+        "version": 1,
+        "changeset": 120114636,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9689299451,
+        "lat": 37.8890474,
+        "lon": -122.266847,
+        "timestamp": "2022-04-24T08:20:06Z",
+        "version": 1,
+        "changeset": 120114636,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9830152714,
+        "lat": 37.8806104,
+        "lon": -122.2669865,
+        "timestamp": "2022-06-19T05:27:47Z",
+        "version": 1,
+        "changeset": 122567283,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9877807909,
+        "lat": 37.9036623,
+        "lon": -122.292976,
+        "timestamp": "2024-02-19T17:38:31Z",
+        "version": 2,
+        "changeset": 147661000,
+        "user": "Bike 2 End",
+        "uid": 2529030,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10139119185,
+        "lat": 37.8947477,
+        "lon": -122.2774552,
+        "timestamp": "2022-10-30T06:43:33Z",
+        "version": 1,
+        "changeset": 128234041,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10139164037,
+        "lat": 37.8958971,
+        "lon": -122.281929,
+        "timestamp": "2024-02-19T17:47:18Z",
+        "version": 2,
+        "changeset": 147661330,
+        "user": "Bike 2 End",
+        "uid": 2529030,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10139164042,
+        "lat": 37.897398,
+        "lon": -122.284148,
+        "timestamp": "2024-02-19T17:33:39Z",
+        "version": 2,
+        "changeset": 147660815,
+        "user": "Bike 2 End",
+        "uid": 2529030,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10139164044,
+        "lat": 37.8973591,
+        "lon": -122.286254,
+        "timestamp": "2024-02-19T17:36:09Z",
+        "version": 2,
+        "changeset": 147660903,
+        "user": "Bike 2 End",
+        "uid": 2529030,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10139164049,
+        "lat": 37.8922114,
+        "lon": -122.2791,
+        "timestamp": "2024-02-19T17:44:37Z",
+        "version": 2,
+        "changeset": 147661232,
+        "user": "Bike 2 End",
+        "uid": 2529030,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10139164050,
+        "lat": 37.8895718,
+        "lon": -122.277714,
+        "timestamp": "2023-12-30T14:33:44Z",
+        "version": 2,
+        "changeset": 145700199,
+        "user": "andrewpmk",
+        "uid": 1679,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10139164051,
+        "lat": 37.8830934,
+        "lon": -122.2730403,
+        "timestamp": "2022-10-30T06:43:33Z",
+        "version": 1,
+        "changeset": 128234041,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10297788454,
+        "lat": 37.8505554,
+        "lon": -122.2436184,
+        "timestamp": "2023-01-01T06:01:45Z",
+        "version": 1,
+        "changeset": 130738234,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10556462196,
+        "lat": 37.885689,
+        "lon": -122.2525059,
+        "timestamp": "2023-01-15T10:29:34Z",
+        "version": 1,
+        "changeset": 131292398,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10648448600,
+        "lat": 37.8896936,
+        "lon": -122.2863306,
+        "timestamp": "2023-02-11T11:49:19Z",
+        "version": 1,
+        "changeset": 132400772,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10648462710,
+        "lat": 37.890173,
+        "lon": -122.2799808,
+        "timestamp": "2023-02-11T11:49:19Z",
+        "version": 1,
+        "changeset": 132400772,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10648462711,
+        "lat": 37.8900227,
+        "lon": -122.2819898,
+        "timestamp": "2023-02-11T11:49:19Z",
+        "version": 1,
+        "changeset": 132400772,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10648462714,
+        "lat": 37.8884515,
+        "lon": -122.2850499,
+        "timestamp": "2023-02-11T11:49:19Z",
+        "version": 1,
+        "changeset": 132400772,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10648462715,
+        "lat": 37.8858478,
+        "lon": -122.2849734,
+        "timestamp": "2023-02-11T11:49:19Z",
+        "version": 1,
+        "changeset": 132400772,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "wooden_cabinet"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10648462717,
+        "lat": 37.8824988,
+        "lon": -122.2859534,
+        "timestamp": "2023-02-11T11:49:19Z",
+        "version": 1,
+        "changeset": 132400772,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10648462719,
+        "lat": 37.8788212,
+        "lon": -122.2871148,
+        "timestamp": "2023-02-11T11:49:19Z",
+        "version": 1,
+        "changeset": 132400772,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10648462727,
+        "lat": 37.8793449,
+        "lon": -122.2806993,
+        "timestamp": "2023-02-11T11:49:19Z",
+        "version": 1,
+        "changeset": 132400772,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10694209652,
+        "lat": 37.8891622,
+        "lon": -122.282228,
+        "timestamp": "2023-12-30T14:33:44Z",
+        "version": 2,
+        "changeset": 145700199,
+        "user": "andrewpmk",
+        "uid": 1679,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10694209673,
+        "lat": 37.8812926,
+        "lon": -122.2804841,
+        "timestamp": "2023-02-26T05:22:48Z",
+        "version": 1,
+        "changeset": 133029365,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10694299526,
+        "lat": 37.9035643,
+        "lon": -122.2917611,
+        "timestamp": "2023-02-26T07:13:59Z",
+        "version": 1,
+        "changeset": 133030983,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10694299529,
+        "lat": 37.9021889,
+        "lon": -122.29065,
+        "timestamp": "2023-02-26T07:13:59Z",
+        "version": 1,
+        "changeset": 133030983,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10694299602,
+        "lat": 37.8962847,
+        "lon": -122.288265,
+        "timestamp": "2024-02-19T17:36:09Z",
+        "version": 2,
+        "changeset": 147660903,
+        "user": "Bike 2 End",
+        "uid": 2529030,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "opening_hours": "24/7",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10694324705,
+        "lat": 37.8988698,
+        "lon": -122.2814979,
+        "timestamp": "2023-02-26T07:13:59Z",
+        "version": 1,
+        "changeset": 133030983,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Little Zine Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10696355691,
+        "lat": 37.8921688,
+        "lon": -122.2648518,
+        "timestamp": "2023-02-27T06:48:26Z",
+        "version": 1,
+        "changeset": 133072976,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10743266136,
+        "lat": 37.8897129,
+        "lon": -122.276901,
+        "timestamp": "2023-12-30T14:33:44Z",
+        "version": 2,
+        "changeset": 145700199,
+        "user": "andrewpmk",
+        "uid": 1679,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10743266142,
+        "lat": 37.8812781,
+        "lon": -122.2728378,
+        "timestamp": "2023-03-18T12:58:28Z",
+        "version": 1,
+        "changeset": 133821997,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10743266155,
+        "lat": 37.8812275,
+        "lon": -122.2753614,
+        "timestamp": "2023-03-18T12:58:28Z",
+        "version": 1,
+        "changeset": 133821997,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10743266158,
+        "lat": 37.8793297,
+        "lon": -122.2750772,
+        "timestamp": "2025-03-09T21:21:43Z",
+        "version": 2,
+        "changeset": 163418310,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-03-09",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10743266176,
+        "lat": 37.8757167,
+        "lon": -122.2754462,
+        "timestamp": "2023-03-18T12:58:28Z",
+        "version": 1,
+        "changeset": 133821997,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10743266181,
+        "lat": 37.8736548,
+        "lon": -122.2754462,
+        "timestamp": "2023-03-18T12:58:28Z",
+        "version": 1,
+        "changeset": 133821997,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10859691804,
+        "lat": 37.8572604,
+        "lon": -122.2437579,
+        "timestamp": "2023-05-07T01:33:58Z",
+        "version": 2,
+        "changeset": 135795553,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10873111536,
+        "lat": 37.9102854,
+        "lon": -122.3000018,
+        "timestamp": "2023-05-06T09:43:28Z",
+        "version": 1,
+        "changeset": 135769811,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10915572656,
+        "lat": 37.8589436,
+        "lon": -122.2471549,
+        "timestamp": "2023-05-21T07:12:39Z",
+        "version": 1,
+        "changeset": 136361046,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10936313548,
+        "lat": 37.8919648,
+        "lon": -122.2875423,
+        "timestamp": "2024-01-16T00:53:57Z",
+        "version": 2,
+        "changeset": 146303081,
+        "user": "ZeLonewolf",
+        "uid": 219297,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10936313549,
+        "lat": 37.8945064,
+        "lon": -122.2863755,
+        "timestamp": "2023-05-29T07:34:40Z",
+        "version": 1,
+        "changeset": 136683789,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10936454564,
+        "lat": 37.8860974,
+        "lon": -122.2833712,
+        "timestamp": "2024-04-14T11:43:18Z",
+        "version": 2,
+        "changeset": 149988897,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10936454572,
+        "lat": 37.8905794,
+        "lon": -122.2823217,
+        "timestamp": "2023-05-29T08:56:42Z",
+        "version": 1,
+        "changeset": 136687096,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10936454589,
+        "lat": 37.8920998,
+        "lon": -122.2847816,
+        "timestamp": "2023-05-29T08:56:42Z",
+        "version": 1,
+        "changeset": 136687096,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10939249104,
+        "lat": 37.8907575,
+        "lon": -122.2684527,
+        "timestamp": "2023-05-30T08:41:37Z",
+        "version": 1,
+        "changeset": 136732782,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10970185375,
+        "lat": 37.8264703,
+        "lon": -122.2470322,
+        "timestamp": "2026-07-07T01:23:05Z",
+        "version": 2,
+        "changeset": 185236830,
+        "user": "quackngo",
+        "uid": 24276851,
+        "tags": {
+          "addr:city": "Piedmont",
+          "addr:housenumber": "940",
+          "addr:postcode": "94611",
+          "addr:street": "Rose Avenue",
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2026-07-06",
+          "name": "Little Free Library",
+          "public_bookcase:type": "wooden_cabinet"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11013549820,
+        "lat": 37.884134,
+        "lon": -122.2532153,
+        "timestamp": "2023-06-29T07:46:59Z",
+        "version": 1,
+        "changeset": 137906931,
+        "user": "EliotHertenstein",
+        "uid": 13370292,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11014540537,
+        "lat": 37.8925293,
+        "lon": -122.2728931,
+        "timestamp": "2023-06-29T18:55:13Z",
+        "version": 1,
+        "changeset": 137930634,
+        "user": "user4816003805",
+        "uid": 4186070,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11084223688,
+        "lat": 37.8534349,
+        "lon": -122.2631159,
+        "timestamp": "2025-12-31T15:36:41Z",
+        "version": 2,
+        "changeset": 176677522,
+        "user": "qwertzuiopü1234",
+        "uid": 4868399,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-12-28",
+          "name": "Little Free Library",
+          "public_bookcase:type": "wooden_cabinet"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11111322395,
+        "lat": 37.8623195,
+        "lon": -122.2484082,
+        "timestamp": "2023-08-13T09:01:48Z",
+        "version": 1,
+        "changeset": 139814516,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11133125610,
+        "lat": 37.8242349,
+        "lon": -122.253534,
+        "timestamp": "2023-08-21T02:17:11Z",
+        "version": 1,
+        "changeset": 140158539,
+        "user": "user4816003805",
+        "uid": 4186070,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "ref": "162190"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11147627794,
+        "lat": 37.8781605,
+        "lon": -122.271838,
+        "timestamp": "2026-09-13T17:20:17Z",
+        "version": 3,
+        "changeset": 188972763,
+        "user": "lucioperca",
+        "uid": 1425289,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2026-09-13",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11247451400,
+        "lat": 37.8629471,
+        "lon": -122.2561762,
+        "timestamp": "2023-10-08T05:16:27Z",
+        "version": 1,
+        "changeset": 142290680,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11266303111,
+        "lat": 37.8914256,
+        "lon": -122.2866901,
+        "timestamp": "2023-10-16T08:24:20Z",
+        "version": 1,
+        "changeset": 142651781,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11266303113,
+        "lat": 37.8950368,
+        "lon": -122.2830907,
+        "timestamp": "2023-10-16T08:24:20Z",
+        "version": 1,
+        "changeset": 142651781,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11281013591,
+        "lat": 37.8920024,
+        "lon": -122.2739123,
+        "timestamp": "2023-10-22T08:59:27Z",
+        "version": 1,
+        "changeset": 142958158,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11281013593,
+        "lat": 37.8922569,
+        "lon": -122.2754589,
+        "timestamp": "2023-10-22T08:59:27Z",
+        "version": 1,
+        "changeset": 142958158,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11281013652,
+        "lat": 37.8963212,
+        "lon": -122.276454,
+        "timestamp": "2023-10-22T08:59:27Z",
+        "version": 1,
+        "changeset": 142958158,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11281013653,
+        "lat": 37.8965667,
+        "lon": -122.2766284,
+        "timestamp": "2023-10-22T08:59:27Z",
+        "version": 1,
+        "changeset": 142958158,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11281013660,
+        "lat": 37.894762,
+        "lon": -122.2805538,
+        "timestamp": "2023-10-22T08:59:27Z",
+        "version": 1,
+        "changeset": 142958158,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11281013661,
+        "lat": 37.8936915,
+        "lon": -122.278086,
+        "timestamp": "2024-02-19T17:44:37Z",
+        "version": 2,
+        "changeset": 147661232,
+        "user": "Bike 2 End",
+        "uid": 2529030,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11281020469,
+        "lat": 37.8933513,
+        "lon": -122.278509,
+        "timestamp": "2023-10-22T08:59:27Z",
+        "version": 1,
+        "changeset": 142958158,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11281345154,
+        "lat": 37.8861145,
+        "lon": -122.2739737,
+        "timestamp": "2023-10-22T12:44:33Z",
+        "version": 1,
+        "changeset": 142966748,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11281345156,
+        "lat": 37.8878757,
+        "lon": -122.2751695,
+        "timestamp": "2023-10-22T12:44:33Z",
+        "version": 1,
+        "changeset": 142966748,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "layer": "1",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11281360101,
+        "lat": 37.8901719,
+        "lon": -122.2791631,
+        "timestamp": "2023-10-22T12:44:33Z",
+        "version": 1,
+        "changeset": 142966748,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "shelf"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11282927029,
+        "lat": 37.8821627,
+        "lon": -122.2874303,
+        "timestamp": "2023-10-23T07:27:54Z",
+        "version": 1,
+        "changeset": 143003022,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11282927030,
+        "lat": 37.8898767,
+        "lon": -122.2906332,
+        "timestamp": "2023-10-23T07:27:54Z",
+        "version": 1,
+        "changeset": 143003022,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11282927031,
+        "lat": 37.8870425,
+        "lon": -122.2887084,
+        "timestamp": "2023-10-23T07:27:54Z",
+        "version": 1,
+        "changeset": 143003022,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11283136693,
+        "lat": 37.8866429,
+        "lon": -122.2690582,
+        "timestamp": "2023-10-23T09:41:25Z",
+        "version": 1,
+        "changeset": 143008722,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11283136702,
+        "lat": 37.8863024,
+        "lon": -122.269956,
+        "timestamp": "2023-12-30T14:33:44Z",
+        "version": 2,
+        "changeset": 145700199,
+        "user": "andrewpmk",
+        "uid": 1679,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11283136711,
+        "lat": 37.8881504,
+        "lon": -122.270364,
+        "timestamp": "2023-12-30T14:33:44Z",
+        "version": 2,
+        "changeset": 145700199,
+        "user": "andrewpmk",
+        "uid": 1679,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11283136712,
+        "lat": 37.8880387,
+        "lon": -122.2695628,
+        "timestamp": "2023-10-23T09:41:25Z",
+        "version": 1,
+        "changeset": 143008722,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "milk_crate"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11283136733,
+        "lat": 37.8886775,
+        "lon": -122.26927,
+        "timestamp": "2023-12-30T14:33:44Z",
+        "version": 2,
+        "changeset": 145700199,
+        "user": "andrewpmk",
+        "uid": 1679,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11283136767,
+        "lat": 37.8906329,
+        "lon": -122.2703889,
+        "timestamp": "2023-10-23T09:41:25Z",
+        "version": 1,
+        "changeset": 143008722,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11323281934,
+        "lat": 37.8810941,
+        "lon": -122.2718554,
+        "timestamp": "2023-11-05T10:13:05Z",
+        "version": 1,
+        "changeset": 143643113,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11323281936,
+        "lat": 37.8897348,
+        "lon": -122.2728451,
+        "timestamp": "2023-11-05T10:13:05Z",
+        "version": 1,
+        "changeset": 143643113,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11323281943,
+        "lat": 37.8960786,
+        "lon": -122.2836115,
+        "timestamp": "2023-11-05T10:13:05Z",
+        "version": 1,
+        "changeset": 143643113,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11328957786,
+        "lat": 37.8960235,
+        "lon": -122.2890202,
+        "timestamp": "2023-11-06T09:25:49Z",
+        "version": 1,
+        "changeset": 143683826,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11328957800,
+        "lat": 37.8921077,
+        "lon": -122.2919881,
+        "timestamp": "2024-08-05T19:57:53Z",
+        "version": 2,
+        "changeset": 154866664,
+        "user": "RoadGum",
+        "uid": 21094684,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11330934301,
+        "lat": 37.8791237,
+        "lon": -122.2609013,
+        "timestamp": "2026-08-19T19:09:24Z",
+        "version": 2,
+        "changeset": 187708241,
+        "user": "AstroSinclaire",
+        "uid": 17701212,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2026-08-19",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11330934346,
+        "lat": 37.8799176,
+        "lon": -122.2589446,
+        "timestamp": "2024-10-13T21:23:45Z",
+        "version": 2,
+        "changeset": 157852605,
+        "user": "RoadGum",
+        "uid": 21094684,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11330934364,
+        "lat": 37.8869697,
+        "lon": -122.2623892,
+        "timestamp": "2024-10-13T21:23:45Z",
+        "version": 2,
+        "changeset": 157852605,
+        "user": "RoadGum",
+        "uid": 21094684,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11528499565,
+        "lat": 37.8281565,
+        "lon": -122.2455053,
+        "timestamp": "2024-01-18T18:01:36Z",
+        "version": 1,
+        "changeset": 146415468,
+        "user": "Mingwei",
+        "uid": 14152086,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "wooden_cabinet"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11560950508,
+        "lat": 37.8558412,
+        "lon": -122.272956,
+        "timestamp": "2026-09-10T17:09:45Z",
+        "version": 2,
+        "changeset": 188836105,
+        "user": "lucioperca",
+        "uid": 1425289,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2026-09-10",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11609366468,
+        "lat": 37.8943498,
+        "lon": -122.2697116,
+        "timestamp": "2024-02-11T05:20:40Z",
+        "version": 1,
+        "changeset": 147315740,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11662309911,
+        "lat": 37.8710902,
+        "lon": -122.2843297,
+        "timestamp": "2024-02-25T09:16:17Z",
+        "version": 1,
+        "changeset": 147881967,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11662309919,
+        "lat": 37.872469,
+        "lon": -122.2776044,
+        "timestamp": "2024-02-25T09:16:17Z",
+        "version": 1,
+        "changeset": 147881967,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11815838448,
+        "lat": 37.8940857,
+        "lon": -122.2786005,
+        "timestamp": "2024-04-14T04:07:41Z",
+        "version": 1,
+        "changeset": 149975546,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11815838450,
+        "lat": 37.8945281,
+        "lon": -122.2793937,
+        "timestamp": "2024-04-14T04:07:41Z",
+        "version": 1,
+        "changeset": 149975546,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11815838451,
+        "lat": 37.894236,
+        "lon": -122.2802373,
+        "timestamp": "2024-04-14T04:07:41Z",
+        "version": 1,
+        "changeset": 149975546,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11815838452,
+        "lat": 37.893763,
+        "lon": -122.2827639,
+        "timestamp": "2024-04-14T04:07:41Z",
+        "version": 1,
+        "changeset": 149975546,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11816457115,
+        "lat": 37.886671,
+        "lon": -122.2751024,
+        "timestamp": "2024-04-14T11:43:18Z",
+        "version": 1,
+        "changeset": 149988897,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11816457147,
+        "lat": 37.8849447,
+        "lon": -122.2783635,
+        "timestamp": "2024-04-14T11:43:18Z",
+        "version": 1,
+        "changeset": 149988897,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11816462579,
+        "lat": 37.8883134,
+        "lon": -122.2871374,
+        "timestamp": "2024-10-13T21:23:45Z",
+        "version": 2,
+        "changeset": 157852605,
+        "user": "RoadGum",
+        "uid": 21094684,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11861732052,
+        "lat": 37.8572782,
+        "lon": -122.2555295,
+        "timestamp": "2024-04-28T08:40:38Z",
+        "version": 1,
+        "changeset": 150608145,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11861732055,
+        "lat": 37.8516006,
+        "lon": -122.2547603,
+        "timestamp": "2024-04-28T08:40:38Z",
+        "version": 1,
+        "changeset": 150608145,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11861770288,
+        "lat": 37.8629272,
+        "lon": -122.2550641,
+        "timestamp": "2024-04-28T08:40:38Z",
+        "version": 1,
+        "changeset": 150608145,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11861770289,
+        "lat": 37.8615619,
+        "lon": -122.2548495,
+        "timestamp": "2024-04-28T08:40:38Z",
+        "version": 1,
+        "changeset": 150608145,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Neighborhood Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11861770291,
+        "lat": 37.8531001,
+        "lon": -122.2539517,
+        "timestamp": "2024-04-28T08:40:38Z",
+        "version": 1,
+        "changeset": 150608145,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11861913576,
+        "lat": 37.8775692,
+        "lon": -122.277199,
+        "timestamp": "2024-04-28T10:04:55Z",
+        "version": 1,
+        "changeset": 150611147,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11861913663,
+        "lat": 37.8770627,
+        "lon": -122.2783269,
+        "timestamp": "2024-10-13T21:13:09Z",
+        "version": 2,
+        "changeset": 157852315,
+        "user": "RoadGum",
+        "uid": 21094684,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11861913664,
+        "lat": 37.8787442,
+        "lon": -122.2787621,
+        "timestamp": "2024-04-28T10:04:55Z",
+        "version": 1,
+        "changeset": 150611147,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11865562852,
+        "lat": 37.8843511,
+        "lon": -122.2889907,
+        "timestamp": "2024-10-13T21:23:45Z",
+        "version": 2,
+        "changeset": 157852605,
+        "user": "RoadGum",
+        "uid": 21094684,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11865562853,
+        "lat": 37.8818928,
+        "lon": -122.2888532,
+        "timestamp": "2024-04-29T07:29:26Z",
+        "version": 1,
+        "changeset": 150648610,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11865787826,
+        "lat": 37.8857347,
+        "lon": -122.2664213,
+        "timestamp": "2024-10-13T21:23:45Z",
+        "version": 2,
+        "changeset": 157852605,
+        "user": "RoadGum",
+        "uid": 21094684,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11865787832,
+        "lat": 37.8835128,
+        "lon": -122.265249,
+        "timestamp": "2024-04-29T09:54:22Z",
+        "version": 1,
+        "changeset": 150654433,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11865787843,
+        "lat": 37.8821473,
+        "lon": -122.2648642,
+        "timestamp": "2024-04-29T09:54:22Z",
+        "version": 1,
+        "changeset": 150654433,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11865812717,
+        "lat": 37.8756698,
+        "lon": -122.2641708,
+        "timestamp": "2024-04-29T09:54:22Z",
+        "version": 1,
+        "changeset": 150654433,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11883168317,
+        "lat": 37.8915716,
+        "lon": -122.2649863,
+        "timestamp": "2024-05-06T08:57:49Z",
+        "version": 1,
+        "changeset": 150953802,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Little Euclidian Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11883169848,
+        "lat": 37.8835345,
+        "lon": -122.2715013,
+        "timestamp": "2024-05-06T08:16:29Z",
+        "version": 1,
+        "changeset": 150952059,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11898081672,
+        "lat": 37.8853027,
+        "lon": -122.2927203,
+        "timestamp": "2024-05-12T06:32:23Z",
+        "version": 1,
+        "changeset": 151210915,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11898081684,
+        "lat": 37.8900777,
+        "lon": -122.2935323,
+        "timestamp": "2026-09-12T17:07:27Z",
+        "version": 2,
+        "changeset": 188926057,
+        "user": "lucioperca",
+        "uid": 1425289,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2026-09-12",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12048130060,
+        "lat": 37.8757633,
+        "lon": -122.2802509,
+        "timestamp": "2024-07-14T20:52:51Z",
+        "version": 2,
+        "changeset": 153946858,
+        "user": "habi",
+        "uid": 15671,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "ref": "64797"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12048130068,
+        "lat": 37.8761291,
+        "lon": -122.2794054,
+        "timestamp": "2024-07-11T22:39:46Z",
+        "version": 1,
+        "changeset": 153831819,
+        "user": "habi",
+        "uid": 15671,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12101680193,
+        "lat": 37.8307214,
+        "lon": -122.2570161,
+        "timestamp": "2024-08-10T04:20:32Z",
+        "version": 1,
+        "changeset": 155046536,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-08-09",
+          "lit": "no",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12101680194,
+        "lat": 37.8317893,
+        "lon": -122.2620244,
+        "timestamp": "2024-09-09T16:04:48Z",
+        "version": 2,
+        "changeset": 156402172,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2024-08-09",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12105264210,
+        "lat": 37.8167106,
+        "lon": -122.2555041,
+        "timestamp": "2024-10-05T04:11:06Z",
+        "version": 2,
+        "changeset": 157483566,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Free Little Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12107398513,
+        "lat": 37.8359436,
+        "lon": -122.2640298,
+        "timestamp": "2026-10-03T23:47:58Z",
+        "version": 2,
+        "changeset": 189955439,
+        "user": "user4816003805",
+        "uid": 4186070,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2026-10-03",
+          "lit": "no",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12111862622,
+        "lat": 37.8260359,
+        "lon": -122.2602678,
+        "timestamp": "2024-08-15T02:52:58Z",
+        "version": 1,
+        "changeset": 155264632,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12111862624,
+        "lat": 37.8280114,
+        "lon": -122.2621348,
+        "timestamp": "2024-08-15T02:52:58Z",
+        "version": 1,
+        "changeset": 155264632,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "lit": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12133996155,
+        "lat": 37.8300769,
+        "lon": -122.2562754,
+        "timestamp": "2024-09-11T04:41:23Z",
+        "version": 2,
+        "changeset": 156464770,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12134304611,
+        "lat": 37.8336543,
+        "lon": -122.2602445,
+        "timestamp": "2024-08-24T18:25:01Z",
+        "version": 1,
+        "changeset": 155709898,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12160397258,
+        "lat": 37.8297019,
+        "lon": -122.259372,
+        "timestamp": "2024-09-09T16:04:48Z",
+        "version": 2,
+        "changeset": 156402172,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "books": "children",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12161179763,
+        "lat": 37.8280374,
+        "lon": -122.2582965,
+        "timestamp": "2024-09-07T02:49:14Z",
+        "version": 1,
+        "changeset": 156297169,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "lit": "no",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12165840021,
+        "lat": 37.8309698,
+        "lon": -122.26286,
+        "timestamp": "2024-09-09T16:04:48Z",
+        "version": 1,
+        "changeset": 156402172,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12181389202,
+        "lat": 37.8223638,
+        "lon": -122.2548394,
+        "timestamp": "2024-09-17T03:59:05Z",
+        "version": 1,
+        "changeset": 156711916,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12198330235,
+        "lat": 37.8172398,
+        "lon": -122.2585897,
+        "timestamp": "2024-09-25T04:40:01Z",
+        "version": 1,
+        "changeset": 157063268,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12198330236,
+        "lat": 37.8183415,
+        "lon": -122.2577593,
+        "timestamp": "2024-09-25T04:40:01Z",
+        "version": 1,
+        "changeset": 157063268,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12203254614,
+        "lat": 37.8256929,
+        "lon": -122.2593551,
+        "timestamp": "2024-09-27T03:17:47Z",
+        "version": 1,
+        "changeset": 157152270,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12207063905,
+        "lat": 37.8342886,
+        "lon": -122.2572602,
+        "timestamp": "2024-09-28T15:10:30Z",
+        "version": 1,
+        "changeset": 157215623,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12212932187,
+        "lat": 37.8304939,
+        "lon": -122.2622373,
+        "timestamp": "2024-10-01T03:06:10Z",
+        "version": 1,
+        "changeset": 157319933,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12212932188,
+        "lat": 37.824249,
+        "lon": -122.2637839,
+        "timestamp": "2024-10-01T03:06:10Z",
+        "version": 1,
+        "changeset": 157319933,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12214728035,
+        "lat": 37.822977,
+        "lon": -122.2502214,
+        "timestamp": "2024-10-01T18:28:51Z",
+        "version": 1,
+        "changeset": 157352103,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12214728036,
+        "lat": 37.8252233,
+        "lon": -122.2494852,
+        "timestamp": "2024-10-01T18:28:51Z",
+        "version": 1,
+        "changeset": 157352103,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12214728037,
+        "lat": 37.8273883,
+        "lon": -122.2491497,
+        "timestamp": "2024-10-01T18:28:51Z",
+        "version": 1,
+        "changeset": 157352103,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12215280920,
+        "lat": 37.8393448,
+        "lon": -122.2852959,
+        "timestamp": "2024-10-02T02:23:22Z",
+        "version": 1,
+        "changeset": 157361832,
+        "user": "user4816003805",
+        "uid": 4186070,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12222394890,
+        "lat": 37.8204049,
+        "lon": -122.2534906,
+        "timestamp": "2024-10-04T13:44:21Z",
+        "version": 1,
+        "changeset": 157461820,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12223884338,
+        "lat": 37.8381237,
+        "lon": -122.2641181,
+        "timestamp": "2024-10-05T04:11:06Z",
+        "version": 1,
+        "changeset": 157483566,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12231024795,
+        "lat": 37.8141916,
+        "lon": -122.2560836,
+        "timestamp": "2024-10-07T03:57:12Z",
+        "version": 1,
+        "changeset": 157563805,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12231024796,
+        "lat": 37.8183563,
+        "lon": -122.2506704,
+        "timestamp": "2024-10-07T03:57:12Z",
+        "version": 1,
+        "changeset": 157563805,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12234018992,
+        "lat": 37.8247614,
+        "lon": -122.2631928,
+        "timestamp": "2024-10-08T04:46:11Z",
+        "version": 1,
+        "changeset": 157607025,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12234018993,
+        "lat": 37.8256393,
+        "lon": -122.256711,
+        "timestamp": "2024-10-08T04:46:11Z",
+        "version": 1,
+        "changeset": 157607025,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12240203003,
+        "lat": 37.8331911,
+        "lon": -122.2700692,
+        "timestamp": "2025-03-22T23:38:18Z",
+        "version": 2,
+        "changeset": 163967441,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-03-17",
+          "name": "Little Free Library",
+          "public_bookcase:type": "glass_cabinet"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12247581403,
+        "lat": 37.8323716,
+        "lon": -122.2785012,
+        "timestamp": "2024-10-13T04:32:49Z",
+        "version": 1,
+        "changeset": 157819261,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2024-10-12",
+          "name": "EBGIS Community Book Exchange",
+          "operator": "East Bay German International School",
+          "public_bookcase:type": "wooden_cabinet"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12247581404,
+        "lat": 37.8311573,
+        "lon": -122.2522306,
+        "timestamp": "2024-10-13T04:32:49Z",
+        "version": 1,
+        "changeset": 157819261,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-10-11",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12247581405,
+        "lat": 37.8315463,
+        "lon": -122.2519404,
+        "timestamp": "2024-10-13T04:32:49Z",
+        "version": 1,
+        "changeset": 157819261,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2024-10-11",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12247581406,
+        "lat": 37.8336461,
+        "lon": -122.2683729,
+        "timestamp": "2024-10-13T04:32:49Z",
+        "version": 1,
+        "changeset": 157819261,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2024-10-11"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12254471703,
+        "lat": 37.8280244,
+        "lon": -122.2521198,
+        "timestamp": "2024-10-16T05:14:50Z",
+        "version": 1,
+        "changeset": 157947257,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-10-14",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12254471704,
+        "lat": 37.8374717,
+        "lon": -122.2596081,
+        "timestamp": "2024-10-16T05:14:50Z",
+        "version": 1,
+        "changeset": 157947257,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-10-15",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12254471705,
+        "lat": 37.8409259,
+        "lon": -122.2568343,
+        "timestamp": "2024-10-16T05:14:50Z",
+        "version": 1,
+        "changeset": 157947257,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "books": "children",
+          "check_date": "2024-10-15",
+          "lit": "no",
+          "public_bookcase:type": "newspaper_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12254471707,
+        "lat": 37.8401258,
+        "lon": -122.2566543,
+        "timestamp": "2024-10-16T05:14:50Z",
+        "version": 1,
+        "changeset": 157947257,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "bench": "yes",
+          "books": "children",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-10-15",
+          "dog_treats": "yes",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12257451983,
+        "lat": 37.8294256,
+        "lon": -122.2515485,
+        "timestamp": "2024-10-17T03:49:46Z",
+        "version": 1,
+        "changeset": 157990210,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "books": "children",
+          "check_date": "2024-10-16",
+          "lit": "no",
+          "name": "The Kid Cottage",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12257451984,
+        "lat": 37.8298468,
+        "lon": -122.2499718,
+        "timestamp": "2024-10-17T03:49:46Z",
+        "version": 1,
+        "changeset": 157990210,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "alt_name": "Geranium Hill Little Library",
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-10-16",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12257451985,
+        "lat": 37.8293701,
+        "lon": -122.250019,
+        "timestamp": "2024-10-17T03:49:46Z",
+        "version": 1,
+        "changeset": 157990210,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "alt_name": "Storyhaven",
+          "amenity": "public_bookcase",
+          "books": "children",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-10-16",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12265567528,
+        "lat": 37.8401302,
+        "lon": -122.2553856,
+        "timestamp": "2024-10-19T05:59:14Z",
+        "version": 1,
+        "changeset": 158075853,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "books": "children;adults",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-10-18",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12265567529,
+        "lat": 37.8418696,
+        "lon": -122.25401,
+        "timestamp": "2024-10-19T05:59:14Z",
+        "version": 1,
+        "changeset": 158075853,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-10-18",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12265567551,
+        "lat": 37.8417608,
+        "lon": -122.253271,
+        "timestamp": "2024-10-19T05:59:14Z",
+        "version": 1,
+        "changeset": 158075853,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12265567552,
+        "lat": 37.837933,
+        "lon": -122.2563515,
+        "timestamp": "2024-10-19T05:59:14Z",
+        "version": 1,
+        "changeset": 158075853,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12277799205,
+        "lat": 37.84008,
+        "lon": -122.2533832,
+        "timestamp": "2024-10-22T02:26:41Z",
+        "version": 1,
+        "changeset": 158192840,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-10-21",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12277799206,
+        "lat": 37.8409095,
+        "lon": -122.2527186,
+        "timestamp": "2024-10-22T02:26:41Z",
+        "version": 1,
+        "changeset": 158192840,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "books": "adults;children",
+          "check_date": "2024-10-21",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12277799207,
+        "lat": 37.8401807,
+        "lon": -122.2524757,
+        "timestamp": "2024-10-22T02:26:41Z",
+        "version": 1,
+        "changeset": 158192840,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-10-21",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12280459400,
+        "lat": 37.8368831,
+        "lon": -122.2540843,
+        "timestamp": "2024-10-23T02:43:20Z",
+        "version": 1,
+        "changeset": 158234908,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-10-22",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12280473601,
+        "lat": 37.8374151,
+        "lon": -122.253661,
+        "timestamp": "2024-10-23T02:43:20Z",
+        "version": 1,
+        "changeset": 158234908,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2024-10-22",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12280473602,
+        "lat": 37.838246,
+        "lon": -122.2528316,
+        "timestamp": "2024-10-23T02:43:20Z",
+        "version": 1,
+        "changeset": 158234908,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-10-22",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12284616031,
+        "lat": 37.8146925,
+        "lon": -122.2599541,
+        "timestamp": "2024-10-24T05:15:21Z",
+        "version": 1,
+        "changeset": 158280103,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-10-23",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12295677548,
+        "lat": 37.8318099,
+        "lon": -122.2506934,
+        "timestamp": "2024-10-29T03:45:09Z",
+        "version": 1,
+        "changeset": 158480987,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2024-10-28",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12295677549,
+        "lat": 37.831869,
+        "lon": -122.24996,
+        "timestamp": "2024-10-29T03:45:09Z",
+        "version": 1,
+        "changeset": 158480987,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2024-10-28",
+          "lit": "no",
+          "name": "Little Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12306035000,
+        "lat": 37.8388591,
+        "lon": -122.2593126,
+        "timestamp": "2024-11-02T00:44:19Z",
+        "version": 1,
+        "changeset": 158641903,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2024-11-01",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12327684302,
+        "lat": 37.8307326,
+        "lon": -122.2736067,
+        "timestamp": "2024-11-09T23:21:38Z",
+        "version": 1,
+        "changeset": 158951913,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-11-09",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12327684303,
+        "lat": 37.8443797,
+        "lon": -122.2580051,
+        "timestamp": "2024-11-09T23:21:38Z",
+        "version": 1,
+        "changeset": 158951913,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2024-11-09",
+          "lit": "no",
+          "public_bookcase:type": "wooden_cabinet"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12327684304,
+        "lat": 37.8444585,
+        "lon": -122.260587,
+        "timestamp": "2024-11-09T23:21:38Z",
+        "version": 1,
+        "changeset": 158951913,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2024-11-09",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12327684305,
+        "lat": 37.8427843,
+        "lon": -122.264731,
+        "timestamp": "2024-11-09T23:21:38Z",
+        "version": 1,
+        "changeset": 158951913,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-11-09",
+          "lit": "no",
+          "name": "Little Free Library",
+          "operator": "New Harbinger Publications",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12345148106,
+        "lat": 37.8193292,
+        "lon": -122.2477264,
+        "timestamp": "2024-11-16T01:46:34Z",
+        "version": 1,
+        "changeset": 159192427,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-11-15",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12345148107,
+        "lat": 37.819551,
+        "lon": -122.2489736,
+        "timestamp": "2024-11-16T01:46:34Z",
+        "version": 1,
+        "changeset": 159192427,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12377715566,
+        "lat": 37.8769654,
+        "lon": -122.2760156,
+        "timestamp": "2024-11-27T06:37:52Z",
+        "version": 1,
+        "changeset": 159644546,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12377715569,
+        "lat": 37.8789075,
+        "lon": -122.2791851,
+        "timestamp": "2024-11-27T06:37:52Z",
+        "version": 1,
+        "changeset": 159644546,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Quicaela's Bookcase",
+          "public_bookcase:type": "wooden_cabinet"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12383735198,
+        "lat": 37.8867432,
+        "lon": -122.2856869,
+        "timestamp": "2024-11-29T05:10:36Z",
+        "version": 1,
+        "changeset": 159726927,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12383735199,
+        "lat": 37.8865223,
+        "lon": -122.2857694,
+        "timestamp": "2024-11-29T05:10:36Z",
+        "version": 1,
+        "changeset": 159726927,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12383743801,
+        "lat": 37.8838081,
+        "lon": -122.2857556,
+        "timestamp": "2024-11-29T05:10:36Z",
+        "version": 1,
+        "changeset": 159726927,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12383743818,
+        "lat": 37.8911479,
+        "lon": -122.2956686,
+        "timestamp": "2024-11-29T05:10:36Z",
+        "version": 1,
+        "changeset": 159726927,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Little Free Library",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12405674977,
+        "lat": 37.8329303,
+        "lon": -122.2765387,
+        "timestamp": "2024-12-08T22:32:13Z",
+        "version": 1,
+        "changeset": 160072348,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "lit": "no",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12424962156,
+        "lat": 37.816762,
+        "lon": -122.2537389,
+        "timestamp": "2026-09-05T23:50:01Z",
+        "version": 3,
+        "changeset": 188595335,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "lit": "no",
+          "name": "Little Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12424967939,
+        "lat": 37.8359292,
+        "lon": -122.2578963,
+        "timestamp": "2024-12-17T15:13:15Z",
+        "version": 1,
+        "changeset": 160304843,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2024-12-09",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12452864318,
+        "lat": 37.8578343,
+        "lon": -122.2504799,
+        "timestamp": "2026-04-26T05:59:20Z",
+        "version": 2,
+        "changeset": 181830909,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12452864319,
+        "lat": 37.8581824,
+        "lon": -122.2508433,
+        "timestamp": "2024-12-26T10:57:40Z",
+        "version": 1,
+        "changeset": 160631854,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12452864320,
+        "lat": 37.8576641,
+        "lon": -122.2522511,
+        "timestamp": "2024-12-26T10:57:40Z",
+        "version": 1,
+        "changeset": 160631854,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12452864326,
+        "lat": 37.8558929,
+        "lon": -122.2538424,
+        "timestamp": "2024-12-26T10:57:40Z",
+        "version": 1,
+        "changeset": 160631854,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12452864331,
+        "lat": 37.8550286,
+        "lon": -122.2564317,
+        "timestamp": "2024-12-26T10:57:40Z",
+        "version": 1,
+        "changeset": 160631854,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12452864337,
+        "lat": 37.8512943,
+        "lon": -122.2556056,
+        "timestamp": "2024-12-26T10:57:40Z",
+        "version": 1,
+        "changeset": 160631854,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12513222828,
+        "lat": 37.8105439,
+        "lon": -122.2564565,
+        "timestamp": "2025-01-19T01:43:25Z",
+        "version": 1,
+        "changeset": 161511258,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12531596983,
+        "lat": 37.8441697,
+        "lon": -122.2472059,
+        "timestamp": "2025-01-25T11:59:54Z",
+        "version": 1,
+        "changeset": 161742871,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12531610904,
+        "lat": 37.845266,
+        "lon": -122.2486908,
+        "timestamp": "2025-01-25T11:59:54Z",
+        "version": 1,
+        "changeset": 161742871,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12531610905,
+        "lat": 37.8452631,
+        "lon": -122.2486992,
+        "timestamp": "2025-01-25T11:59:54Z",
+        "version": 1,
+        "changeset": 161742871,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12531610906,
+        "lat": 37.8452555,
+        "lon": -122.2486945,
+        "timestamp": "2025-01-25T11:59:54Z",
+        "version": 1,
+        "changeset": 161742871,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12533684835,
+        "lat": 37.8516043,
+        "lon": -122.2425127,
+        "timestamp": "2025-06-24T23:39:56Z",
+        "version": 2,
+        "changeset": 168070674,
+        "user": "Dogman15",
+        "uid": 14845392,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12533684836,
+        "lat": 37.8505758,
+        "lon": -122.2445747,
+        "timestamp": "2025-06-24T23:39:56Z",
+        "version": 2,
+        "changeset": 168070674,
+        "user": "Dogman15",
+        "uid": 14845392,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "name": "Little Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12533684840,
+        "lat": 37.8485794,
+        "lon": -122.2511206,
+        "timestamp": "2025-01-26T10:03:39Z",
+        "version": 1,
+        "changeset": 161773925,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12554820739,
+        "lat": 37.8579631,
+        "lon": -122.2703679,
+        "timestamp": "2025-02-03T22:02:55Z",
+        "version": 1,
+        "changeset": 162103872,
+        "user": "user4816003805",
+        "uid": 4186070,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12644828125,
+        "lat": 37.8673528,
+        "lon": -122.2617384,
+        "timestamp": "2025-03-08T07:35:07Z",
+        "version": 1,
+        "changeset": 163352479,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12644830922,
+        "lat": 37.8371584,
+        "lon": -122.2235551,
+        "timestamp": "2025-03-08T07:32:11Z",
+        "version": 1,
+        "changeset": 163352424,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12644830923,
+        "lat": 37.8346271,
+        "lon": -122.2250426,
+        "timestamp": "2025-03-08T07:32:11Z",
+        "version": 1,
+        "changeset": 163352424,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12648387331,
+        "lat": 37.8880452,
+        "lon": -122.2581716,
+        "timestamp": "2025-03-09T21:21:43Z",
+        "version": 1,
+        "changeset": 163418310,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-03-09",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12648387332,
+        "lat": 37.8835766,
+        "lon": -122.2661775,
+        "timestamp": "2025-03-09T21:21:43Z",
+        "version": 1,
+        "changeset": 163418310,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-03-09",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12648387333,
+        "lat": 37.8825687,
+        "lon": -122.2673926,
+        "timestamp": "2025-03-09T21:21:43Z",
+        "version": 1,
+        "changeset": 163418310,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-03-09",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12648387334,
+        "lat": 37.8754735,
+        "lon": -122.2784295,
+        "timestamp": "2025-03-09T21:21:43Z",
+        "version": 1,
+        "changeset": 163418310,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "books": "children",
+          "check_date": "2025-03-09",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12656275704,
+        "lat": 37.842953,
+        "lon": -122.2526017,
+        "timestamp": "2025-03-12T13:42:18Z",
+        "version": 1,
+        "changeset": 163528627,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-03-11",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12657824385,
+        "lat": 37.8793006,
+        "lon": -122.2681776,
+        "timestamp": "2025-03-13T04:26:16Z",
+        "version": 1,
+        "changeset": 163553704,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-03-12",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12670698863,
+        "lat": 37.8242043,
+        "lon": -122.2473079,
+        "timestamp": "2025-03-16T20:29:33Z",
+        "version": 1,
+        "changeset": 163705376,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-03-16",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12670698864,
+        "lat": 37.8272436,
+        "lon": -122.2480404,
+        "timestamp": "2025-03-16T20:29:33Z",
+        "version": 1,
+        "changeset": 163705376,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "books": "adults;children",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-03-16",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12670698865,
+        "lat": 37.8244791,
+        "lon": -122.248575,
+        "timestamp": "2025-03-16T20:29:33Z",
+        "version": 1,
+        "changeset": 163705376,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-03-16",
+          "lit": "no",
+          "name": "Neighborhood Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12692064647,
+        "lat": 37.8319596,
+        "lon": -122.2714999,
+        "timestamp": "2025-03-22T23:38:18Z",
+        "version": 1,
+        "changeset": 163967441,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-03-17",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12692064648,
+        "lat": 37.8310096,
+        "lon": -122.270402,
+        "timestamp": "2025-03-22T23:38:18Z",
+        "version": 1,
+        "changeset": 163967441,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-03-17",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12692064649,
+        "lat": 37.8324166,
+        "lon": -122.2697421,
+        "timestamp": "2025-03-22T23:38:18Z",
+        "version": 1,
+        "changeset": 163967441,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-03-17",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12692064650,
+        "lat": 37.8325831,
+        "lon": -122.270781,
+        "timestamp": "2025-03-22T23:38:18Z",
+        "version": 1,
+        "changeset": 163967441,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-03-17",
+          "name": "Free Library",
+          "public_bookcase:type": "glass_cabinet"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12692064651,
+        "lat": 37.8339654,
+        "lon": -122.2747778,
+        "timestamp": "2025-03-22T23:38:18Z",
+        "version": 1,
+        "changeset": 163967441,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-03-17",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12698919356,
+        "lat": 37.834338,
+        "lon": -122.2725193,
+        "timestamp": "2025-03-25T14:00:56Z",
+        "version": 1,
+        "changeset": 164078671,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-03-24",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12698919357,
+        "lat": 37.8350201,
+        "lon": -122.2713998,
+        "timestamp": "2025-03-25T14:00:56Z",
+        "version": 1,
+        "changeset": 164078671,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-03-24",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12698919358,
+        "lat": 37.8356249,
+        "lon": -122.2715893,
+        "timestamp": "2025-03-25T14:00:56Z",
+        "version": 1,
+        "changeset": 164078671,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-03-24",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12698919359,
+        "lat": 37.8366196,
+        "lon": -122.2724068,
+        "timestamp": "2025-03-25T14:00:56Z",
+        "version": 1,
+        "changeset": 164078671,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-03-24",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12716187638,
+        "lat": 37.8100813,
+        "lon": -122.2503717,
+        "timestamp": "2025-03-31T13:59:52Z",
+        "version": 1,
+        "changeset": 164332124,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-03-28",
+          "lit": "no",
+          "name": "Community Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12759800027,
+        "lat": 37.8149041,
+        "lon": -122.2478376,
+        "timestamp": "2025-04-16T14:18:22Z",
+        "version": 1,
+        "changeset": 165031542,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-04-13",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12766290728,
+        "lat": 37.8284072,
+        "lon": -122.2634708,
+        "timestamp": "2025-04-18T15:12:00Z",
+        "version": 1,
+        "changeset": 165117354,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-04-17",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12811766607,
+        "lat": 37.8350703,
+        "lon": -122.2783126,
+        "timestamp": "2025-05-05T14:26:11Z",
+        "version": 1,
+        "changeset": 165849191,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-04-30",
+          "name": "Books Rock",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12811766608,
+        "lat": 37.8710604,
+        "lon": -122.2880272,
+        "timestamp": "2025-05-05T14:26:11Z",
+        "version": 1,
+        "changeset": 165849191,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-05-01",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12811766610,
+        "lat": 37.8702294,
+        "lon": -122.2940847,
+        "timestamp": "2025-05-05T14:26:11Z",
+        "version": 1,
+        "changeset": 165849191,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-05-01",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12835126481,
+        "lat": 37.8670301,
+        "lon": -122.2747571,
+        "timestamp": "2025-05-14T01:47:30Z",
+        "version": 1,
+        "changeset": 166230713,
+        "user": "user4816003805",
+        "uid": 4186070,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12881020151,
+        "lat": 37.8412649,
+        "lon": -122.2675587,
+        "timestamp": "2025-06-02T13:54:40Z",
+        "version": 1,
+        "changeset": 167093641,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-05-15",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12881020152,
+        "lat": 37.8421037,
+        "lon": -122.2675282,
+        "timestamp": "2025-06-02T13:54:40Z",
+        "version": 1,
+        "changeset": 167093641,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-05-15",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12881020153,
+        "lat": 37.8448741,
+        "lon": -122.2681092,
+        "timestamp": "2025-06-02T13:54:40Z",
+        "version": 1,
+        "changeset": 167093641,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "books": "children",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-05-15",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12881020154,
+        "lat": 37.8462813,
+        "lon": -122.268595,
+        "timestamp": "2025-06-02T13:54:40Z",
+        "version": 1,
+        "changeset": 167093641,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-05-15",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12881020155,
+        "lat": 37.8481427,
+        "lon": -122.2688305,
+        "timestamp": "2025-06-02T13:54:40Z",
+        "version": 1,
+        "changeset": 167093641,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-05-15",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12881020156,
+        "lat": 37.8463172,
+        "lon": -122.2681491,
+        "timestamp": "2025-06-02T13:54:40Z",
+        "version": 1,
+        "changeset": 167093641,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-05-15",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12960711740,
+        "lat": 37.8525028,
+        "lon": -122.2516879,
+        "timestamp": "2025-06-29T08:02:44Z",
+        "version": 1,
+        "changeset": 168254184,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12965493906,
+        "lat": 37.8624779,
+        "lon": -122.2740677,
+        "timestamp": "2025-07-01T01:13:27Z",
+        "version": 1,
+        "changeset": 168331694,
+        "user": "user4816003805",
+        "uid": 4186070,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12985662350,
+        "lat": 37.8403347,
+        "lon": -122.2917246,
+        "timestamp": "2025-07-07T13:49:13Z",
+        "version": 1,
+        "changeset": 168606689,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2025-07-01",
+          "location": "indoor",
+          "name": "Emeryville Station Free Library",
+          "operator": "Friends of the Oakland Public Library",
+          "public_bookcase:type": "shelf"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13027800936,
+        "lat": 37.8804044,
+        "lon": -122.2580916,
+        "timestamp": "2025-07-27T04:42:01Z",
+        "version": 1,
+        "changeset": 169537854,
+        "user": "oba510",
+        "uid": 933797,
+        "tags": {
+          "amenity": "public_bookcase",
+          "note": "approximate location",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13134729585,
+        "lat": 37.8620088,
+        "lon": -122.2817526,
+        "timestamp": "2025-09-10T18:36:43Z",
+        "version": 1,
+        "changeset": 171750742,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-08-28",
+          "name": "The Book House",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13136538144,
+        "lat": 37.849412,
+        "lon": -122.2612684,
+        "timestamp": "2025-09-11T15:45:40Z",
+        "version": 1,
+        "changeset": 171791532,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2025-09-10",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13309168289,
+        "lat": 37.8614967,
+        "lon": -122.2964686,
+        "timestamp": "2025-11-16T20:26:55Z",
+        "version": 1,
+        "changeset": 174744447,
+        "user": "user4816003805",
+        "uid": 4186070,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13433289675,
+        "lat": 37.8236008,
+        "lon": -122.283725,
+        "timestamp": "2026-01-05T20:46:40Z",
+        "version": 1,
+        "changeset": 176878249,
+        "user": "paul1764",
+        "uid": 10197518,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "public_bookcase:type": "wooden_cabinet"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13449366890,
+        "lat": 37.8477674,
+        "lon": -122.2651007,
+        "timestamp": "2026-01-12T04:52:33Z",
+        "version": 1,
+        "changeset": 177121640,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13449366891,
+        "lat": 37.8497727,
+        "lon": -122.2629812,
+        "timestamp": "2026-01-12T04:52:33Z",
+        "version": 1,
+        "changeset": 177121640,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "name": "Lil Free Library",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13462340780,
+        "lat": 37.807809,
+        "lon": -122.2534435,
+        "timestamp": "2026-01-17T15:06:58Z",
+        "version": 1,
+        "changeset": 177339426,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13702835892,
+        "lat": 37.8139377,
+        "lon": -122.2327792,
+        "timestamp": "2026-04-03T03:39:21Z",
+        "version": 1,
+        "changeset": 180793169,
+        "user": "CubedYellow",
+        "uid": 23525976,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13750041343,
+        "lat": 37.8588507,
+        "lon": -122.2756186,
+        "timestamp": "2026-04-21T18:22:02Z",
+        "version": 1,
+        "changeset": 181640550,
+        "user": "user4816003805",
+        "uid": 4186070,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13828127134,
+        "lat": 37.9007282,
+        "lon": -122.2692068,
+        "timestamp": "2026-05-14T15:21:44Z",
+        "version": 1,
+        "changeset": 182655536,
+        "user": "laloma",
+        "uid": 11596923,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13828139778,
+        "lat": 37.9002378,
+        "lon": -122.2692645,
+        "timestamp": "2026-05-14T15:21:45Z",
+        "version": 1,
+        "changeset": 182655536,
+        "user": "laloma",
+        "uid": 11596923,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13828141642,
+        "lat": 37.9039647,
+        "lon": -122.2694612,
+        "timestamp": "2026-05-14T15:21:44Z",
+        "version": 1,
+        "changeset": 182655536,
+        "user": "laloma",
+        "uid": 11596923,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13981395039,
+        "lat": 37.9042016,
+        "lon": -122.3031007,
+        "timestamp": "2026-07-01T19:53:37Z",
+        "version": 1,
+        "changeset": 184935539,
+        "user": "user4816003805",
+        "uid": 4186070,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13981578784,
+        "lat": 37.8531486,
+        "lon": -122.2505784,
+        "timestamp": "2026-07-01T22:17:47Z",
+        "version": 1,
+        "changeset": 184941707,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2026-03-01",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13981649385,
+        "lat": 37.8132328,
+        "lon": -122.2540317,
+        "timestamp": "2026-07-01T22:19:54Z",
+        "version": 1,
+        "changeset": 184941781,
+        "user": "M GCS",
+        "uid": 2182541,
+        "tags": {
+          "amenity": "public_bookcase",
+          "brand": "Little Free Library",
+          "brand:wikidata": "Q6650101",
+          "check_date": "2026-03-01",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14066648510,
+        "lat": 37.8627901,
+        "lon": -122.2774606,
+        "timestamp": "2026-08-01T16:28:47Z",
+        "version": 1,
+        "changeset": 186771713,
+        "user": "Avirr8",
+        "uid": 22384046,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      }
+    ]
+  }
+}

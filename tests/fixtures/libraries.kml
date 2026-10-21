@@ -1,0 +1,4 @@
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><Folder><Folder>
+<Placemark><name>Fixture &amp; books</name><Point><coordinates>-122.27,37.87,0</coordinates></Point></Placemark>
+<Placemark><name>Same coordinates, distinct record</name><Point><coordinates>-122.27,37.87</coordinates></Point></Placemark>
+</Folder></Folder><Placemark><name>A line is not a library point</name><LineString><coordinates>-122.27,37.87 -122.28,37.88</coordinates></LineString></Placemark></Document></kml>
