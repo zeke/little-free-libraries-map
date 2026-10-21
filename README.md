@@ -109,3 +109,7 @@ The map includes 22 different styles from free and premium tile providers:
 ## Acknowledgments
 
 Special thanks to the maintainer of [Berkeley Little Free Libraries](https://berkeleylfl.wordpress.com) for their dedicated work documenting and sharing these community resources.
+
+## OpenStreetMap research
+
+A separate [public-bookcase spike](osm/README.md) compares a bounded OSM snapshot with the imported map and provides potential additions and uncertain matches for human review. It does not feed the published map. See [AGENTS.md](AGENTS.md) for project checks and data boundaries.

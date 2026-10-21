@@ -1,0 +1,8 @@
+{
+  "osm3s": {"timestamp_osm_base": "2026-01-01T00:00:00Z"},
+  "elements": [
+    {"type": "node", "id": 1, "lat": 37.87, "lon": -122.27, "version": 3, "tags": {"amenity": "public_bookcase", "name": "Fixture & books", "access": "private"}},
+    {"type": "way", "id": 1, "center": {"lat": 37.871, "lon": -122.27}, "tags": {"amenity": "public_bookcase"}},
+    {"type": "relation", "id": 2, "center": {"lat": 37.89, "lon": -122.27}, "tags": {"amenity": "public_bookcase"}}
+  ]
+}
