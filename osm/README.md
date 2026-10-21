@@ -17,7 +17,7 @@ Fetched on 2026-10-21 at 00:11:35 UTC, with OSM database timestamp 00:10:27 UTC:
 
 All 299 observed objects are nodes. One has multiple KML points within 20 m. None has an `access` tag; absence does not establish public access. These counts describe this snapshot, not complete real-world coverage.
 
-The 191 close matches and 30 broader matches are uncertain identity candidates. The 78 potential additions are a field-review queue, not confirmed missing libraries. The original EXIF review script uses the same 6,371,000 m Haversine radius and 20 m candidate threshold. This spike adds an explicit 100 m broader-review band to expose coordinate discrepancies instead of assuming everything beyond 20 m is new. Neither threshold is calibrated ground truth. Distances use unrounded values for classification, and the JSON preserves those values.
+The 191 close matches and 30 broader matches are uncertain identity candidates. The 78 potential additions are a field-review queue, not confirmed missing libraries. The original EXIF review script uses the same 6,371,000 m Haversine radius and 20 m candidate threshold. This spike adds an explicit 100 m broader-review band to expose coordinate discrepancies instead of assuming everything beyond 20 m is new. Neither threshold is calibrated ground truth. Distances use unrounded values for classification; JSON exports meters to six decimal places to avoid macOS/Linux floating-point serialization differences. That precision does not imply coordinate accuracy.
 
 Examples for review:
 

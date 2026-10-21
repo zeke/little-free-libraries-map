@@ -97,6 +97,10 @@ def compare(records, locations):
         peers = [{'osm_id': other['osm_id'], 'distance_m': distance((record['lat'], record['lon']), (other['lat'], other['lon']))}
                  for other in records if other['osm_id'] != record['osm_id']
                  and distance((record['lat'], record['lon']), (other['lat'], other['lon'])) <= 20]
+        # Normalize only exported distances, after all threshold decisions.
+        # macOS/Linux libm can differ in the final floating-point bits.
+        for item in ranked + peers:
+            item['distance_m'] = round(item['distance_m'], 6)
         rows.append(dict(record, review_band=band, identity_confirmed=False,
                          nearest_existing=ranked[0], existing_within_100m=nearby, osm_within_20m=peers))
     return rows

@@ -47,12 +47,14 @@ class BookcasesTest(unittest.TestCase):
     def test_bands_use_unrounded_distances_and_all_neighbors(self):
         base = osm.read_osm(self.payload)[0]
         for meters, expected in [(0, 'within-20m'), (19.99, 'within-20m'),
-                                 (20.01, 'within-100m'), (99.99, 'within-100m'),
+                                 (20.0000001, 'within-100m'), (20.01, 'within-100m'), (99.99, 'within-100m'),
                                  (100.01, 'potential-addition')]:
             record = dict(base, lat=37.87 + math.degrees(meters / 6371000))
             row = osm.compare([record], self.locations)[0]
             self.assertEqual(row['review_band'], expected)
             self.assertFalse(row['identity_confirmed'])
+            if meters == 20.0000001:
+                self.assertEqual(row['nearest_existing']['distance_m'], 20.0)
             self.assertEqual(len(row['existing_within_100m']), 0 if meters > 100 else 2)
             self.assertEqual(row['nearest_existing']['key'], self.locations[0]['key'])
 

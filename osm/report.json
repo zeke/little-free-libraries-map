@@ -46,7 +46,7 @@
         "name": "735 The Alameda",
         "lat": 37.8947759,
         "lon": -122.2774275,
-        "distance_m": 3.9674374069422593
+        "distance_m": 3.967437
       },
       "existing_within_100m": [
         {
@@ -54,7 +54,7 @@
           "name": "735 The Alameda",
           "lat": 37.8947759,
           "lon": -122.2774275,
-          "distance_m": 3.9674374069422593
+          "distance_m": 3.967437
         }
       ],
       "osm_within_20m": []
@@ -82,7 +82,7 @@
         "name": "646 Santa Rosa Ave",
         "lat": 37.8958709,
         "lon": -122.2819611,
-        "distance_m": 4.052289073295744
+        "distance_m": 4.052289
       },
       "existing_within_100m": [
         {
@@ -90,21 +90,21 @@
           "name": "646 Santa Rosa Ave",
           "lat": 37.8958709,
           "lon": -122.2819611,
-          "distance_m": 4.052289073295744
+          "distance_m": 4.052289
         },
         {
           "key": "placemark-487-point-1",
           "name": "646 The Alameda",
           "lat": 37.8960098,
           "lon": -122.2810524,
-          "distance_m": 77.93314084683658
+          "distance_m": 77.933141
         },
         {
           "key": "placemark-985-point-1",
           "name": "616 The Alameda",
           "lat": 37.8967751,
           "lon": -122.2817854,
-          "distance_m": 98.43891576634816
+          "distance_m": 98.438916
         }
       ],
       "osm_within_20m": []
@@ -132,7 +132,7 @@
         "name": "583 Vincente Ave",
         "lat": 37.8973991,
         "lon": -122.2841143,
-        "distance_m": 2.9595434973545127
+        "distance_m": 2.959543
       },
       "existing_within_100m": [
         {
@@ -140,7 +140,7 @@
           "name": "583 Vincente Ave",
           "lat": 37.8973991,
           "lon": -122.2841143,
-          "distance_m": 2.9595434973545127
+          "distance_m": 2.959543
         }
       ],
       "osm_within_20m": []
@@ -168,7 +168,7 @@
         "name": "551 Neilson St",
         "lat": 37.8973536,
         "lon": -122.2861676,
-        "distance_m": 7.60582143390853
+        "distance_m": 7.605821
       },
       "existing_within_100m": [
         {
@@ -176,7 +176,7 @@
           "name": "551 Neilson St",
           "lat": 37.8973536,
           "lon": -122.2861676,
-          "distance_m": 7.60582143390853
+          "distance_m": 7.605821
         }
       ],
       "osm_within_20m": []
@@ -204,7 +204,7 @@
         "name": "1826 Catalina Ave",
         "lat": 37.8921502,
         "lon": -122.2790693,
-        "distance_m": 7.318965934646105
+        "distance_m": 7.318966
       },
       "existing_within_100m": [
         {
@@ -212,7 +212,7 @@
           "name": "1826 Catalina Ave",
           "lat": 37.8921502,
           "lon": -122.2790693,
-          "distance_m": 7.318965934646105
+          "distance_m": 7.318966
         }
       ],
       "osm_within_20m": []
@@ -240,7 +240,7 @@
         "name": "949 Fresno Ave",
         "lat": 37.8896043,
         "lon": -122.2775066,
-        "distance_m": 18.555607111600413
+        "distance_m": 18.555607
       },
       "existing_within_100m": [
         {
@@ -248,21 +248,21 @@
           "name": "949 Fresno Ave",
           "lat": 37.8896043,
           "lon": -122.2775066,
-          "distance_m": 18.555607111600413
+          "distance_m": 18.555607
         },
         {
           "key": "placemark-901-point-1",
           "name": "1811 Marin Ave",
           "lat": 37.8893776,
           "lon": -122.2782007,
-          "distance_m": 47.85880452048606
+          "distance_m": 47.858805
         },
         {
           "key": "placemark-920-point-1",
           "name": "952 The Alameda",
           "lat": 37.889715,
           "lon": -122.2769255,
-          "distance_m": 71.00290766354706
+          "distance_m": 71.002908
         }
       ],
       "osm_within_20m": []
@@ -288,7 +288,7 @@
         "name": "1935 Berryman St",
         "lat": 37.8835634,
         "lon": -122.2726612,
-        "distance_m": 61.95327293245087
+        "distance_m": 61.953273
       },
       "existing_within_100m": [
         {
@@ -296,21 +296,21 @@
           "name": "1935 Berryman St",
           "lat": 37.8835634,
           "lon": -122.2726612,
-          "distance_m": 61.95327293245087
+          "distance_m": 61.953273
         },
         {
           "key": "placemark-1077-point-1",
           "name": "1913 Berryman St",
           "lat": 37.8834341,
           "lon": -122.2736441,
-          "distance_m": 65.1400478056749
+          "distance_m": 65.140048
         },
         {
           "key": "placemark-213-point-1",
           "name": "1909 Berryman St",
           "lat": 37.8834126,
           "lon": -122.2738302,
-          "distance_m": 77.88132855825916
+          "distance_m": 77.881329
         }
       ],
       "osm_within_20m": []
@@ -335,7 +335,7 @@
         "name": "6675 Chabot Rd",
         "lat": 37.850569,
         "lon": -122.2435943,
-        "distance_m": 2.600842502113179
+        "distance_m": 2.600843
       },
       "existing_within_100m": [
         {
@@ -343,14 +343,14 @@
           "name": "6675 Chabot Rd",
           "lat": 37.850569,
           "lon": -122.2435943,
-          "distance_m": 2.600842502113179
+          "distance_m": 2.600843
         },
         {
           "key": "placemark-357-point-1",
           "name": "5921 Chabolyn Terrace",
           "lat": 37.8505417,
           "lon": -122.2445923,
-          "distance_m": 85.52302863321856
+          "distance_m": 85.523029
         }
       ],
       "osm_within_20m": []
@@ -375,7 +375,7 @@
         "name": "1346 Grizzly Peak Blvd",
         "lat": 37.8859038,
         "lon": -122.2500458,
-        "distance_m": 217.21327281452787
+        "distance_m": 217.213273
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -400,7 +400,7 @@
         "name": "922 Neilson St",
         "lat": 37.8896628,
         "lon": -122.2863471,
-        "distance_m": 3.7183108175853206
+        "distance_m": 3.718311
       },
       "existing_within_100m": [
         {
@@ -408,7 +408,7 @@
           "name": "922 Neilson St",
           "lat": 37.8896628,
           "lon": -122.2863471,
-          "distance_m": 3.7183108175853206
+          "distance_m": 3.718311
         }
       ],
       "osm_within_20m": []
@@ -434,7 +434,7 @@
         "name": "931 Modoc St",
         "lat": 37.8901752,
         "lon": -122.2799054,
-        "distance_m": 6.621161651125192
+        "distance_m": 6.621162
       },
       "existing_within_100m": [
         {
@@ -442,14 +442,14 @@
           "name": "931 Modoc St",
           "lat": 37.8901752,
           "lon": -122.2799054,
-          "distance_m": 6.621161651125192
+          "distance_m": 6.621162
         },
         {
           "key": "placemark-608-point-1",
           "name": "932 Colusa Ave",
           "lat": 37.890215,
           "lon": -122.2792787,
-          "distance_m": 61.78871474764998
+          "distance_m": 61.788715
         }
       ],
       "osm_within_20m": []
@@ -474,7 +474,7 @@
         "name": "921 Tulare Ave",
         "lat": 37.8900676,
         "lon": -122.2818868,
-        "distance_m": 10.325890355864995
+        "distance_m": 10.32589
       },
       "existing_within_100m": [
         {
@@ -482,14 +482,14 @@
           "name": "921 Tulare Ave",
           "lat": 37.8900676,
           "lon": -122.2818868,
-          "distance_m": 10.325890355864995
+          "distance_m": 10.32589
         },
         {
           "key": "placemark-346-point-1",
           "name": "914 Tulare Ave",
           "lat": 37.8905686,
           "lon": -122.2824006,
-          "distance_m": 70.59883701290336
+          "distance_m": 70.598837
         }
       ],
       "osm_within_20m": []
@@ -515,7 +515,7 @@
         "name": "982 Peralta Ave",
         "lat": 37.8884208,
         "lon": -122.2850508,
-        "distance_m": 3.4145977860051127
+        "distance_m": 3.414598
       },
       "existing_within_100m": [
         {
@@ -523,7 +523,7 @@
           "name": "982 Peralta Ave",
           "lat": 37.8884208,
           "lon": -122.2850508,
-          "distance_m": 3.4145977860051127
+          "distance_m": 3.414598
         }
       ],
       "osm_within_20m": []
@@ -549,7 +549,7 @@
         "name": "1045 Peralta Ave",
         "lat": 37.8852846,
         "lon": -122.2859518,
-        "distance_m": 106.2754530881193
+        "distance_m": 106.275453
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -574,7 +574,7 @@
         "name": "1199 Ordway St",
         "lat": 37.8824493,
         "lon": -122.2858785,
-        "distance_m": 8.573559265590182
+        "distance_m": 8.573559
       },
       "existing_within_100m": [
         {
@@ -582,7 +582,7 @@
           "name": "1199 Ordway St",
           "lat": 37.8824493,
           "lon": -122.2858785,
-          "distance_m": 8.573559265590182
+          "distance_m": 8.573559
         }
       ],
       "osm_within_20m": []
@@ -607,7 +607,7 @@
         "name": "1342 Hopkins St",
         "lat": 37.8788337,
         "lon": -122.2870765,
-        "distance_m": 3.637518879721572
+        "distance_m": 3.637519
       },
       "existing_within_100m": [
         {
@@ -615,14 +615,14 @@
           "name": "1342 Hopkins St",
           "lat": 37.8788337,
           "lon": -122.2870765,
-          "distance_m": 3.637518879721572
+          "distance_m": 3.637519
         },
         {
           "key": "placemark-468-point-1",
           "name": "1350 Hopkins St",
           "lat": 37.8790979,
           "lon": -122.2865181,
-          "distance_m": 60.73992059304823
+          "distance_m": 60.739921
         }
       ],
       "osm_within_20m": []
@@ -648,7 +648,7 @@
         "name": "1409 California St",
         "lat": 37.8793891,
         "lon": -122.28064,
-        "distance_m": 7.158417284292761
+        "distance_m": 7.158417
       },
       "existing_within_100m": [
         {
@@ -656,7 +656,7 @@
           "name": "1409 California St",
           "lat": 37.8793891,
           "lon": -122.28064,
-          "distance_m": 7.158417284292761
+          "distance_m": 7.158417
         }
       ],
       "osm_within_20m": []
@@ -684,7 +684,7 @@
         "name": "1652 Marin Ave",
         "lat": 37.8891131,
         "lon": -122.2822485,
-        "distance_m": 5.748420074813439
+        "distance_m": 5.74842
       },
       "existing_within_100m": [
         {
@@ -692,7 +692,7 @@
           "name": "1652 Marin Ave",
           "lat": 37.8891131,
           "lon": -122.2822485,
-          "distance_m": 5.748420074813439
+          "distance_m": 5.74842
         }
       ],
       "osm_within_20m": []
@@ -717,7 +717,7 @@
         "name": "1325 McGee Ave",
         "lat": 37.8812963,
         "lon": -122.2803888,
-        "distance_m": 8.374064091810318
+        "distance_m": 8.374064
       },
       "existing_within_100m": [
         {
@@ -725,7 +725,7 @@
           "name": "1325 McGee Ave",
           "lat": 37.8812963,
           "lon": -122.2803888,
-          "distance_m": 8.374064091810318
+          "distance_m": 8.374064
         }
       ],
       "osm_within_20m": []
@@ -750,7 +750,7 @@
         "name": "336 Ramona Ave",
         "lat": 37.9035773,
         "lon": -122.2916387,
-        "distance_m": 10.835968714124425
+        "distance_m": 10.835969
       },
       "existing_within_100m": [
         {
@@ -758,14 +758,14 @@
           "name": "336 Ramona Ave",
           "lat": 37.9035773,
           "lon": -122.2916387,
-          "distance_m": 10.835968714124425
+          "distance_m": 10.835969
         },
         {
           "key": "placemark-824-point-1",
           "name": "333 Ramona Ave",
           "lat": 37.9035159,
           "lon": -122.2920817,
-          "distance_m": 28.639000711488936
+          "distance_m": 28.639001
         }
       ],
       "osm_within_20m": []
@@ -790,7 +790,7 @@
         "name": "243 Carmel Ave",
         "lat": 37.9021851,
         "lon": -122.2906791,
-        "distance_m": 2.5879482441892145
+        "distance_m": 2.587948
       },
       "existing_within_100m": [
         {
@@ -798,7 +798,7 @@
           "name": "243 Carmel Ave",
           "lat": 37.9021851,
           "lon": -122.2906791,
-          "distance_m": 2.5879482441892145
+          "distance_m": 2.587948
         }
       ],
       "osm_within_20m": []
@@ -827,7 +827,7 @@
         "name": "608 Santa Fe Ave",
         "lat": 37.8962621,
         "lon": -122.288315,
-        "distance_m": 5.056071177611035
+        "distance_m": 5.056071
       },
       "existing_within_100m": [
         {
@@ -835,21 +835,21 @@
           "name": "608 Santa Fe Ave",
           "lat": 37.8962621,
           "lon": -122.288315,
-          "distance_m": 5.056071177611035
+          "distance_m": 5.056071
         },
         {
           "key": "placemark-493-point-1",
           "name": "615 San Carlos Ave",
           "lat": 37.89604,
           "lon": -122.2889216,
-          "distance_m": 63.71641621940617
+          "distance_m": 63.716416
         },
         {
           "key": "placemark-1092-point-1",
           "name": "605 Curtis St",
           "lat": 37.8963507,
           "lon": -122.2871568,
-          "distance_m": 97.51725482230823
+          "distance_m": 97.517255
         }
       ],
       "osm_within_20m": []
@@ -875,7 +875,7 @@
         "name": "560 The Alameda",
         "lat": 37.8988851,
         "lon": -122.2815195,
-        "distance_m": 2.546835185878427
+        "distance_m": 2.546835
       },
       "existing_within_100m": [
         {
@@ -883,14 +883,14 @@
           "name": "560 The Alameda",
           "lat": 37.8988851,
           "lon": -122.2815195,
-          "distance_m": 2.546835185878427
+          "distance_m": 2.546835
         },
         {
           "key": "placemark-805-point-1",
           "name": "569 The Alameda",
           "lat": 37.8985513,
           "lon": -122.2813904,
-          "distance_m": 36.65016559311541
+          "distance_m": 36.650166
         }
       ],
       "osm_within_20m": []
@@ -915,7 +915,7 @@
         "name": "985 Euclid Ave",
         "lat": 37.8920617,
         "lon": -122.2647803,
-        "distance_m": 13.460674435543691
+        "distance_m": 13.460674
       },
       "existing_within_100m": [
         {
@@ -923,14 +923,14 @@
           "name": "985 Euclid Ave",
           "lat": 37.8920617,
           "lon": -122.2647803,
-          "distance_m": 13.460674435543691
+          "distance_m": 13.460674
         },
         {
           "key": "placemark-243-point-1",
           "name": "1000 Euclid Ave",
           "lat": 37.8915708,
           "lon": -122.2650461,
-          "distance_m": 68.64572848373706
+          "distance_m": 68.645728
         }
       ],
       "osm_within_20m": []
@@ -959,7 +959,7 @@
         "name": "952 The Alameda",
         "lat": 37.889715,
         "lon": -122.2769255,
-        "distance_m": 2.1626265299988017
+        "distance_m": 2.162627
       },
       "existing_within_100m": [
         {
@@ -967,14 +967,14 @@
           "name": "952 The Alameda",
           "lat": 37.889715,
           "lon": -122.2769255,
-          "distance_m": 2.1626265299988017
+          "distance_m": 2.162627
         },
         {
           "key": "placemark-469-point-1",
           "name": "949 Fresno Ave",
           "lat": 37.8896043,
           "lon": -122.2775066,
-          "distance_m": 54.498812558684655
+          "distance_m": 54.498813
         }
       ],
       "osm_within_20m": []
@@ -999,7 +999,7 @@
         "name": "1403 Bonita Ave",
         "lat": 37.8813183,
         "lon": -122.2727793,
-        "distance_m": 6.807454241715387
+        "distance_m": 6.807454
       },
       "existing_within_100m": [
         {
@@ -1007,14 +1007,14 @@
           "name": "1403 Bonita Ave",
           "lat": 37.8813183,
           "lon": -122.2727793,
-          "distance_m": 6.807454241715387
+          "distance_m": 6.807454
         },
         {
           "key": "placemark-803-point-1",
           "name": "1416 Milvia St",
           "lat": 37.8811096,
           "lon": -122.2718973,
-          "distance_m": 84.6423451274202
+          "distance_m": 84.642345
         }
       ],
       "osm_within_20m": []
@@ -1039,7 +1039,7 @@
         "name": "1400 Josephine St",
         "lat": 37.881199,
         "lon": -122.275431,
-        "distance_m": 6.8815411235082
+        "distance_m": 6.881541
       },
       "existing_within_100m": [
         {
@@ -1047,14 +1047,14 @@
           "name": "1400 Josephine St",
           "lat": 37.881199,
           "lon": -122.275431,
-          "distance_m": 6.8815411235082
+          "distance_m": 6.881541
         },
         {
           "key": "placemark-98-point-1",
           "name": "1417 Josephine St",
           "lat": 37.8805741,
           "lon": -122.2750245,
-          "distance_m": 78.44094229647504
+          "distance_m": 78.440942
         }
       ],
       "osm_within_20m": []
@@ -1080,7 +1080,7 @@
         "name": "1500 Josephine St",
         "lat": 37.8793389,
         "lon": -122.2751335,
-        "distance_m": 5.046053961513546
+        "distance_m": 5.046054
       },
       "existing_within_100m": [
         {
@@ -1088,7 +1088,7 @@
           "name": "1500 Josephine St",
           "lat": 37.8793389,
           "lon": -122.2751335,
-          "distance_m": 5.046053961513546
+          "distance_m": 5.046054
         }
       ],
       "osm_within_20m": []
@@ -1113,7 +1113,7 @@
         "name": "1810 Virginia St",
         "lat": 37.875562,
         "lon": -122.275419,
-        "distance_m": 17.366732143953328
+        "distance_m": 17.366732
       },
       "existing_within_100m": [
         {
@@ -1121,14 +1121,14 @@
           "name": "1810 Virginia St",
           "lat": 37.875562,
           "lon": -122.275419,
-          "distance_m": 17.366732143953328
+          "distance_m": 17.366732
         },
         {
           "key": "placemark-612-point-1",
           "name": "1825 Virginia St",
           "lat": 37.8759941,
           "lon": -122.2745032,
-          "distance_m": 88.32882765832653
+          "distance_m": 88.328828
         }
       ],
       "osm_within_20m": []
@@ -1153,7 +1153,7 @@
         "name": "1807 Grant St",
         "lat": 37.873681,
         "lon": -122.275252,
-        "distance_m": 17.292787525297687
+        "distance_m": 17.292788
       },
       "existing_within_100m": [
         {
@@ -1161,7 +1161,7 @@
           "name": "1807 Grant St",
           "lat": 37.873681,
           "lon": -122.275252,
-          "distance_m": 17.292787525297687
+          "distance_m": 17.292788
         }
       ],
       "osm_within_20m": []
@@ -1186,7 +1186,7 @@
         "name": "1 El Camino Real",
         "lat": 37.8572297,
         "lon": -122.243768,
-        "distance_m": 3.5269668544548156
+        "distance_m": 3.526967
       },
       "existing_within_100m": [
         {
@@ -1194,21 +1194,21 @@
           "name": "1 El Camino Real",
           "lat": 37.8572297,
           "lon": -122.243768,
-          "distance_m": 3.5269668544548156
+          "distance_m": 3.526967
         },
         {
           "key": "placemark-984-point-1",
           "name": "22 Domingo Ave",
           "lat": 37.8575841,
           "lon": -122.2441625,
-          "distance_m": 50.5697035789464
+          "distance_m": 50.569704
         },
         {
           "key": "placemark-314-point-1",
           "name": "7 El Camino Real",
           "lat": 37.8571393,
           "lon": -122.2430395,
-          "distance_m": 64.49205681795428
+          "distance_m": 64.492057
         }
       ],
       "osm_within_20m": []
@@ -1233,7 +1233,7 @@
         "name": "7002 Stockton Ave",
         "lat": 37.9102845,
         "lon": -122.3000261,
-        "distance_m": 2.1341838297175566
+        "distance_m": 2.134184
       },
       "existing_within_100m": [
         {
@@ -1241,14 +1241,14 @@
           "name": "7002 Stockton Ave",
           "lat": 37.9102845,
           "lon": -122.3000261,
-          "distance_m": 2.1341838297175566
+          "distance_m": 2.134184
         },
         {
           "key": "placemark-1037-point-1",
           "name": "757 Albemarle St",
           "lat": 37.9100078,
           "lon": -122.2991437,
-          "distance_m": 81.3638000480328
+          "distance_m": 81.3638
         }
       ],
       "osm_within_20m": []
@@ -1273,7 +1273,7 @@
         "name": "2933 Russell St",
         "lat": 37.8589484,
         "lon": -122.2471876,
-        "distance_m": 2.919962679195689
+        "distance_m": 2.919963
       },
       "existing_within_100m": [
         {
@@ -1281,7 +1281,7 @@
           "name": "2933 Russell St",
           "lat": 37.8589484,
           "lon": -122.2471876,
-          "distance_m": 2.919962679195689
+          "distance_m": 2.919963
         }
       ],
       "osm_within_20m": []
@@ -1309,7 +1309,7 @@
         "name": "824 Curtis St",
         "lat": 37.891925,
         "lon": -122.287671,
-        "distance_m": 12.129802009242015
+        "distance_m": 12.129802
       },
       "existing_within_100m": [
         {
@@ -1317,14 +1317,14 @@
           "name": "824 Curtis St",
           "lat": 37.891925,
           "lon": -122.287671,
-          "distance_m": 12.129802009242015
+          "distance_m": 12.129802
         },
         {
           "key": "placemark-491-point-1",
           "name": "830 Santa Fe Ave",
           "lat": 37.8917794,
           "lon": -122.2886264,
-          "distance_m": 97.3398849598071
+          "distance_m": 97.339885
         }
       ],
       "osm_within_20m": []
@@ -1349,7 +1349,7 @@
         "name": "707 Neilson St",
         "lat": 37.8944756,
         "lon": -122.2863039,
-        "distance_m": 7.155624092767991
+        "distance_m": 7.155624
       },
       "existing_within_100m": [
         {
@@ -1357,14 +1357,14 @@
           "name": "707 Neilson St",
           "lat": 37.8944756,
           "lon": -122.2863039,
-          "distance_m": 7.155624092767991
+          "distance_m": 7.155624
         },
         {
           "key": "placemark-395-point-1",
           "name": "709 Peralta Ave",
           "lat": 37.8944657,
           "lon": -122.2853109,
-          "distance_m": 93.52684602581326
+          "distance_m": 93.526846
         }
       ],
       "osm_within_20m": []
@@ -1389,7 +1389,7 @@
         "name": "1728 Sonoma Ave",
         "lat": 37.8862921,
         "lon": -122.2809127,
-        "distance_m": 216.8380087328321
+        "distance_m": 216.838009
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -1414,7 +1414,7 @@
         "name": "914 Tulare Ave",
         "lat": 37.8905686,
         "lon": -122.2824006,
-        "distance_m": 7.0271171521802875
+        "distance_m": 7.027117
       },
       "existing_within_100m": [
         {
@@ -1422,14 +1422,14 @@
           "name": "914 Tulare Ave",
           "lat": 37.8905686,
           "lon": -122.2824006,
-          "distance_m": 7.0271171521802875
+          "distance_m": 7.027117
         },
         {
           "key": "placemark-263-point-1",
           "name": "921 Tulare Ave",
           "lat": 37.8900676,
           "lon": -122.2818868,
-          "distance_m": 68.5214938408613
+          "distance_m": 68.521494
         }
       ],
       "osm_within_20m": []
@@ -1454,7 +1454,7 @@
         "name": "815 Peralta Ave",
         "lat": 37.892448,
         "lon": -122.285435,
-        "distance_m": 69.18519040285531
+        "distance_m": 69.18519
       },
       "existing_within_100m": [
         {
@@ -1462,7 +1462,7 @@
           "name": "815 Peralta Ave",
           "lat": 37.892448,
           "lon": -122.285435,
-          "distance_m": 69.18519040285531
+          "distance_m": 69.18519
         }
       ],
       "osm_within_20m": []
@@ -1488,7 +1488,7 @@
         "name": "976 Oxford St",
         "lat": 37.8906478,
         "lon": -122.2684305,
-        "distance_m": 12.352668459352522
+        "distance_m": 12.352668
       },
       "existing_within_100m": [
         {
@@ -1496,7 +1496,7 @@
           "name": "976 Oxford St",
           "lat": 37.8906478,
           "lon": -122.2684305,
-          "distance_m": 12.352668459352522
+          "distance_m": 12.352668
         }
       ],
       "osm_within_20m": []
@@ -1529,7 +1529,7 @@
         "name": "947 Kingston Ave",
         "lat": 37.8259302,
         "lon": -122.2462151,
-        "distance_m": 93.57947739089616
+        "distance_m": 93.579477
       },
       "existing_within_100m": [
         {
@@ -1537,7 +1537,7 @@
           "name": "947 Kingston Ave",
           "lat": 37.8259302,
           "lon": -122.2462151,
-          "distance_m": 93.57947739089616
+          "distance_m": 93.579477
         }
       ],
       "osm_within_20m": []
@@ -1564,7 +1564,7 @@
         "name": "Terrace View Park\n",
         "lat": 37.8842033,
         "lon": -122.2501594,
-        "distance_m": 268.29957355313053
+        "distance_m": 268.299574
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -1591,7 +1591,7 @@
         "name": "920 Indian Rock Ave",
         "lat": 37.8925019,
         "lon": -122.2728569,
-        "distance_m": 4.401516370908956
+        "distance_m": 4.401516
       },
       "existing_within_100m": [
         {
@@ -1599,7 +1599,7 @@
           "name": "920 Indian Rock Ave",
           "lat": 37.8925019,
           "lon": -122.2728569,
-          "distance_m": 4.401516370908956
+          "distance_m": 4.401516
         }
       ],
       "osm_within_20m": []
@@ -1628,7 +1628,7 @@
         "name": "2220 Prince St",
         "lat": 37.8534057,
         "lon": -122.2630989,
-        "distance_m": 3.573519574008676
+        "distance_m": 3.57352
       },
       "existing_within_100m": [
         {
@@ -1636,7 +1636,7 @@
           "name": "2220 Prince St",
           "lat": 37.8534057,
           "lon": -122.2630989,
-          "distance_m": 3.573519574008676
+          "distance_m": 3.57352
         }
       ],
       "osm_within_20m": []
@@ -1662,7 +1662,7 @@
         "name": "2803 Forest Ave",
         "lat": 37.8616619,
         "lon": -122.2509469,
-        "distance_m": 234.5549791117534
+        "distance_m": 234.554979
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -1690,7 +1690,7 @@
         "name": "46 Montell St",
         "lat": 37.8242472,
         "lon": -122.2535087,
-        "distance_m": 2.60932731449566
+        "distance_m": 2.609327
       },
       "existing_within_100m": [
         {
@@ -1698,7 +1698,7 @@
           "name": "46 Montell St",
           "lat": 37.8242472,
           "lon": -122.2535087,
-          "distance_m": 2.60932731449566
+          "distance_m": 2.609327
         }
       ],
       "osm_within_20m": []
@@ -1727,7 +1727,7 @@
         "name": "1937 Cedar St",
         "lat": 37.8781734,
         "lon": -122.2719187,
-        "distance_m": 7.226679274721313
+        "distance_m": 7.226679
       },
       "existing_within_100m": [
         {
@@ -1735,7 +1735,7 @@
           "name": "1937 Cedar St",
           "lat": 37.8781734,
           "lon": -122.2719187,
-          "distance_m": 7.226679274721313
+          "distance_m": 7.226679
         }
       ],
       "osm_within_20m": []
@@ -1760,7 +1760,7 @@
         "name": "2613 Hillegass Ave",
         "lat": 37.8629405,
         "lon": -122.2560866,
-        "distance_m": 7.899815552713197
+        "distance_m": 7.899816
       },
       "existing_within_100m": [
         {
@@ -1768,14 +1768,14 @@
           "name": "2613 Hillegass Ave",
           "lat": 37.8629405,
           "lon": -122.2560866,
-          "distance_m": 7.899815552713197
+          "distance_m": 7.899816
         },
         {
           "key": "placemark-840-point-1",
           "name": "2612 Benvenue Ave",
           "lat": 37.8628874,
           "lon": -122.2551214,
-          "distance_m": 92.8346764114288
+          "distance_m": 92.834676
         }
       ],
       "osm_within_20m": []
@@ -1800,7 +1800,7 @@
         "name": "824 Curtis St",
         "lat": 37.891925,
         "lon": -122.287671,
-        "distance_m": 102.43408887450502
+        "distance_m": 102.434089
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -1825,7 +1825,7 @@
         "name": "679 Colusa Ave",
         "lat": 37.895155,
         "lon": -122.2830307,
-        "distance_m": 14.158521229289542
+        "distance_m": 14.158521
       },
       "existing_within_100m": [
         {
@@ -1833,7 +1833,7 @@
           "name": "679 Colusa Ave",
           "lat": 37.895155,
           "lon": -122.2830307,
-          "distance_m": 14.158521229289542
+          "distance_m": 14.158521
         }
       ],
       "osm_within_20m": []
@@ -1858,7 +1858,7 @@
         "name": "899 Arlington Ave",
         "lat": 37.8920191,
         "lon": -122.2739124,
-        "distance_m": 1.8569760083613114
+        "distance_m": 1.856976
       },
       "existing_within_100m": [
         {
@@ -1866,7 +1866,7 @@
           "name": "899 Arlington Ave",
           "lat": 37.8920191,
           "lon": -122.2739124,
-          "distance_m": 1.8569760083613114
+          "distance_m": 1.856976
         }
       ],
       "osm_within_20m": []
@@ -1892,7 +1892,7 @@
         "name": "867 Arlington Ave",
         "lat": 37.892894,
         "lon": -122.2745045,
-        "distance_m": 109.69328685986437
+        "distance_m": 109.693287
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -1917,7 +1917,7 @@
         "name": "1951 Yosemite Rd",
         "lat": 37.896369,
         "lon": -122.2763962,
-        "distance_m": 7.346638756778134
+        "distance_m": 7.346639
       },
       "existing_within_100m": [
         {
@@ -1925,14 +1925,14 @@
           "name": "1951 Yosemite Rd",
           "lat": 37.896369,
           "lon": -122.2763962,
-          "distance_m": 7.346638756778134
+          "distance_m": 7.346639
         },
         {
           "key": "placemark-749-point-1",
           "name": "1947 Yosemite Rd",
           "lat": 37.8965328,
           "lon": -122.2765212,
-          "distance_m": 24.25646344377288
+          "distance_m": 24.256463
         }
       ],
       "osm_within_20m": []
@@ -1957,7 +1957,7 @@
         "name": "1947 Yosemite Rd",
         "lat": 37.8965328,
         "lon": -122.2765212,
-        "distance_m": 10.133584468507866
+        "distance_m": 10.133584
       },
       "existing_within_100m": [
         {
@@ -1965,21 +1965,21 @@
           "name": "1947 Yosemite Rd",
           "lat": 37.8965328,
           "lon": -122.2765212,
-          "distance_m": 10.133584468507866
+          "distance_m": 10.133584
         },
         {
           "key": "placemark-750-point-1",
           "name": "1951 Yosemite Rd",
           "lat": 37.896369,
           "lon": -122.2763962,
-          "distance_m": 29.973176039769577
+          "distance_m": 29.973176
         },
         {
           "key": "placemark-128-point-1",
           "name": "678 Arlington Ave",
           "lat": 37.8973448,
           "lon": -122.2762357,
-          "distance_m": 93.12991847366393
+          "distance_m": 93.129918
         }
       ],
       "osm_within_20m": []
@@ -2004,7 +2004,7 @@
         "name": "1846 San Lorenzo Ave",
         "lat": 37.8947132,
         "lon": -122.2805084,
-        "distance_m": 6.731668132478582
+        "distance_m": 6.731668
       },
       "existing_within_100m": [
         {
@@ -2012,14 +2012,14 @@
           "name": "1846 San Lorenzo Ave",
           "lat": 37.8947132,
           "lon": -122.2805084,
-          "distance_m": 6.731668132478582
+          "distance_m": 6.731668
         },
         {
           "key": "placemark-913-point-1",
           "name": "1827 Capistrano Ave",
           "lat": 37.8942424,
           "lon": -122.2802817,
-          "distance_m": 62.51601245913563
+          "distance_m": 62.516012
         }
       ],
       "osm_within_20m": []
@@ -2048,7 +2048,7 @@
         "name": "1863 San Pedro Ave",
         "lat": 37.8936052,
         "lon": -122.2782559,
-        "distance_m": 17.730037108954093
+        "distance_m": 17.730037
       },
       "existing_within_100m": [
         {
@@ -2056,21 +2056,21 @@
           "name": "1863 San Pedro Ave",
           "lat": 37.8936052,
           "lon": -122.2782559,
-          "distance_m": 17.730037108954093
+          "distance_m": 17.730037
         },
         {
           "key": "placemark-837-point-1",
           "name": "1850 San Pedro Ave",
           "lat": 37.8932912,
           "lon": -122.278488,
-          "distance_m": 56.79451246755307
+          "distance_m": 56.794512
         },
         {
           "key": "placemark-486-point-1",
           "name": "1862 Tacoma Ave",
           "lat": 37.8940609,
           "lon": -122.2785752,
-          "distance_m": 59.41311998937165
+          "distance_m": 59.41312
         }
       ],
       "osm_within_20m": []
@@ -2095,7 +2095,7 @@
         "name": "1850 San Pedro Ave",
         "lat": 37.8932912,
         "lon": -122.278488,
-        "distance_m": 6.932225724936981
+        "distance_m": 6.932226
       },
       "existing_within_100m": [
         {
@@ -2103,21 +2103,21 @@
           "name": "1850 San Pedro Ave",
           "lat": 37.8932912,
           "lon": -122.278488,
-          "distance_m": 6.932225724936981
+          "distance_m": 6.932226
         },
         {
           "key": "placemark-1006-point-1",
           "name": "1863 San Pedro Ave",
           "lat": 37.8936052,
           "lon": -122.2782559,
-          "distance_m": 35.9211646090578
+          "distance_m": 35.921165
         },
         {
           "key": "placemark-486-point-1",
           "name": "1862 Tacoma Ave",
           "lat": 37.8940609,
           "lon": -122.2785752,
-          "distance_m": 79.1174656788539
+          "distance_m": 79.117466
         }
       ],
       "osm_within_20m": []
@@ -2142,7 +2142,7 @@
         "name": "1924 Hopkins St",
         "lat": 37.8860288,
         "lon": -122.2738736,
-        "distance_m": 12.960696472966445
+        "distance_m": 12.960696
       },
       "existing_within_100m": [
         {
@@ -2150,7 +2150,7 @@
           "name": "1924 Hopkins St",
           "lat": 37.8860288,
           "lon": -122.2738736,
-          "distance_m": 12.960696472966445
+          "distance_m": 12.960696
         }
       ],
       "osm_within_20m": []
@@ -2176,7 +2176,7 @@
         "name": "1927 El Dorado Ave",
         "lat": 37.8878595,
         "lon": -122.2752271,
-        "distance_m": 5.366162267265024
+        "distance_m": 5.366162
       },
       "existing_within_100m": [
         {
@@ -2184,14 +2184,14 @@
           "name": "1927 El Dorado Ave",
           "lat": 37.8878595,
           "lon": -122.2752271,
-          "distance_m": 5.366162267265024
+          "distance_m": 5.366162
         },
         {
           "key": "placemark-429-point-1",
           "name": "1926 El Dorado Ave",
           "lat": 37.8877304,
           "lon": -122.2750399,
-          "distance_m": 19.758229966386946
+          "distance_m": 19.75823
         }
       ],
       "osm_within_20m": []
@@ -2216,7 +2216,7 @@
         "name": "932 Colusa Ave",
         "lat": 37.890215,
         "lon": -122.2792787,
-        "distance_m": 11.219437342357706
+        "distance_m": 11.219437
       },
       "existing_within_100m": [
         {
@@ -2224,14 +2224,14 @@
           "name": "932 Colusa Ave",
           "lat": 37.890215,
           "lon": -122.2792787,
-          "distance_m": 11.219437342357706
+          "distance_m": 11.219437
         },
         {
           "key": "placemark-1001-point-1",
           "name": "931 Modoc St",
           "lat": 37.8901752,
           "lon": -122.2799054,
-          "distance_m": 65.14072400656346
+          "distance_m": 65.140724
         }
       ],
       "osm_within_20m": []
@@ -2256,7 +2256,7 @@
         "name": "1227 Neilson St",
         "lat": 37.881873,
         "lon": -122.2887941,
-        "distance_m": 123.95102318888372
+        "distance_m": 123.951023
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -2281,7 +2281,7 @@
         "name": "922 Ramona Ave",
         "lat": 37.8898708,
         "lon": -122.2906588,
-        "distance_m": 2.3403418035441588
+        "distance_m": 2.340342
       },
       "existing_within_100m": [
         {
@@ -2289,7 +2289,7 @@
           "name": "922 Ramona Ave",
           "lat": 37.8898708,
           "lon": -122.2906588,
-          "distance_m": 2.3403418035441588
+          "distance_m": 2.340342
         }
       ],
       "osm_within_20m": []
@@ -2314,7 +2314,7 @@
         "name": "1021 Ramona Ave",
         "lat": 37.8868365,
         "lon": -122.2894453,
-        "distance_m": 68.60559394427798
+        "distance_m": 68.605594
       },
       "existing_within_100m": [
         {
@@ -2322,7 +2322,7 @@
           "name": "1021 Ramona Ave",
           "lat": 37.8868365,
           "lon": -122.2894453,
-          "distance_m": 68.60559394427798
+          "distance_m": 68.605594
         }
       ],
       "osm_within_20m": []
@@ -2347,7 +2347,7 @@
         "name": "1140 Walnut St",
         "lat": 37.8866561,
         "lon": -122.2690957,
-        "distance_m": 3.6034094864793644
+        "distance_m": 3.603409
       },
       "existing_within_100m": [
         {
@@ -2355,14 +2355,14 @@
           "name": "1140 Walnut St",
           "lat": 37.8866561,
           "lon": -122.2690957,
-          "distance_m": 3.6034094864793644
+          "distance_m": 3.603409
         },
         {
           "key": "placemark-100-point-1",
           "name": "1153 Shattuck Ave",
           "lat": 37.8862636,
           "lon": -122.2699192,
-          "distance_m": 86.5339935611933
+          "distance_m": 86.533994
         }
       ],
       "osm_within_20m": []
@@ -2390,7 +2390,7 @@
         "name": "1153 Shattuck Ave",
         "lat": 37.8862636,
         "lon": -122.2699192,
-        "distance_m": 5.389200467538939
+        "distance_m": 5.3892
       },
       "existing_within_100m": [
         {
@@ -2398,14 +2398,14 @@
           "name": "1153 Shattuck Ave",
           "lat": 37.8862636,
           "lon": -122.2699192,
-          "distance_m": 5.389200467538939
+          "distance_m": 5.3892
         },
         {
           "key": "placemark-136-point-1",
           "name": "1140 Walnut St",
           "lat": 37.8866561,
           "lon": -122.2690957,
-          "distance_m": 85.12834160208686
+          "distance_m": 85.128342
         }
       ],
       "osm_within_20m": []
@@ -2433,7 +2433,7 @@
         "name": "81 Terrace Walk",
         "lat": 37.8881196,
         "lon": -122.2703344,
-        "distance_m": 4.298457239326474
+        "distance_m": 4.298457
       },
       "existing_within_100m": [
         {
@@ -2441,14 +2441,14 @@
           "name": "81 Terrace Walk",
           "lat": 37.8881196,
           "lon": -122.2703344,
-          "distance_m": 4.298457239326474
+          "distance_m": 4.298457
         },
         {
           "key": "placemark-12-point-1",
           "name": "1035 Shattuck Ave",
           "lat": 37.8881436,
           "lon": -122.2692567,
-          "distance_m": 97.17546579422091
+          "distance_m": 97.175466
         }
       ],
       "osm_within_20m": []
@@ -2474,7 +2474,7 @@
         "name": "1035 Shattuck Ave",
         "lat": 37.8881436,
         "lon": -122.2692567,
-        "distance_m": 29.28541748316115
+        "distance_m": 29.285417
       },
       "existing_within_100m": [
         {
@@ -2482,21 +2482,21 @@
           "name": "1035 Shattuck Ave",
           "lat": 37.8881436,
           "lon": -122.2692567,
-          "distance_m": 29.28541748316115
+          "distance_m": 29.285417
         },
         {
           "key": "placemark-1050-point-1",
           "name": "81 Terrace Walk",
           "lat": 37.8881196,
           "lon": -122.2703344,
-          "distance_m": 68.30773008843633
+          "distance_m": 68.30773
         },
         {
           "key": "placemark-212-point-1",
           "name": "1022 Shattuck Ave",
           "lat": 37.8886286,
           "lon": -122.2693096,
-          "distance_m": 69.25517313104815
+          "distance_m": 69.255173
         }
       ],
       "osm_within_20m": []
@@ -2524,7 +2524,7 @@
         "name": "1022 Shattuck Ave",
         "lat": 37.8886286,
         "lon": -122.2693096,
-        "distance_m": 6.453073454856309
+        "distance_m": 6.453073
       },
       "existing_within_100m": [
         {
@@ -2532,21 +2532,21 @@
           "name": "1022 Shattuck Ave",
           "lat": 37.8886286,
           "lon": -122.2693096,
-          "distance_m": 6.453073454856309
+          "distance_m": 6.453073
         },
         {
           "key": "placemark-12-point-1",
           "name": "1035 Shattuck Ave",
           "lat": 37.8881436,
           "lon": -122.2692567,
-          "distance_m": 59.37844335037162
+          "distance_m": 59.378443
         },
         {
           "key": "placemark-31-point-1",
           "name": "1114 Oxford St",
           "lat": 37.8883911,
           "lon": -122.2683082,
-          "distance_m": 90.21164042737779
+          "distance_m": 90.21164
         }
       ],
       "osm_within_20m": []
@@ -2572,7 +2572,7 @@
         "name": "922 Shattuck Ave.",
         "lat": 37.8905727,
         "lon": -122.2703667,
-        "distance_m": 6.971653222823826
+        "distance_m": 6.971653
       },
       "existing_within_100m": [
         {
@@ -2580,7 +2580,7 @@
           "name": "922 Shattuck Ave.",
           "lat": 37.8905727,
           "lon": -122.2703667,
-          "distance_m": 6.971653222823826
+          "distance_m": 6.971653
         }
       ],
       "osm_within_20m": []
@@ -2605,7 +2605,7 @@
         "name": "1416 Milvia St",
         "lat": 37.8811096,
         "lon": -122.2718973,
-        "distance_m": 4.061200990275279
+        "distance_m": 4.061201
       },
       "existing_within_100m": [
         {
@@ -2613,14 +2613,14 @@
           "name": "1416 Milvia St",
           "lat": 37.8811096,
           "lon": -122.2718973,
-          "distance_m": 4.061200990275279
+          "distance_m": 4.061201
         },
         {
           "key": "placemark-234-point-1",
           "name": "1403 Bonita Ave",
           "lat": 37.8813183,
           "lon": -122.2727793,
-          "distance_m": 84.83151037440759
+          "distance_m": 84.83151
         }
       ],
       "osm_within_20m": []
@@ -2645,7 +2645,7 @@
         "name": "1990 Marin Ave",
         "lat": 37.8896789,
         "lon": -122.2728709,
-        "distance_m": 6.615293677292775
+        "distance_m": 6.615294
       },
       "existing_within_100m": [
         {
@@ -2653,21 +2653,21 @@
           "name": "1990 Marin Ave",
           "lat": 37.8896789,
           "lon": -122.2728709,
-          "distance_m": 6.615293677292775
+          "distance_m": 6.615294
         },
         {
           "key": "placemark-1079-point-1",
           "name": "1976 Marin Ave",
           "lat": 37.8895711,
           "lon": -122.2732103,
-          "distance_m": 36.85654919552915
+          "distance_m": 36.856549
         },
         {
           "key": "placemark-269-point-1",
           "name": "2001 Los Angeles Ave",
           "lat": 37.890151,
           "lon": -122.2719722,
-          "distance_m": 89.49539544580138
+          "distance_m": 89.495395
         }
       ],
       "osm_within_20m": []
@@ -2692,7 +2692,7 @@
         "name": "632 Vincente Ave",
         "lat": 37.8960909,
         "lon": -122.28365,
-        "distance_m": 3.644610494348758
+        "distance_m": 3.64461
       },
       "existing_within_100m": [
         {
@@ -2700,7 +2700,7 @@
           "name": "632 Vincente Ave",
           "lat": 37.8960909,
           "lon": -122.28365,
-          "distance_m": 3.644610494348758
+          "distance_m": 3.64461
         }
       ],
       "osm_within_20m": []
@@ -2725,7 +2725,7 @@
         "name": "615 San Carlos Ave",
         "lat": 37.89604,
         "lon": -122.2889216,
-        "distance_m": 8.84423857222642
+        "distance_m": 8.844239
       },
       "existing_within_100m": [
         {
@@ -2733,21 +2733,21 @@
           "name": "615 San Carlos Ave",
           "lat": 37.89604,
           "lon": -122.2889216,
-          "distance_m": 8.84423857222642
+          "distance_m": 8.844239
         },
         {
           "key": "placemark-722-point-1",
           "name": "608 Santa Fe Ave",
           "lat": 37.8962621,
           "lon": -122.288315,
-          "distance_m": 67.32689646377864
+          "distance_m": 67.326896
         },
         {
           "key": "placemark-878-point-1",
           "name": "631 Carmel Ave",
           "lat": 37.8956689,
           "lon": -122.2898438,
-          "distance_m": 82.32521182396792
+          "distance_m": 82.325212
         }
       ],
       "osm_within_20m": []
@@ -2775,7 +2775,7 @@
         "name": "820 Pomona Ave",
         "lat": 37.892068,
         "lon": -122.292148,
-        "distance_m": 14.709508032364763
+        "distance_m": 14.709508
       },
       "existing_within_100m": [
         {
@@ -2783,7 +2783,7 @@
           "name": "820 Pomona Ave",
           "lat": 37.892068,
           "lon": -122.292148,
-          "distance_m": 14.709508032364763
+          "distance_m": 14.709508
         }
       ],
       "osm_within_20m": []
@@ -2809,7 +2809,7 @@
         "name": "1617 Euclid Ave",
         "lat": 37.8791751,
         "lon": -122.2608347,
-        "distance_m": 8.175166028305036
+        "distance_m": 8.175166
       },
       "existing_within_100m": [
         {
@@ -2817,7 +2817,7 @@
           "name": "1617 Euclid Ave",
           "lat": 37.8791751,
           "lon": -122.2608347,
-          "distance_m": 8.175166028305036
+          "distance_m": 8.175166
         }
       ],
       "osm_within_20m": []
@@ -2845,7 +2845,7 @@
         "name": "1596 Le Roy Ave",
         "lat": 37.8798825,
         "lon": -122.2589672,
-        "distance_m": 4.378045595727177
+        "distance_m": 4.378046
       },
       "existing_within_100m": [
         {
@@ -2853,21 +2853,21 @@
           "name": "1596 Le Roy Ave",
           "lat": 37.8798825,
           "lon": -122.2589672,
-          "distance_m": 4.378045595727177
+          "distance_m": 4.378046
         },
         {
           "key": "placemark-991-point-1",
           "name": "1635 Le Roy Ave",
           "lat": 37.8793208,
           "lon": -122.2585843,
-          "distance_m": 73.51031508302931
+          "distance_m": 73.510315
         },
         {
           "key": "placemark-826-point-1",
           "name": "1600 La Loma Ave",
           "lat": 37.8797792,
           "lon": -122.2578325,
-          "distance_m": 98.81052904609945
+          "distance_m": 98.810529
         }
       ],
       "osm_within_20m": []
@@ -2895,7 +2895,7 @@
         "name": "1196 Euclid Ave",
         "lat": 37.886909,
         "lon": -122.2624864,
-        "distance_m": 10.877404747677488
+        "distance_m": 10.877405
       },
       "existing_within_100m": [
         {
@@ -2903,7 +2903,7 @@
           "name": "1196 Euclid Ave",
           "lat": 37.886909,
           "lon": -122.2624864,
-          "distance_m": 10.877404747677488
+          "distance_m": 10.877405
         }
       ],
       "osm_within_20m": []
@@ -2932,7 +2932,7 @@
         "name": "1741 Brandon St",
         "lat": 37.828142,
         "lon": -122.2454793,
-        "distance_m": 2.795364950630174
+        "distance_m": 2.795365
       },
       "existing_within_100m": [
         {
@@ -2940,7 +2940,7 @@
           "name": "1741 Brandon St",
           "lat": 37.828142,
           "lon": -122.2454793,
-          "distance_m": 2.795364950630174
+          "distance_m": 2.795365
         }
       ],
       "osm_within_20m": []
@@ -2968,7 +2968,7 @@
         "name": "1820 Stuart St",
         "lat": 37.8577622,
         "lon": -122.2721669,
-        "distance_m": 224.5589540923387
+        "distance_m": 224.558954
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -2993,7 +2993,7 @@
         "name": "800 Spruce St",
         "lat": 37.8947967,
         "lon": -122.2686795,
-        "distance_m": 103.30284373306687
+        "distance_m": 103.302844
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -3018,7 +3018,7 @@
         "name": "1401 Berkeley Way",
         "lat": 37.8710582,
         "lon": -122.2843013,
-        "distance_m": 4.344581249604005
+        "distance_m": 4.344581
       },
       "existing_within_100m": [
         {
@@ -3026,7 +3026,7 @@
           "name": "1401 Berkeley Way",
           "lat": 37.8710582,
           "lon": -122.2843013,
-          "distance_m": 4.344581249604005
+          "distance_m": 4.344581
         }
       ],
       "osm_within_20m": []
@@ -3051,7 +3051,7 @@
         "name": "1640 Berkeley Way",
         "lat": 37.8717211,
         "lon": -122.2779979,
-        "distance_m": 90.05008451381636
+        "distance_m": 90.050085
       },
       "existing_within_100m": [
         {
@@ -3059,7 +3059,7 @@
           "name": "1640 Berkeley Way",
           "lat": 37.8717211,
           "lon": -122.2779979,
-          "distance_m": 90.05008451381636
+          "distance_m": 90.050085
         }
       ],
       "osm_within_20m": []
@@ -3084,7 +3084,7 @@
         "name": "1862 Tacoma Ave",
         "lat": 37.8940609,
         "lon": -122.2785752,
-        "distance_m": 3.54022467559793
+        "distance_m": 3.540225
       },
       "existing_within_100m": [
         {
@@ -3092,28 +3092,28 @@
           "name": "1862 Tacoma Ave",
           "lat": 37.8940609,
           "lon": -122.2785752,
-          "distance_m": 3.54022467559793
+          "distance_m": 3.540225
         },
         {
           "key": "placemark-1006-point-1",
           "name": "1863 San Pedro Ave",
           "lat": 37.8936052,
           "lon": -122.2782559,
-          "distance_m": 61.392512333647545
+          "distance_m": 61.392512
         },
         {
           "key": "placemark-315-point-1",
           "name": "1870 Capistrano Ave",
           "lat": 37.8947273,
           "lon": -122.2788177,
-          "distance_m": 73.8445864244319
+          "distance_m": 73.844586
         },
         {
           "key": "placemark-837-point-1",
           "name": "1850 San Pedro Ave",
           "lat": 37.8932912,
           "lon": -122.278488,
-          "distance_m": 88.8942110445925
+          "distance_m": 88.894211
         }
       ],
       "osm_within_20m": []
@@ -3139,7 +3139,7 @@
         "name": "1870 Capistrano Ave",
         "lat": 37.8947273,
         "lon": -122.2788177,
-        "distance_m": 55.183651354950854
+        "distance_m": 55.183651
       },
       "existing_within_100m": [
         {
@@ -3147,28 +3147,28 @@
           "name": "1870 Capistrano Ave",
           "lat": 37.8947273,
           "lon": -122.2788177,
-          "distance_m": 55.183651354950854
+          "distance_m": 55.183651
         },
         {
           "key": "placemark-913-point-1",
           "name": "1827 Capistrano Ave",
           "lat": 37.8942424,
           "lon": -122.2802817,
-          "distance_m": 84.14813255409628
+          "distance_m": 84.148133
         },
         {
           "key": "placemark-486-point-1",
           "name": "1862 Tacoma Ave",
           "lat": 37.8940609,
           "lon": -122.2785752,
-          "distance_m": 88.64143541152926
+          "distance_m": 88.641435
         },
         {
           "key": "placemark-1025-point-1",
           "name": "1846 San Lorenzo Ave",
           "lat": 37.8947132,
           "lon": -122.2805084,
-          "distance_m": 99.95534808633293
+          "distance_m": 99.955348
         }
       ],
       "osm_within_20m": []
@@ -3193,7 +3193,7 @@
         "name": "1827 Capistrano Ave",
         "lat": 37.8942424,
         "lon": -122.2802817,
-        "distance_m": 3.9605171865832034
+        "distance_m": 3.960517
       },
       "existing_within_100m": [
         {
@@ -3201,14 +3201,14 @@
           "name": "1827 Capistrano Ave",
           "lat": 37.8942424,
           "lon": -122.2802817,
-          "distance_m": 3.9605171865832034
+          "distance_m": 3.960517
         },
         {
           "key": "placemark-1025-point-1",
           "name": "1846 San Lorenzo Ave",
           "lat": 37.8947132,
           "lon": -122.2805084,
-          "distance_m": 58.15067034261312
+          "distance_m": 58.15067
         }
       ],
       "osm_within_20m": []
@@ -3233,7 +3233,7 @@
         "name": "1757 San Lorenzo Ave",
         "lat": 37.8937764,
         "lon": -122.2827502,
-        "distance_m": 1.9145094691235898
+        "distance_m": 1.914509
       },
       "existing_within_100m": [
         {
@@ -3241,7 +3241,7 @@
           "name": "1757 San Lorenzo Ave",
           "lat": 37.8937764,
           "lon": -122.2827502,
-          "distance_m": 1.9145094691235898
+          "distance_m": 1.914509
         }
       ],
       "osm_within_20m": []
@@ -3266,7 +3266,7 @@
         "name": "1915 Napa Ave",
         "lat": 37.8866635,
         "lon": -122.2751734,
-        "distance_m": 6.286383714725031
+        "distance_m": 6.286384
       },
       "existing_within_100m": [
         {
@@ -3274,7 +3274,7 @@
           "name": "1915 Napa Ave",
           "lat": 37.8866635,
           "lon": -122.2751734,
-          "distance_m": 6.286383714725031
+          "distance_m": 6.286384
         }
       ],
       "osm_within_20m": []
@@ -3299,7 +3299,7 @@
         "name": "1161 Colusa Ave",
         "lat": 37.884841,
         "lon": -122.278259,
-        "distance_m": 14.733229240863292
+        "distance_m": 14.733229
       },
       "existing_within_100m": [
         {
@@ -3307,14 +3307,14 @@
           "name": "1161 Colusa Ave",
           "lat": 37.884841,
           "lon": -122.278259,
-          "distance_m": 14.733229240863292
+          "distance_m": 14.733229
         },
         {
           "key": "placemark-385-point-1",
           "name": "1800 Sonoma Ave",
           "lat": 37.8856145,
           "lon": -122.2780507,
-          "distance_m": 79.3762969880033
+          "distance_m": 79.376297
         }
       ],
       "osm_within_20m": []
@@ -3343,7 +3343,7 @@
         "name": "971 Curtis St",
         "lat": 37.8883407,
         "lon": -122.2870524,
-        "distance_m": 8.053299640243294
+        "distance_m": 8.0533
       },
       "existing_within_100m": [
         {
@@ -3351,7 +3351,7 @@
           "name": "971 Curtis St",
           "lat": 37.8883407,
           "lon": -122.2870524,
-          "distance_m": 8.053299640243294
+          "distance_m": 8.0533
         }
       ],
       "osm_within_20m": []
@@ -3376,7 +3376,7 @@
         "name": "2925 Hillegass Ave",
         "lat": 37.8572491,
         "lon": -122.2554527,
-        "distance_m": 7.478745533042124
+        "distance_m": 7.478746
       },
       "existing_within_100m": [
         {
@@ -3384,7 +3384,7 @@
           "name": "2925 Hillegass Ave",
           "lat": 37.8572491,
           "lon": -122.2554527,
-          "distance_m": 7.478745533042124
+          "distance_m": 7.478746
         }
       ],
       "osm_within_20m": []
@@ -3410,7 +3410,7 @@
         "name": "6413 Hillegass Ave",
         "lat": 37.851508,
         "lon": -122.254951,
-        "distance_m": 19.656134665014978
+        "distance_m": 19.656135
       },
       "existing_within_100m": [
         {
@@ -3418,7 +3418,7 @@
           "name": "6413 Hillegass Ave",
           "lat": 37.851508,
           "lon": -122.254951,
-          "distance_m": 19.656134665014978
+          "distance_m": 19.656135
         }
       ],
       "osm_within_20m": []
@@ -3443,7 +3443,7 @@
         "name": "2612 Benvenue Ave",
         "lat": 37.8628874,
         "lon": -122.2551214,
-        "distance_m": 6.699854598839863
+        "distance_m": 6.699855
       },
       "existing_within_100m": [
         {
@@ -3451,14 +3451,14 @@
           "name": "2612 Benvenue Ave",
           "lat": 37.8628874,
           "lon": -122.2551214,
-          "distance_m": 6.699854598839863
+          "distance_m": 6.699855
         },
         {
           "key": "placemark-754-point-1",
           "name": "2613 Hillegass Ave",
           "lat": 37.8629405,
           "lon": -122.2560866,
-          "distance_m": 89.77369140474322
+          "distance_m": 89.773691
         }
       ],
       "osm_within_20m": []
@@ -3484,7 +3484,7 @@
         "name": "2700 Benvenue Ave",
         "lat": 37.861582,
         "lon": -122.2548622,
-        "distance_m": 2.4976634711634724
+        "distance_m": 2.497663
       },
       "existing_within_100m": [
         {
@@ -3492,7 +3492,7 @@
           "name": "2700 Benvenue Ave",
           "lat": 37.861582,
           "lon": -122.2548622,
-          "distance_m": 2.4976634711634724
+          "distance_m": 2.497663
         }
       ],
       "osm_within_20m": []
@@ -3518,7 +3518,7 @@
         "name": "2507 Woolsey St",
         "lat": 37.8537012,
         "lon": -122.2555685,
-        "distance_m": 156.90013583618705
+        "distance_m": 156.900136
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -3543,7 +3543,7 @@
         "name": "1648 Cedar St",
         "lat": 37.8770688,
         "lon": -122.278327,
-        "distance_m": 113.5682403919399
+        "distance_m": 113.56824
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -3571,7 +3571,7 @@
         "name": "1648 Cedar St",
         "lat": 37.8770688,
         "lon": -122.278327,
-        "distance_m": 0.6783458358503829
+        "distance_m": 0.678346
       },
       "existing_within_100m": [
         {
@@ -3579,7 +3579,7 @@
           "name": "1648 Cedar St",
           "lat": 37.8770688,
           "lon": -122.278327,
-          "distance_m": 0.6783458358503829
+          "distance_m": 0.678346
         }
       ],
       "osm_within_20m": []
@@ -3604,7 +3604,7 @@
         "name": "1515 McGee Ave",
         "lat": 37.8786894,
         "lon": -122.2787753,
-        "distance_m": 6.202637918109609
+        "distance_m": 6.202638
       },
       "existing_within_100m": [
         {
@@ -3612,21 +3612,21 @@
           "name": "1515 McGee Ave",
           "lat": 37.8786894,
           "lon": -122.2787753,
-          "distance_m": 6.202637918109609
+          "distance_m": 6.202638
         },
         {
           "key": "placemark-348-point-1",
           "name": "1509 McGee Ave",
           "lat": 37.8789098,
           "lon": -122.2791433,
-          "distance_m": 38.18948651733307
+          "distance_m": 38.189487
         },
         {
           "key": "placemark-349-point-1",
           "name": "1629 Jaynes St",
           "lat": 37.8780943,
           "lon": -122.2793054,
-          "distance_m": 86.58005134598866
+          "distance_m": 86.580051
         }
       ],
       "osm_within_20m": []
@@ -3654,7 +3654,7 @@
         "name": "1112 Curtis St",
         "lat": 37.8843087,
         "lon": -122.2889891,
-        "distance_m": 4.716755458105397
+        "distance_m": 4.716755
       },
       "existing_within_100m": [
         {
@@ -3662,7 +3662,7 @@
           "name": "1112 Curtis St",
           "lat": 37.8843087,
           "lon": -122.2889891,
-          "distance_m": 4.716755458105397
+          "distance_m": 4.716755
         }
       ],
       "osm_within_20m": []
@@ -3687,7 +3687,7 @@
         "name": "1227 Neilson St",
         "lat": 37.881873,
         "lon": -122.2887941,
-        "distance_m": 5.634765633868143
+        "distance_m": 5.634766
       },
       "existing_within_100m": [
         {
@@ -3695,7 +3695,7 @@
           "name": "1227 Neilson St",
           "lat": 37.881873,
           "lon": -122.2887941,
-          "distance_m": 5.634765633868143
+          "distance_m": 5.634766
         }
       ],
       "osm_within_20m": []
@@ -3724,7 +3724,7 @@
         "name": "1209 Spruce St",
         "lat": 37.8857327,
         "lon": -122.2664163,
-        "distance_m": 0.4919339048341457
+        "distance_m": 0.491934
       },
       "existing_within_100m": [
         {
@@ -3732,14 +3732,14 @@
           "name": "1209 Spruce St",
           "lat": 37.8857327,
           "lon": -122.2664163,
-          "distance_m": 0.4919339048341457
+          "distance_m": 0.491934
         },
         {
           "key": "placemark-25-point-1",
           "name": "2300 Eunice St",
           "lat": 37.8860997,
           "lon": -122.265402,
-          "distance_m": 98.22941253388436
+          "distance_m": 98.229413
         }
       ],
       "osm_within_20m": []
@@ -3764,7 +3764,7 @@
         "name": "1311 Spruce St",
         "lat": 37.8835736,
         "lon": -122.2661492,
-        "distance_m": 79.29188039985797
+        "distance_m": 79.29188
       },
       "existing_within_100m": [
         {
@@ -3772,7 +3772,7 @@
           "name": "1311 Spruce St",
           "lat": 37.8835736,
           "lon": -122.2661492,
-          "distance_m": 79.29188039985797
+          "distance_m": 79.29188
         }
       ],
       "osm_within_20m": []
@@ -3798,7 +3798,7 @@
         "name": "1415 Arch St",
         "lat": 37.8821239,
         "lon": -122.2648337,
-        "distance_m": 3.733012187994936
+        "distance_m": 3.733012
       },
       "existing_within_100m": [
         {
@@ -3806,7 +3806,7 @@
           "name": "1415 Arch St",
           "lat": 37.8821239,
           "lon": -122.2648337,
-          "distance_m": 3.733012187994936
+          "distance_m": 3.733012
         }
       ],
       "osm_within_20m": []
@@ -3832,7 +3832,7 @@
         "name": "1800 Arch St",
         "lat": 37.875999,
         "lon": -122.2642519,
-        "distance_m": 37.29104736408251
+        "distance_m": 37.291047
       },
       "existing_within_100m": [
         {
@@ -3840,7 +3840,7 @@
           "name": "1800 Arch St",
           "lat": 37.875999,
           "lon": -122.2642519,
-          "distance_m": 37.29104736408251
+          "distance_m": 37.291047
         }
       ],
       "osm_within_20m": []
@@ -3866,7 +3866,7 @@
         "name": "1000 Euclid Ave",
         "lat": 37.8915708,
         "lon": -122.2650461,
-        "distance_m": 5.248335151951041
+        "distance_m": 5.248335
       },
       "existing_within_100m": [
         {
@@ -3874,21 +3874,21 @@
           "name": "1000 Euclid Ave",
           "lat": 37.8915708,
           "lon": -122.2650461,
-          "distance_m": 5.248335151951041
+          "distance_m": 5.248335
         },
         {
           "key": "placemark-887-point-1",
           "name": "985 Euclid Ave",
           "lat": 37.8920617,
           "lon": -122.2647803,
-          "distance_m": 57.416522749729666
+          "distance_m": 57.416523
         },
         {
           "key": "placemark-886-point-1",
           "name": "1027 Euclid Ave",
           "lat": 37.8909772,
           "lon": -122.2642037,
-          "distance_m": 95.31383539228561
+          "distance_m": 95.313835
         }
       ],
       "osm_within_20m": []
@@ -3914,7 +3914,7 @@
         "name": "2010 Berryman St",
         "lat": 37.88349,
         "lon": -122.2715361,
-        "distance_m": 5.814810394013607
+        "distance_m": 5.81481
       },
       "existing_within_100m": [
         {
@@ -3922,7 +3922,7 @@
           "name": "2010 Berryman St",
           "lat": 37.88349,
           "lon": -122.2715361,
-          "distance_m": 5.814810394013607
+          "distance_m": 5.81481
         }
       ],
       "osm_within_20m": []
@@ -3947,7 +3947,7 @@
         "name": "1061 Evelyn Ave",
         "lat": 37.8852651,
         "lon": -122.292648,
-        "distance_m": 7.598652320688342
+        "distance_m": 7.598652
       },
       "existing_within_100m": [
         {
@@ -3955,7 +3955,7 @@
           "name": "1061 Evelyn Ave",
           "lat": 37.8852651,
           "lon": -122.292648,
-          "distance_m": 7.598652320688342
+          "distance_m": 7.598652
         }
       ],
       "osm_within_20m": []
@@ -3981,7 +3981,7 @@
         "name": "908 Masonic Ave",
         "lat": 37.8900798,
         "lon": -122.2935386,
-        "distance_m": 0.6001414617272588
+        "distance_m": 0.600141
       },
       "existing_within_100m": [
         {
@@ -3989,7 +3989,7 @@
           "name": "908 Masonic Ave",
           "lat": 37.8900798,
           "lon": -122.2935386,
-          "distance_m": 0.6001414617272588
+          "distance_m": 0.600141
         }
       ],
       "osm_within_20m": []
@@ -4017,7 +4017,7 @@
         "name": "1631 California St",
         "lat": 37.8758335,
         "lon": -122.2802265,
-        "distance_m": 8.094339097368884
+        "distance_m": 8.094339
       },
       "existing_within_100m": [
         {
@@ -4025,14 +4025,14 @@
           "name": "1631 California St",
           "lat": 37.8758335,
           "lon": -122.2802265,
-          "distance_m": 8.094339097368884
+          "distance_m": 8.094339
         },
         {
           "key": "placemark-1066-point-1",
           "name": "1644 Lincoln St",
           "lat": 37.876093,
           "lon": -122.2793171,
-          "distance_m": 89.78605051074462
+          "distance_m": 89.786051
         }
       ],
       "osm_within_20m": []
@@ -4056,7 +4056,7 @@
         "name": "1644 Lincoln St",
         "lat": 37.876093,
         "lon": -122.2793171,
-        "distance_m": 8.728003887736309
+        "distance_m": 8.728004
       },
       "existing_within_100m": [
         {
@@ -4064,14 +4064,14 @@
           "name": "1644 Lincoln St",
           "lat": 37.876093,
           "lon": -122.2793171,
-          "distance_m": 8.728003887736309
+          "distance_m": 8.728004
         },
         {
           "key": "placemark-387-point-1",
           "name": "1631 California St",
           "lat": 37.8758335,
           "lon": -122.2802265,
-          "distance_m": 79.21026536143658
+          "distance_m": 79.210265
         }
       ],
       "osm_within_20m": []
@@ -4100,7 +4100,7 @@
         "name": "4178 Manila Ave",
         "lat": 37.8306967,
         "lon": -122.2569863,
-        "distance_m": 3.7938043752814026
+        "distance_m": 3.793804
       },
       "existing_within_100m": [
         {
@@ -4108,7 +4108,7 @@
           "name": "4178 Manila Ave",
           "lat": 37.8306967,
           "lon": -122.2569863,
-          "distance_m": 3.7938043752814026
+          "distance_m": 3.793804
         }
       ],
       "osm_within_20m": []
@@ -4135,7 +4135,7 @@
         "name": "480 42nd St",
         "lat": 37.8310052,
         "lon": -122.2628922,
-        "distance_m": 115.80260349017315
+        "distance_m": 115.802603
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -4160,7 +4160,7 @@
         "name": "362 Fairmount Ave",
         "lat": 37.8183196,
         "lon": -122.2577929,
-        "distance_m": 269.1290893179242
+        "distance_m": 269.129089
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -4189,7 +4189,7 @@
         "name": "4893 Shattuck Ave.",
         "lat": 37.8359169,
         "lon": -122.2640039,
-        "distance_m": 3.7400183671900646
+        "distance_m": 3.740018
       },
       "existing_within_100m": [
         {
@@ -4197,7 +4197,7 @@
           "name": "4893 Shattuck Ave.",
           "lat": 37.8359169,
           "lon": -122.2640039,
-          "distance_m": 3.7400183671900646
+          "distance_m": 3.740018
         }
       ],
       "osm_within_20m": []
@@ -4224,7 +4224,7 @@
         "name": "3768 Shafter Ave",
         "lat": 37.8260311,
         "lon": -122.2602864,
-        "distance_m": 1.7186221951205418
+        "distance_m": 1.718622
       },
       "existing_within_100m": [
         {
@@ -4232,7 +4232,7 @@
           "name": "3768 Shafter Ave",
           "lat": 37.8260311,
           "lon": -122.2602864,
-          "distance_m": 1.7186221951205418
+          "distance_m": 1.718622
         }
       ],
       "osm_within_20m": []
@@ -4257,7 +4257,7 @@
         "name": "3900 Telegraph Ave",
         "lat": 37.8284668,
         "lon": -122.2644517,
-        "distance_m": 209.6938764968415
+        "distance_m": 209.693876
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -4285,7 +4285,7 @@
         "name": "4160 Emerald St",
         "lat": 37.830024,
         "lon": -122.256044,
-        "distance_m": 21.15696558764028
+        "distance_m": 21.156966
       },
       "existing_within_100m": [
         {
@@ -4293,14 +4293,14 @@
           "name": "4160 Emerald St",
           "lat": 37.830024,
           "lon": -122.256044,
-          "distance_m": 21.15696558764028
+          "distance_m": 21.156966
         },
         {
           "key": "placemark-650-point-1",
           "name": "4178 Manila Ave",
           "lat": 37.8306967,
           "lon": -122.2569863,
-          "distance_m": 92.99400655845498
+          "distance_m": 92.994007
         }
       ],
       "osm_within_20m": []
@@ -4324,7 +4324,7 @@
         "name": "Emerson Elementary School",
         "lat": 37.833876,
         "lon": -122.2588089,
-        "distance_m": 128.46341691188462
+        "distance_m": 128.463417
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -4351,7 +4351,7 @@
         "name": "4219 Shafter Ave",
         "lat": 37.8315437,
         "lon": -122.2590718,
-        "distance_m": 206.4889060792849
+        "distance_m": 206.488906
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -4379,7 +4379,7 @@
         "name": "373 40th St",
         "lat": 37.8279969,
         "lon": -122.258185,
-        "distance_m": 10.778668276899097
+        "distance_m": 10.778668
       },
       "existing_within_100m": [
         {
@@ -4387,7 +4387,7 @@
           "name": "373 40th St",
           "lat": 37.8279969,
           "lon": -122.258185,
-          "distance_m": 10.778668276899097
+          "distance_m": 10.778668
         }
       ],
       "osm_within_20m": []
@@ -4416,7 +4416,7 @@
         "name": "480 42nd St",
         "lat": 37.8310052,
         "lon": -122.2628922,
-        "distance_m": 4.846826772715879
+        "distance_m": 4.846827
       },
       "existing_within_100m": [
         {
@@ -4424,14 +4424,14 @@
           "name": "480 42nd St",
           "lat": 37.8310052,
           "lon": -122.2628922,
-          "distance_m": 4.846826772715879
+          "distance_m": 4.846827
         },
         {
           "key": "placemark-391-point-1",
           "name": "469 Rich St",
           "lat": 37.8303837,
           "lon": -122.2622503,
-          "distance_m": 84.34783533939667
+          "distance_m": 84.347835
         }
       ],
       "osm_within_20m": []
@@ -4457,7 +4457,7 @@
         "name": "90 Rio Vista Ave",
         "lat": 37.8228658,
         "lon": -122.2529436,
-        "distance_m": 175.62328060676504
+        "distance_m": 175.623281
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -4483,7 +4483,7 @@
         "name": "76 Garland Ave",
         "lat": 37.8171818,
         "lon": -122.2585801,
-        "distance_m": 6.504202561367803
+        "distance_m": 6.504203
       },
       "existing_within_100m": [
         {
@@ -4491,7 +4491,7 @@
           "name": "76 Garland Ave",
           "lat": 37.8171818,
           "lon": -122.2585801,
-          "distance_m": 6.504202561367803
+          "distance_m": 6.504203
         }
       ],
       "osm_within_20m": []
@@ -4520,7 +4520,7 @@
         "name": "362 Fairmount Ave",
         "lat": 37.8183196,
         "lon": -122.2577929,
-        "distance_m": 3.8263345637563755
+        "distance_m": 3.826335
       },
       "existing_within_100m": [
         {
@@ -4528,7 +4528,7 @@
           "name": "362 Fairmount Ave",
           "lat": 37.8183196,
           "lon": -122.2577929,
-          "distance_m": 3.8263345637563755
+          "distance_m": 3.826335
         }
       ],
       "osm_within_20m": []
@@ -4554,7 +4554,7 @@
         "name": "3768 Shafter Ave",
         "lat": 37.8260311,
         "lon": -122.2602864,
-        "distance_m": 90.02715589584018
+        "distance_m": 90.027156
       },
       "existing_within_100m": [
         {
@@ -4562,7 +4562,7 @@
           "name": "3768 Shafter Ave",
           "lat": 37.8260311,
           "lon": -122.2602864,
-          "distance_m": 90.02715589584018
+          "distance_m": 90.027156
         }
       ],
       "osm_within_20m": []
@@ -4591,7 +4591,7 @@
         "name": "4810 Lawton Ave",
         "lat": 37.8342783,
         "lon": -122.257252,
-        "distance_m": 1.3528908028771336
+        "distance_m": 1.352891
       },
       "existing_within_100m": [
         {
@@ -4599,7 +4599,7 @@
           "name": "4810 Lawton Ave",
           "lat": 37.8342783,
           "lon": -122.257252,
-          "distance_m": 1.3528908028771336
+          "distance_m": 1.352891
         }
       ],
       "osm_within_20m": []
@@ -4628,7 +4628,7 @@
         "name": "469 Rich St",
         "lat": 37.8303837,
         "lon": -122.2622503,
-        "distance_m": 12.306755554735744
+        "distance_m": 12.306756
       },
       "existing_within_100m": [
         {
@@ -4636,14 +4636,14 @@
           "name": "469 Rich St",
           "lat": 37.8303837,
           "lon": -122.2622503,
-          "distance_m": 12.306755554735744
+          "distance_m": 12.306756
         },
         {
           "key": "placemark-1067-point-1",
           "name": "480 42nd St",
           "lat": 37.8310052,
           "lon": -122.2628922,
-          "distance_m": 80.8733871159662
+          "distance_m": 80.873387
         }
       ],
       "osm_within_20m": []
@@ -4672,7 +4672,7 @@
         "name": "462 36th St",
         "lat": 37.824299,
         "lon": -122.2638043,
-        "distance_m": 5.841340123265033
+        "distance_m": 5.84134
       },
       "existing_within_100m": [
         {
@@ -4680,14 +4680,14 @@
           "name": "462 36th St",
           "lat": 37.824299,
           "lon": -122.2638043,
-          "distance_m": 5.841340123265033
+          "distance_m": 5.84134
         },
         {
           "key": "placemark-1018-point-1",
           "name": "445 37th St",
           "lat": 37.8247681,
           "lon": -122.2632296,
-          "distance_m": 75.51163381295487
+          "distance_m": 75.511634
         }
       ],
       "osm_within_20m": []
@@ -4715,7 +4715,7 @@
         "name": "751 Kingston Ave",
         "lat": 37.8229653,
         "lon": -122.250138,
-        "distance_m": 7.439977183385935
+        "distance_m": 7.439977
       },
       "existing_within_100m": [
         {
@@ -4723,7 +4723,7 @@
           "name": "751 Kingston Ave",
           "lat": 37.8229653,
           "lon": -122.250138,
-          "distance_m": 7.439977183385935
+          "distance_m": 7.439977
         }
       ],
       "osm_within_20m": []
@@ -4749,7 +4749,7 @@
         "name": "785 Kingston Ave",
         "lat": 37.8245116,
         "lon": -122.2486891,
-        "distance_m": 105.60268178438011
+        "distance_m": 105.602682
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -4778,7 +4778,7 @@
         "name": "101 Echo Ave",
         "lat": 37.8272375,
         "lon": -122.2480339,
-        "distance_m": 99.4235116835103
+        "distance_m": 99.423512
       },
       "existing_within_100m": [
         {
@@ -4786,7 +4786,7 @@
           "name": "101 Echo Ave",
           "lat": 37.8272375,
           "lon": -122.2480339,
-          "distance_m": 99.4235116835103
+          "distance_m": 99.423512
         }
       ],
       "osm_within_20m": []
@@ -4813,7 +4813,7 @@
         "name": "5546 Fremont St",
         "lat": 37.8391487,
         "lon": -122.2842942,
-        "distance_m": 90.62617716842712
+        "distance_m": 90.626177
       },
       "existing_within_100m": [
         {
@@ -4821,14 +4821,14 @@
           "name": "5546 Fremont St",
           "lat": 37.8391487,
           "lon": -122.2842942,
-          "distance_m": 90.62617716842712
+          "distance_m": 90.626177
         },
         {
           "key": "placemark-897-point-1",
           "name": "5586 Fremont St",
           "lat": 37.8398961,
           "lon": -122.2845287,
-          "distance_m": 91.08651212251333
+          "distance_m": 91.086512
         }
       ],
       "osm_within_20m": []
@@ -4857,7 +4857,7 @@
         "name": "3545 Harrison St",
         "lat": 37.8204024,
         "lon": -122.2534739,
-        "distance_m": 1.4929854103236107
+        "distance_m": 1.492985
       },
       "existing_within_100m": [
         {
@@ -4865,7 +4865,7 @@
           "name": "3545 Harrison St",
           "lat": 37.8204024,
           "lon": -122.2534739,
-          "distance_m": 1.4929854103236107
+          "distance_m": 1.492985
         }
       ],
       "osm_within_20m": []
@@ -4894,7 +4894,7 @@
         "name": "5212 Shattuck Ave",
         "lat": 37.8381607,
         "lon": -122.2640373,
-        "distance_m": 8.202020773321623
+        "distance_m": 8.202021
       },
       "existing_within_100m": [
         {
@@ -4902,7 +4902,7 @@
           "name": "5212 Shattuck Ave",
           "lat": 37.8381607,
           "lon": -122.2640373,
-          "distance_m": 8.202020773321623
+          "distance_m": 8.202021
         }
       ],
       "osm_within_20m": []
@@ -4930,7 +4930,7 @@
         "name": "330 Adams St.",
         "lat": 37.8142314,
         "lon": -122.2559383,
-        "distance_m": 13.509242857363429
+        "distance_m": 13.509243
       },
       "existing_within_100m": [
         {
@@ -4938,7 +4938,7 @@
           "name": "330 Adams St.",
           "lat": 37.8142314,
           "lon": -122.2559383,
-          "distance_m": 13.509242857363429
+          "distance_m": 13.509243
         }
       ],
       "osm_within_20m": []
@@ -4967,7 +4967,7 @@
         "name": "2 Moss Ave",
         "lat": 37.8183406,
         "lon": -122.2506107,
-        "distance_m": 5.526965018642796
+        "distance_m": 5.526965
       },
       "existing_within_100m": [
         {
@@ -4975,7 +4975,7 @@
           "name": "2 Moss Ave",
           "lat": 37.8183406,
           "lon": -122.2506107,
-          "distance_m": 5.526965018642796
+          "distance_m": 5.526965
         }
       ],
       "osm_within_20m": []
@@ -5004,7 +5004,7 @@
         "name": "445 37th St",
         "lat": 37.8247681,
         "lon": -122.2632296,
-        "distance_m": 3.3169576798446156
+        "distance_m": 3.316958
       },
       "existing_within_100m": [
         {
@@ -5012,14 +5012,14 @@
           "name": "445 37th St",
           "lat": 37.8247681,
           "lon": -122.2632296,
-          "distance_m": 3.3169576798446156
+          "distance_m": 3.316958
         },
         {
           "key": "placemark-853-point-1",
           "name": "462 36th St",
           "lat": 37.824299,
           "lon": -122.2638043,
-          "distance_m": 74.35286297123234
+          "distance_m": 74.352863
         }
       ],
       "osm_within_20m": []
@@ -5047,7 +5047,7 @@
         "name": "270 38th St",
         "lat": 37.8256931,
         "lon": -122.2566883,
-        "distance_m": 6.305777038454893
+        "distance_m": 6.305777
       },
       "existing_within_100m": [
         {
@@ -5055,7 +5055,7 @@
           "name": "270 38th St",
           "lat": 37.8256931,
           "lon": -122.2566883,
-          "distance_m": 6.305777038454893
+          "distance_m": 6.305777
         }
       ],
       "osm_within_20m": []
@@ -5084,7 +5084,7 @@
         "name": "4326 West St",
         "lat": 37.8332091,
         "lon": -122.2699695,
-        "distance_m": 8.981677027153504
+        "distance_m": 8.981677
       },
       "existing_within_100m": [
         {
@@ -5092,7 +5092,7 @@
           "name": "4326 West St",
           "lat": 37.8332091,
           "lon": -122.2699695,
-          "distance_m": 8.981677027153504
+          "distance_m": 8.981677
         }
       ],
       "osm_within_20m": []
@@ -5120,7 +5120,7 @@
         "name": "1000 42nd St",
         "lat": 37.8329073,
         "lon": -122.27646,
-        "distance_m": 188.90073563749382
+        "distance_m": 188.900736
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5150,7 +5150,7 @@
         "name": "4295 Gilbert St",
         "lat": 37.8311816,
         "lon": -122.2521966,
-        "distance_m": 4.027073683129877
+        "distance_m": 4.027074
       },
       "existing_within_100m": [
         {
@@ -5158,7 +5158,7 @@
           "name": "4295 Gilbert St",
           "lat": 37.8311816,
           "lon": -122.2521966,
-          "distance_m": 4.027073683129877
+          "distance_m": 4.027074
         }
       ],
       "osm_within_20m": []
@@ -5185,7 +5185,7 @@
         "name": "4295 Gilbert St",
         "lat": 37.8311816,
         "lon": -122.2521966,
-        "distance_m": 46.37672476460433
+        "distance_m": 46.376725
       },
       "existing_within_100m": [
         {
@@ -5193,7 +5193,7 @@
           "name": "4295 Gilbert St",
           "lat": 37.8311816,
           "lon": -122.2521966,
-          "distance_m": 46.37672476460433
+          "distance_m": 46.376725
         }
       ],
       "osm_within_20m": []
@@ -5218,7 +5218,7 @@
         "name": "4326 West St",
         "lat": 37.8332091,
         "lon": -122.2699695,
-        "distance_m": 148.3969385277099
+        "distance_m": 148.396939
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5248,7 +5248,7 @@
         "name": "36 Glen Ave",
         "lat": 37.8255726,
         "lon": -122.2522672,
-        "distance_m": 272.9349270828349
+        "distance_m": 272.934927
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5278,7 +5278,7 @@
         "name": "4828 Webster St",
         "lat": 37.8351,
         "lon": -122.259659,
-        "distance_m": 263.7588864127362
+        "distance_m": 263.758886
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5306,7 +5306,7 @@
         "name": "5371 Shafter Ave",
         "lat": 37.841158,
         "lon": -122.255002,
-        "distance_m": 162.9553379075065
+        "distance_m": 162.955338
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5339,7 +5339,7 @@
         "name": "5332 Shafter Ave",
         "lat": 37.840082,
         "lon": -122.255211,
-        "distance_m": 126.83477355598562
+        "distance_m": 126.834774
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5368,7 +5368,7 @@
         "name": "186 John St",
         "lat": 37.8299018,
         "lon": -122.2498934,
-        "distance_m": 154.7047003510402
+        "distance_m": 154.7047
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5398,7 +5398,7 @@
         "name": "186 John St",
         "lat": 37.8299018,
         "lon": -122.2498934,
-        "distance_m": 9.209376411975516
+        "distance_m": 9.209376
       },
       "existing_within_100m": [
         {
@@ -5406,7 +5406,7 @@
           "name": "186 John St",
           "lat": 37.8299018,
           "lon": -122.2498934,
-          "distance_m": 9.209376411975516
+          "distance_m": 9.209376
         }
       ],
       "osm_within_20m": []
@@ -5437,7 +5437,7 @@
         "name": "186 John St",
         "lat": 37.8299018,
         "lon": -122.2498934,
-        "distance_m": 60.142605927042034
+        "distance_m": 60.142606
       },
       "existing_within_100m": [
         {
@@ -5445,7 +5445,7 @@
           "name": "186 John St",
           "lat": 37.8299018,
           "lon": -122.2498934,
-          "distance_m": 60.142605927042034
+          "distance_m": 60.142606
         }
       ],
       "osm_within_20m": []
@@ -5475,7 +5475,7 @@
         "name": "5332 Shafter Ave",
         "lat": 37.840082,
         "lon": -122.255211,
-        "distance_m": 16.24200625990009
+        "distance_m": 16.242006
       },
       "existing_within_100m": [
         {
@@ -5483,7 +5483,7 @@
           "name": "5332 Shafter Ave",
           "lat": 37.840082,
           "lon": -122.255211,
-          "distance_m": 16.24200625990009
+          "distance_m": 16.242006
         }
       ],
       "osm_within_20m": []
@@ -5513,7 +5513,7 @@
         "name": "5371 Shafter Ave",
         "lat": 37.841158,
         "lon": -122.255002,
-        "distance_m": 117.68181030940485
+        "distance_m": 117.68181
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5539,7 +5539,7 @@
         "name": "5371 Shafter Ave",
         "lat": 37.841158,
         "lon": -122.255002,
-        "distance_m": 166.12500573066583
+        "distance_m": 166.125006
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5565,7 +5565,7 @@
         "name": "5215 Manila Ave",
         "lat": 37.8368709,
         "lon": -122.2541533,
-        "distance_m": 226.29977253483506
+        "distance_m": 226.299773
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5595,7 +5595,7 @@
         "name": "5332 Shafter Ave",
         "lat": 37.840082,
         "lon": -122.255211,
-        "distance_m": 160.50572715479055
+        "distance_m": 160.505727
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5623,7 +5623,7 @@
         "name": "5371 Shafter Ave",
         "lat": 37.841158,
         "lon": -122.255002,
-        "distance_m": 202.40582060636666
+        "distance_m": 202.405821
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5653,7 +5653,7 @@
         "name": "5308 Manila Ave",
         "lat": 37.8382394,
         "lon": -122.252756,
-        "distance_m": 217.26154719141212
+        "distance_m": 217.261547
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5683,7 +5683,7 @@
         "name": "5215 Manila Ave",
         "lat": 37.8368709,
         "lon": -122.2541533,
-        "distance_m": 6.209395673553048
+        "distance_m": 6.209396
       },
       "existing_within_100m": [
         {
@@ -5691,7 +5691,7 @@
           "name": "5215 Manila Ave",
           "lat": 37.8368709,
           "lon": -122.2541533,
-          "distance_m": 6.209395673553048
+          "distance_m": 6.209396
         }
       ],
       "osm_within_20m": []
@@ -5718,7 +5718,7 @@
         "name": "5215 Manila Ave",
         "lat": 37.8368709,
         "lon": -122.2541533,
-        "distance_m": 74.36914493633617
+        "distance_m": 74.369145
       },
       "existing_within_100m": [
         {
@@ -5726,7 +5726,7 @@
           "name": "5215 Manila Ave",
           "lat": 37.8368709,
           "lon": -122.2541533,
-          "distance_m": 74.36914493633617
+          "distance_m": 74.369145
         }
       ],
       "osm_within_20m": []
@@ -5756,7 +5756,7 @@
         "name": "5308 Manila Ave",
         "lat": 37.8382394,
         "lon": -122.252756,
-        "distance_m": 6.679308617975754
+        "distance_m": 6.679309
       },
       "existing_within_100m": [
         {
@@ -5764,7 +5764,7 @@
           "name": "5308 Manila Ave",
           "lat": 37.8382394,
           "lon": -122.252756,
-          "distance_m": 6.679308617975754
+          "distance_m": 6.679309
         }
       ],
       "osm_within_20m": []
@@ -5793,7 +5793,7 @@
         "name": "2639 Harrison St",
         "lat": 37.8145986,
         "lon": -122.2599593,
-        "distance_m": 10.451190743669375
+        "distance_m": 10.451191
       },
       "existing_within_100m": [
         {
@@ -5801,7 +5801,7 @@
           "name": "2639 Harrison St",
           "lat": 37.8145986,
           "lon": -122.2599593,
-          "distance_m": 10.451190743669375
+          "distance_m": 10.451191
         }
       ],
       "osm_within_20m": []
@@ -5828,7 +5828,7 @@
         "name": "4295 Gilbert St",
         "lat": 37.8311816,
         "lon": -122.2521966,
-        "distance_m": 149.36313533512532
+        "distance_m": 149.363135
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5856,7 +5856,7 @@
         "name": "4295 Gilbert St",
         "lat": 37.8311816,
         "lon": -122.2521966,
-        "distance_m": 210.77416544444088
+        "distance_m": 210.774165
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5883,7 +5883,7 @@
         "name": "5332 Shafter Ave",
         "lat": 37.840082,
         "lon": -122.255211,
-        "distance_m": 384.9928832776254
+        "distance_m": 384.992883
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -5913,7 +5913,7 @@
         "name": "886 40th St",
         "lat": 37.830777,
         "lon": -122.273585,
-        "distance_m": 5.292122675357986
+        "distance_m": 5.292123
       },
       "existing_within_100m": [
         {
@@ -5921,7 +5921,7 @@
           "name": "886 40th St",
           "lat": 37.830777,
           "lon": -122.273585,
-          "distance_m": 5.292122675357986
+          "distance_m": 5.292123
         }
       ],
       "osm_within_20m": []
@@ -5948,7 +5948,7 @@
         "name": "5809 Ayala Ave",
         "lat": 37.8444026,
         "lon": -122.2579758,
-        "distance_m": 3.619833851947378
+        "distance_m": 3.619834
       },
       "existing_within_100m": [
         {
@@ -5956,7 +5956,7 @@
           "name": "5809 Ayala Ave",
           "lat": 37.8444026,
           "lon": -122.2579758,
-          "distance_m": 3.619833851947378
+          "distance_m": 3.619834
         }
       ],
       "osm_within_20m": []
@@ -5983,7 +5983,7 @@
         "name": "496 58th St",
         "lat": 37.8444877,
         "lon": -122.2606087,
-        "distance_m": 3.7647056913491173
+        "distance_m": 3.764706
       },
       "existing_within_100m": [
         {
@@ -5991,7 +5991,7 @@
           "name": "496 58th St",
           "lat": 37.8444877,
           "lon": -122.2606087,
-          "distance_m": 3.7647056913491173
+          "distance_m": 3.764706
         }
       ],
       "osm_within_20m": []
@@ -6022,7 +6022,7 @@
         "name": "5720 Shattuck Ave",
         "lat": 37.8427938,
         "lon": -122.2647427,
-        "distance_m": 1.4735637160182127
+        "distance_m": 1.473564
       },
       "existing_within_100m": [
         {
@@ -6030,7 +6030,7 @@
           "name": "5720 Shattuck Ave",
           "lat": 37.8427938,
           "lon": -122.2647427,
-          "distance_m": 1.4735637160182127
+          "distance_m": 1.473564
         }
       ],
       "osm_within_20m": []
@@ -6060,7 +6060,7 @@
         "name": "631 Vernon St",
         "lat": 37.819647,
         "lon": -122.249159,
-        "distance_m": 130.70444393107974
+        "distance_m": 130.704444
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -6089,7 +6089,7 @@
         "name": "631 Vernon St",
         "lat": 37.819647,
         "lon": -122.249159,
-        "distance_m": 19.47191732400821
+        "distance_m": 19.471917
       },
       "existing_within_100m": [
         {
@@ -6097,7 +6097,7 @@
           "name": "631 Vernon St",
           "lat": 37.819647,
           "lon": -122.249159,
-          "distance_m": 19.47191732400821
+          "distance_m": 19.471917
         }
       ],
       "osm_within_20m": []
@@ -6123,7 +6123,7 @@
         "name": "1614 Grant St",
         "lat": 37.8769741,
         "lon": -122.2760313,
-        "distance_m": 1.6836540413453491
+        "distance_m": 1.683654
       },
       "existing_within_100m": [
         {
@@ -6131,7 +6131,7 @@
           "name": "1614 Grant St",
           "lat": 37.8769741,
           "lon": -122.2760313,
-          "distance_m": 1.6836540413453491
+          "distance_m": 1.683654
         }
       ],
       "osm_within_20m": []
@@ -6157,7 +6157,7 @@
         "name": "1509 McGee Ave",
         "lat": 37.8789098,
         "lon": -122.2791433,
-        "distance_m": 3.6775760041427463
+        "distance_m": 3.677576
       },
       "existing_within_100m": [
         {
@@ -6165,21 +6165,21 @@
           "name": "1509 McGee Ave",
           "lat": 37.8789098,
           "lon": -122.2791433,
-          "distance_m": 3.6775760041427463
+          "distance_m": 3.677576
         },
         {
           "key": "placemark-787-point-1",
           "name": "1515 McGee Ave",
           "lat": 37.8786894,
           "lon": -122.2787753,
-          "distance_m": 43.37939744867362
+          "distance_m": 43.379397
         },
         {
           "key": "placemark-349-point-1",
           "name": "1629 Jaynes St",
           "lat": 37.8780943,
           "lon": -122.2793054,
-          "distance_m": 91.03806486332446
+          "distance_m": 91.038065
         }
       ],
       "osm_within_20m": []
@@ -6204,7 +6204,7 @@
         "name": "1014 Peralta Ave",
         "lat": 37.886516,
         "lon": -122.285966,
-        "distance_m": 35.1875634278131
+        "distance_m": 35.187563
       },
       "existing_within_100m": [
         {
@@ -6212,14 +6212,14 @@
           "name": "1014 Peralta Ave",
           "lat": 37.886516,
           "lon": -122.285966,
-          "distance_m": 35.1875634278131
+          "distance_m": 35.187563
         },
         {
           "key": "placemark-5-point-1",
           "name": "1506 Sonoma Ave",
           "lat": 37.887386,
           "lon": -122.28633,
-          "distance_m": 91.07115522947657
+          "distance_m": 91.071155
         }
       ],
       "osm_within_20m": []
@@ -6244,7 +6244,7 @@
         "name": "1014 Peralta Ave",
         "lat": 37.886516,
         "lon": -122.285966,
-        "distance_m": 17.267481002335
+        "distance_m": 17.267481
       },
       "existing_within_100m": [
         {
@@ -6252,7 +6252,7 @@
           "name": "1014 Peralta Ave",
           "lat": 37.886516,
           "lon": -122.285966,
-          "distance_m": 17.267481002335
+          "distance_m": 17.267481
         }
       ],
       "osm_within_20m": []
@@ -6278,7 +6278,7 @@
         "name": "1503 Posen Ave",
         "lat": 37.8840235,
         "lon": -122.2852139,
-        "distance_m": 53.232975266898514
+        "distance_m": 53.232975
       },
       "existing_within_100m": [
         {
@@ -6286,14 +6286,14 @@
           "name": "1503 Posen Ave",
           "lat": 37.8840235,
           "lon": -122.2852139,
-          "distance_m": 53.232975266898514
+          "distance_m": 53.232975
         },
         {
           "key": "placemark-602-point-1",
           "name": "1075 Peralta Ave",
           "lat": 37.8839073,
           "lon": -122.2864666,
-          "distance_m": 63.36581407173568
+          "distance_m": 63.365814
         }
       ],
       "osm_within_20m": []
@@ -6320,7 +6320,7 @@
         "name": "842 Talbot Ave",
         "lat": 37.891046,
         "lon": -122.295782,
-        "distance_m": 15.080180195969161
+        "distance_m": 15.08018
       },
       "existing_within_100m": [
         {
@@ -6328,14 +6328,14 @@
           "name": "842 Talbot Ave",
           "lat": 37.891046,
           "lon": -122.295782,
-          "distance_m": 15.080180195969161
+          "distance_m": 15.08018
         },
         {
           "key": "placemark-41-point-1",
           "name": "822 Evelyn Ave",
           "lat": 37.891905,
           "lon": -122.295164,
-          "distance_m": 95.12059625690907
+          "distance_m": 95.120596
         }
       ],
       "osm_within_20m": []
@@ -6364,7 +6364,7 @@
         "name": "1000 42nd St",
         "lat": 37.8329073,
         "lon": -122.27646,
-        "distance_m": 7.369591547988614
+        "distance_m": 7.369592
       },
       "existing_within_100m": [
         {
@@ -6372,7 +6372,7 @@
           "name": "1000 42nd St",
           "lat": 37.8329073,
           "lon": -122.27646,
-          "distance_m": 7.369591547988614
+          "distance_m": 7.369592
         }
       ],
       "osm_within_20m": []
@@ -6399,7 +6399,7 @@
         "name": "2 Moss Ave",
         "lat": 37.8183406,
         "lon": -122.2506107,
-        "distance_m": 326.06262613423917
+        "distance_m": 326.062626
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -6427,7 +6427,7 @@
         "name": "4828 Webster St",
         "lat": 37.8351,
         "lon": -122.259659,
-        "distance_m": 180.17751357098138
+        "distance_m": 180.177514
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -6453,7 +6453,7 @@
         "name": "2801 Ashby Ave",
         "lat": 37.8578683,
         "lon": -122.2504292,
-        "distance_m": 5.839965498937395
+        "distance_m": 5.839965
       },
       "existing_within_100m": [
         {
@@ -6461,14 +6461,14 @@
           "name": "2801 Ashby Ave",
           "lat": 37.8578683,
           "lon": -122.2504292,
-          "distance_m": 5.839965498937395
+          "distance_m": 5.839965
         },
         {
           "key": "placemark-607-point-1",
           "name": "2908 Piedmont Ave",
           "lat": 37.8581899,
           "lon": -122.2510094,
-          "distance_m": 61.0280952962964
+          "distance_m": 61.028095
         }
       ],
       "osm_within_20m": []
@@ -6494,7 +6494,7 @@
         "name": "2908 Piedmont Ave",
         "lat": 37.8581899,
         "lon": -122.2510094,
-        "distance_m": 14.606074337236082
+        "distance_m": 14.606074
       },
       "existing_within_100m": [
         {
@@ -6502,14 +6502,14 @@
           "name": "2908 Piedmont Ave",
           "lat": 37.8581899,
           "lon": -122.2510094,
-          "distance_m": 14.606074337236082
+          "distance_m": 14.606074
         },
         {
           "key": "placemark-842-point-1",
           "name": "2801 Ashby Ave",
           "lat": 37.8578683,
           "lon": -122.2504292,
-          "distance_m": 50.41344100392166
+          "distance_m": 50.413441
         }
       ],
       "osm_within_20m": []
@@ -6535,7 +6535,7 @@
         "name": "2723 Ashby Pl",
         "lat": 37.8576155,
         "lon": -122.2523197,
-        "distance_m": 8.091687486952582
+        "distance_m": 8.091687
       },
       "existing_within_100m": [
         {
@@ -6543,7 +6543,7 @@
           "name": "2723 Ashby Pl",
           "lat": 37.8576155,
           "lon": -122.2523197,
-          "distance_m": 8.091687486952582
+          "distance_m": 8.091687
         }
       ],
       "osm_within_20m": []
@@ -6568,7 +6568,7 @@
         "name": "3001 Benvenue Ave",
         "lat": 37.8559215,
         "lon": -122.2537053,
-        "distance_m": 12.449678378704062
+        "distance_m": 12.449678
       },
       "existing_within_100m": [
         {
@@ -6576,7 +6576,7 @@
           "name": "3001 Benvenue Ave",
           "lat": 37.8559215,
           "lon": -122.2537053,
-          "distance_m": 12.449678378704062
+          "distance_m": 12.449678
         }
       ],
       "osm_within_20m": []
@@ -6601,7 +6601,7 @@
         "name": "3017 Regent St",
         "lat": 37.8549904,
         "lon": -122.2562385,
-        "distance_m": 17.485899753673024
+        "distance_m": 17.4859
       },
       "existing_within_100m": [
         {
@@ -6609,7 +6609,7 @@
           "name": "3017 Regent St",
           "lat": 37.8549904,
           "lon": -122.2562385,
-          "distance_m": 17.485899753673024
+          "distance_m": 17.4859
         }
       ],
       "osm_within_20m": []
@@ -6635,7 +6635,7 @@
         "name": "6413 Hillegass Ave",
         "lat": 37.851508,
         "lon": -122.254951,
-        "distance_m": 62.1924464864471
+        "distance_m": 62.192446
       },
       "existing_within_100m": [
         {
@@ -6643,7 +6643,7 @@
           "name": "6413 Hillegass Ave",
           "lat": 37.851508,
           "lon": -122.254951,
-          "distance_m": 62.1924464864471
+          "distance_m": 62.192446
         }
       ],
       "osm_within_20m": []
@@ -6669,7 +6669,7 @@
         "name": "403 Perkins St",
         "lat": 37.810566,
         "lon": -122.255715,
-        "distance_m": 65.18612702446212
+        "distance_m": 65.186127
       },
       "existing_within_100m": [
         {
@@ -6677,7 +6677,7 @@
           "name": "403 Perkins St",
           "lat": 37.810566,
           "lon": -122.255715,
-          "distance_m": 65.18612702446212
+          "distance_m": 65.186127
         }
       ],
       "osm_within_20m": []
@@ -6702,7 +6702,7 @@
         "name": "5630 McMillan St",
         "lat": 37.8452474,
         "lon": -122.248674,
-        "distance_m": 176.00683947570127
+        "distance_m": 176.006839
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -6727,7 +6727,7 @@
         "name": "5630 McMillan St",
         "lat": 37.8452474,
         "lon": -122.248674,
-        "distance_m": 2.540406567702208
+        "distance_m": 2.540407
       },
       "existing_within_100m": [
         {
@@ -6735,17 +6735,17 @@
           "name": "5630 McMillan St",
           "lat": 37.8452474,
           "lon": -122.248674,
-          "distance_m": 2.540406567702208
+          "distance_m": 2.540407
         }
       ],
       "osm_within_20m": [
         {
           "osm_id": "node/12531610905",
-          "distance_m": 0.8049911850611405
+          "distance_m": 0.804991
         },
         {
           "osm_id": "node/12531610906",
-          "distance_m": 1.2119063871471507
+          "distance_m": 1.211906
         }
       ]
     },
@@ -6769,7 +6769,7 @@
         "name": "5630 McMillan St",
         "lat": 37.8452474,
         "lon": -122.248674,
-        "distance_m": 2.818496575580418
+        "distance_m": 2.818497
       },
       "existing_within_100m": [
         {
@@ -6777,17 +6777,17 @@
           "name": "5630 McMillan St",
           "lat": 37.8452474,
           "lon": -122.248674,
-          "distance_m": 2.818496575580418
+          "distance_m": 2.818497
         }
       ],
       "osm_within_20m": [
         {
           "osm_id": "node/12531610904",
-          "distance_m": 0.8049911850611405
+          "distance_m": 0.804991
         },
         {
           "osm_id": "node/12531610906",
-          "distance_m": 0.9404677003001464
+          "distance_m": 0.940468
         }
       ]
     },
@@ -6811,7 +6811,7 @@
         "name": "5630 McMillan St",
         "lat": 37.8452474,
         "lon": -122.248674,
-        "distance_m": 2.012810673687612
+        "distance_m": 2.012811
       },
       "existing_within_100m": [
         {
@@ -6819,17 +6819,17 @@
           "name": "5630 McMillan St",
           "lat": 37.8452474,
           "lon": -122.248674,
-          "distance_m": 2.012810673687612
+          "distance_m": 2.012811
         }
       ],
       "osm_within_20m": [
         {
           "osm_id": "node/12531610904",
-          "distance_m": 1.2119063871471507
+          "distance_m": 1.211906
         },
         {
           "osm_id": "node/12531610905",
-          "distance_m": 0.9404677003001464
+          "distance_m": 0.940468
         }
       ]
     },
@@ -6856,7 +6856,7 @@
         "name": "6675 Chabot Rd",
         "lat": 37.850569,
         "lon": -122.2435943,
-        "distance_m": 149.2346453844882
+        "distance_m": 149.234645
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -6884,7 +6884,7 @@
         "name": "5921 Chabolyn Terrace",
         "lat": 37.8505417,
         "lon": -122.2445923,
-        "distance_m": 4.094544298169459
+        "distance_m": 4.094544
       },
       "existing_within_100m": [
         {
@@ -6892,21 +6892,21 @@
           "name": "5921 Chabolyn Terrace",
           "lat": 37.8505417,
           "lon": -122.2445923,
-          "distance_m": 4.094544298169459
+          "distance_m": 4.094544
         },
         {
           "key": "placemark-466-point-1",
           "name": "6675 Chabot Rd",
           "lat": 37.850569,
           "lon": -122.2435943,
-          "distance_m": 86.08346004048998
+          "distance_m": 86.08346
         },
         {
           "key": "placemark-849-point-1",
           "name": "48 Eucalyptus Rd",
           "lat": 37.8508659,
           "lon": -122.2455987,
-          "distance_m": 95.51973277911394
+          "distance_m": 95.519733
         }
       ],
       "osm_within_20m": []
@@ -6932,7 +6932,7 @@
         "name": "6310  College Avenue (Philz Coffee)",
         "lat": 37.8504546,
         "lon": -122.2520912,
-        "distance_m": 225.25576661860987
+        "distance_m": 225.255767
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -6958,7 +6958,7 @@
         "name": "1920 Stuart St",
         "lat": 37.8579663,
         "lon": -122.2703962,
-        "distance_m": 2.509870821171509
+        "distance_m": 2.509871
       },
       "existing_within_100m": [
         {
@@ -6966,7 +6966,7 @@
           "name": "1920 Stuart St",
           "lat": 37.8579663,
           "lon": -122.2703962,
-          "distance_m": 2.509870821171509
+          "distance_m": 2.509871
         }
       ],
       "osm_within_20m": []
@@ -6992,7 +6992,7 @@
         "name": "2345 Channing Way",
         "lat": 37.8668974,
         "lon": -122.2613022,
-        "distance_m": 63.48515327405904
+        "distance_m": 63.485153
       },
       "existing_within_100m": [
         {
@@ -7000,7 +7000,7 @@
           "name": "2345 Channing Way",
           "lat": 37.8668974,
           "lon": -122.2613022,
-          "distance_m": 63.48515327405904
+          "distance_m": 63.485153
         }
       ],
       "osm_within_20m": []
@@ -7028,7 +7028,7 @@
         "name": "5805 Merriewood Dr",
         "lat": 37.837376,
         "lon": -122.214754,
-        "distance_m": 773.2638039952072
+        "distance_m": 773.263804
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -7055,7 +7055,7 @@
         "name": "5805 Merriewood Dr",
         "lat": 37.837376,
         "lon": -122.214754,
-        "distance_m": 953.8310381595646
+        "distance_m": 953.831038
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -7081,7 +7081,7 @@
         "name": "2753 Shasta Rd",
         "lat": 37.8868122,
         "lon": -122.2573498,
-        "distance_m": 154.9143310604907
+        "distance_m": 154.914331
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -7110,7 +7110,7 @@
         "name": "1311 Spruce St",
         "lat": 37.8835736,
         "lon": -122.2661492,
-        "distance_m": 2.5059588761717766
+        "distance_m": 2.505959
       },
       "existing_within_100m": [
         {
@@ -7118,7 +7118,7 @@
           "name": "1311 Spruce St",
           "lat": 37.8835736,
           "lon": -122.2661492,
-          "distance_m": 2.5059588761717766
+          "distance_m": 2.505959
         }
       ],
       "osm_within_20m": []
@@ -7144,7 +7144,7 @@
         "name": "1344 Oxford St",
         "lat": 37.8824941,
         "lon": -122.2674202,
-        "distance_m": 8.641568514532477
+        "distance_m": 8.641569
       },
       "existing_within_100m": [
         {
@@ -7152,7 +7152,7 @@
           "name": "1344 Oxford St",
           "lat": 37.8824941,
           "lon": -122.2674202,
-          "distance_m": 8.641568514532477
+          "distance_m": 8.641569
         }
       ],
       "osm_within_20m": []
@@ -7179,7 +7179,7 @@
         "name": "1645 Virginia St",
         "lat": 37.8755408,
         "lon": -122.2783108,
-        "distance_m": 12.827541354278681
+        "distance_m": 12.827541
       },
       "existing_within_100m": [
         {
@@ -7187,14 +7187,14 @@
           "name": "1645 Virginia St",
           "lat": 37.8755408,
           "lon": -122.2783108,
-          "distance_m": 12.827541354278681
+          "distance_m": 12.827541
         },
         {
           "key": "placemark-962-point-1",
           "name": "1705 Virginia St",
           "lat": 37.8756114,
           "lon": -122.2777201,
-          "distance_m": 64.12526606585843
+          "distance_m": 64.125266
         }
       ],
       "osm_within_20m": []
@@ -7223,7 +7223,7 @@
         "name": "5371 Shafter Ave",
         "lat": 37.841158,
         "lon": -122.255002,
-        "distance_m": 290.2816799406335
+        "distance_m": 290.28168
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -7252,7 +7252,7 @@
         "name": "1526 Walnut St",
         "lat": 37.8792845,
         "lon": -122.2681904,
-        "distance_m": 2.113531495878562
+        "distance_m": 2.113531
       },
       "existing_within_100m": [
         {
@@ -7260,14 +7260,14 @@
           "name": "1526 Walnut St",
           "lat": 37.8792845,
           "lon": -122.2681904,
-          "distance_m": 2.113531495878562
+          "distance_m": 2.113531
         },
         {
           "key": "placemark-360-point-1",
           "name": "1508 Walnut St",
           "lat": 37.8799992,
           "lon": -122.2682773,
-          "distance_m": 78.17205927581372
+          "distance_m": 78.172059
         }
       ],
       "osm_within_20m": []
@@ -7294,7 +7294,7 @@
         "name": "785 Kingston Ave",
         "lat": 37.8245116,
         "lon": -122.2486891,
-        "distance_m": 126.03438022655551
+        "distance_m": 126.03438
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -7324,7 +7324,7 @@
         "name": "101 Echo Ave",
         "lat": 37.8272375,
         "lon": -122.2480339,
-        "distance_m": 0.8865598446123196
+        "distance_m": 0.88656
       },
       "existing_within_100m": [
         {
@@ -7332,7 +7332,7 @@
           "name": "101 Echo Ave",
           "lat": 37.8272375,
           "lon": -122.2480339,
-          "distance_m": 0.8865598446123196
+          "distance_m": 0.88656
         }
       ],
       "osm_within_20m": []
@@ -7360,7 +7360,7 @@
         "name": "785 Kingston Ave",
         "lat": 37.8245116,
         "lon": -122.2486891,
-        "distance_m": 10.653313477183882
+        "distance_m": 10.653313
       },
       "existing_within_100m": [
         {
@@ -7368,7 +7368,7 @@
           "name": "785 Kingston Ave",
           "lat": 37.8245116,
           "lon": -122.2486891,
-          "distance_m": 10.653313477183882
+          "distance_m": 10.653313
         }
       ],
       "osm_within_20m": []
@@ -7394,7 +7394,7 @@
         "name": "821 42nd St",
         "lat": 37.8319494,
         "lon": -122.2714939,
-        "distance_m": 1.2506190253022622
+        "distance_m": 1.250619
       },
       "existing_within_100m": [
         {
@@ -7402,7 +7402,7 @@
           "name": "821 42nd St",
           "lat": 37.8319494,
           "lon": -122.2714939,
-          "distance_m": 1.2506190253022622
+          "distance_m": 1.250619
         }
       ],
       "osm_within_20m": []
@@ -7430,7 +7430,7 @@
         "name": "778 41st St",
         "lat": 37.8310305,
         "lon": -122.2704096,
-        "distance_m": 2.4179256145760823
+        "distance_m": 2.417926
       },
       "existing_within_100m": [
         {
@@ -7438,7 +7438,7 @@
           "name": "778 41st St",
           "lat": 37.8310305,
           "lon": -122.2704096,
-          "distance_m": 2.4179256145760823
+          "distance_m": 2.417926
         }
       ],
       "osm_within_20m": []
@@ -7466,7 +7466,7 @@
         "name": "737 43rd St",
         "lat": 37.832265,
         "lon": -122.269753,
-        "distance_m": 16.88430921530157
+        "distance_m": 16.884309
       },
       "existing_within_100m": [
         {
@@ -7474,14 +7474,14 @@
           "name": "737 43rd St",
           "lat": 37.832265,
           "lon": -122.269753,
-          "distance_m": 16.88430921530157
+          "distance_m": 16.884309
         },
         {
           "key": "placemark-891-point-1",
           "name": "4326 West St",
           "lat": 37.8332091,
           "lon": -122.2699695,
-          "distance_m": 90.3565973668188
+          "distance_m": 90.356597
         }
       ],
       "osm_within_20m": []
@@ -7508,7 +7508,7 @@
         "name": "821 42nd St",
         "lat": 37.8319494,
         "lon": -122.2714939,
-        "distance_m": 94.26070878099907
+        "distance_m": 94.260709
       },
       "existing_within_100m": [
         {
@@ -7516,21 +7516,21 @@
           "name": "821 42nd St",
           "lat": 37.8319494,
           "lon": -122.2714939,
-          "distance_m": 94.26070878099907
+          "distance_m": 94.260709
         },
         {
           "key": "placemark-125-point-1",
           "name": "737 43rd St",
           "lat": 37.832265,
           "lon": -122.269753,
-          "distance_m": 96.96338002081445
+          "distance_m": 96.96338
         },
         {
           "key": "placemark-891-point-1",
           "name": "4326 West St",
           "lat": 37.8332091,
           "lon": -122.2699695,
-          "distance_m": 99.62103668220144
+          "distance_m": 99.621037
         }
       ],
       "osm_within_20m": []
@@ -7556,7 +7556,7 @@
         "name": "1000 42nd St",
         "lat": 37.8329073,
         "lon": -122.27646,
-        "distance_m": 188.8594421937957
+        "distance_m": 188.859442
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -7585,7 +7585,7 @@
         "name": "887 45th St",
         "lat": 37.8342858,
         "lon": -122.272527,
-        "distance_m": 5.84363248797157
+        "distance_m": 5.843632
       },
       "existing_within_100m": [
         {
@@ -7593,7 +7593,7 @@
           "name": "887 45th St",
           "lat": 37.8342858,
           "lon": -122.272527,
-          "distance_m": 5.84363248797157
+          "distance_m": 5.843632
         }
       ],
       "osm_within_20m": []
@@ -7620,7 +7620,7 @@
         "name": "887 45th St",
         "lat": 37.8342858,
         "lon": -122.272527,
-        "distance_m": 128.3197238359201
+        "distance_m": 128.319724
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -7647,7 +7647,7 @@
         "name": "887 45th St",
         "lat": 37.8342858,
         "lon": -122.272527,
-        "distance_m": 170.15527023193212
+        "distance_m": 170.15527
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -7674,7 +7674,7 @@
         "name": "835 54th St",
         "lat": 37.838474,
         "lon": -122.271028,
-        "distance_m": 239.12153078671903
+        "distance_m": 239.121531
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -7702,7 +7702,7 @@
         "name": "492 Wickson Ave",
         "lat": 37.812054,
         "lon": -122.2459949,
-        "distance_m": 442.6640404699795
+        "distance_m": 442.66404
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -7731,7 +7731,7 @@
         "name": "420 Elwood Ave",
         "lat": 37.8150677,
         "lon": -122.2478342,
-        "distance_m": 18.193941593390726
+        "distance_m": 18.193942
       },
       "existing_within_100m": [
         {
@@ -7739,7 +7739,7 @@
           "name": "420 Elwood Ave",
           "lat": 37.8150677,
           "lon": -122.2478342,
-          "distance_m": 18.193941593390726
+          "distance_m": 18.193942
         }
       ],
       "osm_within_20m": []
@@ -7765,7 +7765,7 @@
         "name": "3900 Telegraph Ave",
         "lat": 37.8284668,
         "lon": -122.2644517,
-        "distance_m": 86.40441803436951
+        "distance_m": 86.404418
       },
       "existing_within_100m": [
         {
@@ -7773,7 +7773,7 @@
           "name": "3900 Telegraph Ave",
           "lat": 37.8284668,
           "lon": -122.2644517,
-          "distance_m": 86.40441803436951
+          "distance_m": 86.404418
         }
       ],
       "osm_within_20m": []
@@ -7800,7 +7800,7 @@
         "name": "1000 42nd St",
         "lat": 37.8329073,
         "lon": -122.27646,
-        "distance_m": 290.3748082357491
+        "distance_m": 290.374808
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -7829,7 +7829,7 @@
         "name": "1901 Chestnut St",
         "lat": 37.8710714,
         "lon": -122.2880183,
-        "distance_m": 1.451335218059233
+        "distance_m": 1.451335
       },
       "existing_within_100m": [
         {
@@ -7837,14 +7837,14 @@
           "name": "1901 Chestnut St",
           "lat": 37.8710714,
           "lon": -122.2880183,
-          "distance_m": 1.451335218059233
+          "distance_m": 1.451335
         },
         {
           "key": "placemark-916-point-1",
           "name": "1814 Chestnut St",
           "lat": 37.8716037,
           "lon": -122.2883728,
-          "distance_m": 67.60086184861818
+          "distance_m": 67.600862
         }
       ],
       "osm_within_20m": []
@@ -7871,7 +7871,7 @@
         "name": "1015 Hearst Ave",
         "lat": 37.8702406,
         "lon": -122.2940845,
-        "distance_m": 1.2455069086691353
+        "distance_m": 1.245507
       },
       "existing_within_100m": [
         {
@@ -7879,14 +7879,14 @@
           "name": "1015 Hearst Ave",
           "lat": 37.8702406,
           "lon": -122.2940845,
-          "distance_m": 1.2455069086691353
+          "distance_m": 1.245507
         },
         {
           "key": "placemark-461-point-1",
           "name": "1908 Tenth Street",
           "lat": 37.869754,
           "lon": -122.2938536,
-          "distance_m": 56.62065645248611
+          "distance_m": 56.620656
         }
       ],
       "osm_within_20m": []
@@ -7912,7 +7912,7 @@
         "name": "1809 Bancroft Way",
         "lat": 37.8670054,
         "lon": -122.274662,
-        "distance_m": 8.788214607043209
+        "distance_m": 8.788215
       },
       "existing_within_100m": [
         {
@@ -7920,7 +7920,7 @@
           "name": "1809 Bancroft Way",
           "lat": 37.8670054,
           "lon": -122.274662,
-          "distance_m": 8.788214607043209
+          "distance_m": 8.788215
         }
       ],
       "osm_within_20m": []
@@ -7948,7 +7948,7 @@
         "name": "633 56th St",
         "lat": 37.8409892,
         "lon": -122.2658741,
-        "distance_m": 151.07177564160736
+        "distance_m": 151.071776
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -7976,7 +7976,7 @@
         "name": "633 56th St",
         "lat": 37.8409892,
         "lon": -122.2658741,
-        "distance_m": 190.93257655721726
+        "distance_m": 190.932577
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -8005,7 +8005,7 @@
         "name": "705 61st St",
         "lat": 37.846289,
         "lon": -122.2685958,
-        "distance_m": 163.02828318197098
+        "distance_m": 163.028283
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -8033,7 +8033,7 @@
         "name": "705 61st St",
         "lat": 37.846289,
         "lon": -122.2685958,
-        "distance_m": 0.8590776387149209
+        "distance_m": 0.859078
       },
       "existing_within_100m": [
         {
@@ -8041,7 +8041,7 @@
           "name": "705 61st St",
           "lat": 37.846289,
           "lon": -122.2685958,
-          "distance_m": 0.8590776387149209
+          "distance_m": 0.859078
         }
       ],
       "osm_within_20m": []
@@ -8069,7 +8069,7 @@
         "name": "6226 Dover St",
         "lat": 37.8481404,
         "lon": -122.2687863,
-        "distance_m": 3.889351502150408
+        "distance_m": 3.889352
       },
       "existing_within_100m": [
         {
@@ -8077,7 +8077,7 @@
           "name": "6226 Dover St",
           "lat": 37.8481404,
           "lon": -122.2687863,
-          "distance_m": 3.889351502150408
+          "distance_m": 3.889352
         }
       ],
       "osm_within_20m": []
@@ -8103,7 +8103,7 @@
         "name": "705 61st St",
         "lat": 37.846289,
         "lon": -122.2685958,
-        "distance_m": 39.348137898725575
+        "distance_m": 39.348138
       },
       "existing_within_100m": [
         {
@@ -8111,14 +8111,14 @@
           "name": "705 61st St",
           "lat": 37.846289,
           "lon": -122.2685958,
-          "distance_m": 39.348137898725575
+          "distance_m": 39.348138
         },
         {
           "key": "placemark-449-point-1",
           "name": "651 Poirier St",
           "lat": 37.8469437,
           "lon": -122.2673685,
-          "distance_m": 97.7287582133839
+          "distance_m": 97.728758
         }
       ],
       "osm_within_20m": []
@@ -8143,7 +8143,7 @@
         "name": "2733 Alcatraz Ave",
         "lat": 37.8518982,
         "lon": -122.2508827,
-        "distance_m": 97.55801383337759
+        "distance_m": 97.558014
       },
       "existing_within_100m": [
         {
@@ -8151,7 +8151,7 @@
           "name": "2733 Alcatraz Ave",
           "lat": 37.8518982,
           "lon": -122.2508827,
-          "distance_m": 97.55801383337759
+          "distance_m": 97.558014
         }
       ],
       "osm_within_20m": []
@@ -8175,7 +8175,7 @@
         "name": "2519 Grant St",
         "lat": 37.86253,
         "lon": -122.27394,
-        "distance_m": 12.61881088984451
+        "distance_m": 12.618811
       },
       "existing_within_100m": [
         {
@@ -8183,7 +8183,7 @@
           "name": "2519 Grant St",
           "lat": 37.86253,
           "lon": -122.27394,
-          "distance_m": 12.61881088984451
+          "distance_m": 12.618811
         }
       ],
       "osm_within_20m": []
@@ -8212,7 +8212,7 @@
         "name": "1275 62nd St",
         "lat": 37.8436444,
         "lon": -122.2879477,
-        "distance_m": 495.41365125992957
+        "distance_m": 495.413651
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -8238,7 +8238,7 @@
         "name": "1600 La Loma Ave",
         "lat": 37.8797792,
         "lon": -122.2578325,
-        "distance_m": 73.14379484167851
+        "distance_m": 73.143795
       },
       "existing_within_100m": [
         {
@@ -8246,14 +8246,14 @@
           "name": "1600 La Loma Ave",
           "lat": 37.8797792,
           "lon": -122.2578325,
-          "distance_m": 73.14379484167851
+          "distance_m": 73.143795
         },
         {
           "key": "placemark-621-point-1",
           "name": "1596 Le Roy Ave",
           "lat": 37.8798825,
           "lon": -122.2589672,
-          "distance_m": 96.29829979775451
+          "distance_m": 96.2983
         }
       ],
       "osm_within_20m": []
@@ -8282,7 +8282,7 @@
         "name": "1411 Blake St",
         "lat": 37.8612256,
         "lon": -122.2825396,
-        "distance_m": 111.16472246068453
+        "distance_m": 111.164722
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -8310,7 +8310,7 @@
         "name": "522 North St",
         "lat": 37.8494559,
         "lon": -122.2613369,
-        "distance_m": 7.746121823232827
+        "distance_m": 7.746122
       },
       "existing_within_100m": [
         {
@@ -8318,14 +8318,14 @@
           "name": "522 North St",
           "lat": 37.8494559,
           "lon": -122.2613369,
-          "distance_m": 7.746121823232827
+          "distance_m": 7.746122
         },
         {
           "key": "placemark-352-point-1",
           "name": "541 North St",
           "lat": 37.8492001,
           "lon": -122.2616352,
-          "distance_m": 39.90491564736826
+          "distance_m": 39.904916
         }
       ],
       "osm_within_20m": []
@@ -8349,7 +8349,7 @@
         "name": "800 Channing Way",
         "lat": 37.8614791,
         "lon": -122.2965372,
-        "distance_m": 6.332264900276591
+        "distance_m": 6.332265
       },
       "existing_within_100m": [
         {
@@ -8357,14 +8357,14 @@
           "name": "800 Channing Way",
           "lat": 37.8614791,
           "lon": -122.2965372,
-          "distance_m": 6.332264900276591
+          "distance_m": 6.332265
         },
         {
           "key": "placemark-203-point-1",
           "name": "736 Channing Way",
           "lat": 37.86125,
           "lon": -122.297061,
-          "distance_m": 58.7970870881701
+          "distance_m": 58.797087
         }
       ],
       "osm_within_20m": []
@@ -8391,7 +8391,7 @@
         "name": "838 32nd St",
         "lat": 37.822227,
         "lon": -122.274225,
-        "distance_m": 848.2904547345005
+        "distance_m": 848.290455
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -8418,7 +8418,7 @@
         "name": "595 62nd St",
         "lat": 37.847753,
         "lon": -122.2651007,
-        "distance_m": 1.6012069439298449
+        "distance_m": 1.601207
       },
       "existing_within_100m": [
         {
@@ -8426,14 +8426,14 @@
           "name": "595 62nd St",
           "lat": 37.847753,
           "lon": -122.2651007,
-          "distance_m": 1.6012069439298449
+          "distance_m": 1.601207
         },
         {
           "key": "placemark-746-point-1",
           "name": "615 62nd St",
           "lat": 37.8478694,
           "lon": -122.26605,
-          "distance_m": 84.12075192717514
+          "distance_m": 84.120752
         }
       ],
       "osm_within_20m": []
@@ -8459,7 +8459,7 @@
         "name": "601 Alcatraz Ave",
         "lat": 37.8497881,
         "lon": -122.2629524,
-        "distance_m": 3.0539530439465272
+        "distance_m": 3.053953
       },
       "existing_within_100m": [
         {
@@ -8467,7 +8467,7 @@
           "name": "601 Alcatraz Ave",
           "lat": 37.8497881,
           "lon": -122.2629524,
-          "distance_m": 3.0539530439465272
+          "distance_m": 3.053953
         }
       ],
       "osm_within_20m": []
@@ -8494,7 +8494,7 @@
         "name": "403 Perkins St",
         "lat": 37.810566,
         "lon": -122.255715,
-        "distance_m": 365.7905435007065
+        "distance_m": 365.790544
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -8520,7 +8520,7 @@
         "name": "814 Paloma Ave",
         "lat": 37.8114652,
         "lon": -122.2350105,
-        "distance_m": 337.6485379254347
+        "distance_m": 337.648538
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -8544,7 +8544,7 @@
         "name": "1722 Ward St",
         "lat": 37.858386,
         "lon": -122.2745818,
-        "distance_m": 104.6664347477864
+        "distance_m": 104.666435
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -8568,7 +8568,7 @@
         "name": "515 Woodmont Ave",
         "lat": 37.9037491,
         "lon": -122.2681337,
-        "distance_m": 348.85458631556435
+        "distance_m": 348.854586
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -8592,7 +8592,7 @@
         "name": "34 Florida Ave",
         "lat": 37.899987,
         "lon": -122.273129,
-        "distance_m": 340.2238930895185
+        "distance_m": 340.223893
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -8616,7 +8616,7 @@
         "name": "401 Grizzly Peak Blvd",
         "lat": 37.903956,
         "lon": -122.2694038,
-        "distance_m": 5.1282006742456225
+        "distance_m": 5.128201
       },
       "existing_within_100m": [
         {
@@ -8624,7 +8624,7 @@
           "name": "401 Grizzly Peak Blvd",
           "lat": 37.903956,
           "lon": -122.2694038,
-          "distance_m": 5.1282006742456225
+          "distance_m": 5.128201
         }
       ],
       "osm_within_20m": []
@@ -8648,7 +8648,7 @@
         "name": "540 Kearney St",
         "lat": 37.9040288,
         "lon": -122.3030212,
-        "distance_m": 20.4413438367472
+        "distance_m": 20.441344
       },
       "existing_within_100m": [
         {
@@ -8656,7 +8656,7 @@
           "name": "540 Kearney St",
           "lat": 37.9040288,
           "lon": -122.3030212,
-          "distance_m": 20.4413438367472
+          "distance_m": 20.441344
         }
       ],
       "osm_within_20m": []
@@ -8683,7 +8683,7 @@
         "name": "3127 Eton Ave",
         "lat": 37.8531955,
         "lon": -122.2505527,
-        "distance_m": 5.682256323592828
+        "distance_m": 5.682256
       },
       "existing_within_100m": [
         {
@@ -8691,14 +8691,14 @@
           "name": "3127 Eton Ave",
           "lat": 37.8531955,
           "lon": -122.2505527,
-          "distance_m": 5.682256323592828
+          "distance_m": 5.682256
         },
         {
           "key": "placemark-757-point-1",
           "name": "3115 Eton Ave",
           "lat": 37.8535551,
           "lon": -122.2508065,
-          "distance_m": 49.438586983757794
+          "distance_m": 49.438587
         }
       ],
       "osm_within_20m": []
@@ -8727,7 +8727,7 @@
         "name": "330 Adams St.",
         "lat": 37.8142314,
         "lon": -122.2559383,
-        "distance_m": 200.95015538080315
+        "distance_m": 200.950155
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -8751,7 +8751,7 @@
         "name": "1629 Dwight Way",
         "lat": 37.8627842,
         "lon": -122.2774355,
-        "distance_m": 2.2990332077285847
+        "distance_m": 2.299033
       },
       "existing_within_100m": [
         {
@@ -8759,7 +8759,7 @@
           "name": "1629 Dwight Way",
           "lat": 37.8627842,
           "lon": -122.2774355,
-          "distance_m": 2.2990332077285847
+          "distance_m": 2.299033
         }
       ],
       "osm_within_20m": []
@@ -8791,7 +8791,7 @@
         "name": "4295 Gilbert St",
         "lat": 37.8311816,
         "lon": -122.2521966,
-        "distance_m": 112.20730000237532
+        "distance_m": 112.2073
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -8816,7 +8816,7 @@
         "name": "3332 King St",
         "lat": 37.8472507,
         "lon": -122.2734555,
-        "distance_m": 5.655484335389487
+        "distance_m": 5.655484
       },
       "existing_within_100m": [
         {
@@ -8824,7 +8824,7 @@
           "name": "3332 King St",
           "lat": 37.8472507,
           "lon": -122.2734555,
-          "distance_m": 5.655484335389487
+          "distance_m": 5.655484
         }
       ],
       "osm_within_20m": []
@@ -8849,7 +8849,7 @@
         "name": "Emerson Elementary School",
         "lat": 37.833876,
         "lon": -122.2588089,
-        "distance_m": 16.903384839231936
+        "distance_m": 16.903385
       },
       "existing_within_100m": [
         {
@@ -8857,7 +8857,7 @@
           "name": "Emerson Elementary School",
           "lat": 37.833876,
           "lon": -122.2588089,
-          "distance_m": 16.903384839231936
+          "distance_m": 16.903385
         }
       ],
       "osm_within_20m": []
@@ -8886,7 +8886,7 @@
         "name": "4219 Shafter Ave",
         "lat": 37.8315437,
         "lon": -122.2590718,
-        "distance_m": 2.4471853920448456
+        "distance_m": 2.447185
       },
       "existing_within_100m": [
         {
@@ -8894,14 +8894,14 @@
           "name": "4219 Shafter Ave",
           "lat": 37.8315437,
           "lon": -122.2590718,
-          "distance_m": 2.4471853920448456
+          "distance_m": 2.447185
         },
         {
           "key": "placemark-651-point-1",
           "name": "4316 Shafter Ave",
           "lat": 37.8323515,
           "lon": -122.2587434,
-          "distance_m": 95.65786278728768
+          "distance_m": 95.657863
         }
       ],
       "osm_within_20m": []
@@ -8927,7 +8927,7 @@
         "name": "420 Elwood Ave",
         "lat": 37.8150677,
         "lon": -122.2478342,
-        "distance_m": 174.04521675157807
+        "distance_m": 174.045217
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -8952,7 +8952,7 @@
         "name": "5495 Kales Ave",
         "lat": 37.8412911,
         "lon": -122.2499312,
-        "distance_m": 15.799062169313853
+        "distance_m": 15.799062
       },
       "existing_within_100m": [
         {
@@ -8960,7 +8960,7 @@
           "name": "5495 Kales Ave",
           "lat": 37.8412911,
           "lon": -122.2499312,
-          "distance_m": 15.799062169313853
+          "distance_m": 15.799062
         }
       ],
       "osm_within_20m": []
@@ -8987,7 +8987,7 @@
         "name": "1462 Trestle Glen Rd",
         "lat": 37.8096352,
         "lon": -122.225748,
-        "distance_m": 15.0080833985805
+        "distance_m": 15.008083
       },
       "existing_within_100m": [
         {
@@ -8995,7 +8995,7 @@
           "name": "1462 Trestle Glen Rd",
           "lat": 37.8096352,
           "lon": -122.225748,
-          "distance_m": 15.0080833985805
+          "distance_m": 15.008083
         }
       ],
       "osm_within_20m": []
@@ -9022,7 +9022,7 @@
         "name": "3860 Hanly Rd",
         "lat": 37.8066882,
         "lon": -122.2147045,
-        "distance_m": 483.95524353669254
+        "distance_m": 483.955244
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -9049,7 +9049,7 @@
         "name": "3419 Fruitvale Ave",
         "lat": 37.799665,
         "lon": -122.2166529,
-        "distance_m": 577.7649146724596
+        "distance_m": 577.764915
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -9077,7 +9077,7 @@
         "name": "1462 Trestle Glen Rd",
         "lat": 37.8096352,
         "lon": -122.225748,
-        "distance_m": 543.9262240420833
+        "distance_m": 543.926224
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -9104,7 +9104,7 @@
         "name": "4035 Oakmore Rd",
         "lat": 37.809662,
         "lon": -122.21462,
-        "distance_m": 256.67546678788284
+        "distance_m": 256.675467
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -9131,7 +9131,7 @@
         "name": "815 Peralta Ave",
         "lat": 37.892448,
         "lon": -122.285435,
-        "distance_m": 15.405945731778322
+        "distance_m": 15.405946
       },
       "existing_within_100m": [
         {
@@ -9139,7 +9139,7 @@
           "name": "815 Peralta Ave",
           "lat": 37.892448,
           "lon": -122.285435,
-          "distance_m": 15.405945731778322
+          "distance_m": 15.405946
         }
       ],
       "osm_within_20m": []
@@ -9163,7 +9163,7 @@
         "name": "646 The Alameda",
         "lat": 37.8960098,
         "lon": -122.2810524,
-        "distance_m": 5.3721403216711066
+        "distance_m": 5.37214
       },
       "existing_within_100m": [
         {
@@ -9171,14 +9171,14 @@
           "name": "646 The Alameda",
           "lat": 37.8960098,
           "lon": -122.2810524,
-          "distance_m": 5.3721403216711066
+          "distance_m": 5.37214
         },
         {
           "key": "placemark-616-point-1",
           "name": "646 Santa Rosa Ave",
           "lat": 37.8958709,
           "lon": -122.2819611,
-          "distance_m": 85.5340754823007
+          "distance_m": 85.534075
         }
       ],
       "osm_within_20m": []
@@ -9204,7 +9204,7 @@
         "name": "1870 Capistrano Ave",
         "lat": 37.8947273,
         "lon": -122.2788177,
-        "distance_m": 22.429566268040055
+        "distance_m": 22.429566
       },
       "existing_within_100m": [
         {
@@ -9212,14 +9212,14 @@
           "name": "1870 Capistrano Ave",
           "lat": 37.8947273,
           "lon": -122.2788177,
-          "distance_m": 22.429566268040055
+          "distance_m": 22.429566
         },
         {
           "key": "placemark-486-point-1",
           "name": "1862 Tacoma Ave",
           "lat": 37.8940609,
           "lon": -122.2785752,
-          "distance_m": 90.87735462191485
+          "distance_m": 90.877355
         }
       ],
       "osm_within_20m": []
@@ -9246,7 +9246,7 @@
         "name": "629 Arlington Ave",
         "lat": 37.8988312,
         "lon": -122.2764579,
-        "distance_m": 7.970060613775146
+        "distance_m": 7.970061
       },
       "existing_within_100m": [
         {
@@ -9254,7 +9254,7 @@
           "name": "629 Arlington Ave",
           "lat": 37.8988312,
           "lon": -122.2764579,
-          "distance_m": 7.970060613775146
+          "distance_m": 7.970061
         }
       ],
       "osm_within_20m": []
@@ -9281,7 +9281,7 @@
         "name": "857 Sunnyhills Rd",
         "lat": 37.807424,
         "lon": -122.234636,
-        "distance_m": 356.09745289333614
+        "distance_m": 356.097453
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -9308,7 +9308,7 @@
         "name": "1462 Trestle Glen Rd",
         "lat": 37.8096352,
         "lon": -122.225748,
-        "distance_m": 728.1855694731487
+        "distance_m": 728.185569
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -9333,7 +9333,7 @@
         "name": "840 Ensenada Ave",
         "lat": 37.892327,
         "lon": -122.282889,
-        "distance_m": 7.943883011108948
+        "distance_m": 7.943883
       },
       "existing_within_100m": [
         {
@@ -9341,7 +9341,7 @@
           "name": "840 Ensenada Ave",
           "lat": 37.892327,
           "lon": -122.282889,
-          "distance_m": 7.943883011108948
+          "distance_m": 7.943883
         }
       ],
       "osm_within_20m": []
@@ -9369,7 +9369,7 @@
         "name": "737 Jackson St",
         "lat": 37.892388,
         "lon": -122.3021811,
-        "distance_m": 12.967054641658638
+        "distance_m": 12.967055
       },
       "existing_within_100m": [
         {
@@ -9377,14 +9377,14 @@
           "name": "737 Jackson St",
           "lat": 37.892388,
           "lon": -122.3021811,
-          "distance_m": 12.967054641658638
+          "distance_m": 12.967055
         },
         {
           "key": "placemark-1040-point-1",
           "name": "749 Madison St",
           "lat": 37.8921314,
           "lon": -122.3012993,
-          "distance_m": 95.02195804873189
+          "distance_m": 95.021958
         }
       ],
       "osm_within_20m": []
@@ -9411,7 +9411,7 @@
         "name": "719 Spokane Ave",
         "lat": 37.893733,
         "lon": -122.293584,
-        "distance_m": 24.601074480161444
+        "distance_m": 24.601074
       },
       "existing_within_100m": [
         {
@@ -9419,14 +9419,14 @@
           "name": "719 Spokane Ave",
           "lat": 37.893733,
           "lon": -122.293584,
-          "distance_m": 24.601074480161444
+          "distance_m": 24.601074
         },
         {
           "key": "placemark-605-point-1",
           "name": "722 Key Route Blvd",
           "lat": 37.8939155,
           "lon": -122.2931891,
-          "distance_m": 64.72195356675024
+          "distance_m": 64.721954
         }
       ],
       "osm_within_20m": []
@@ -9453,7 +9453,7 @@
         "name": "542 Adams St",
         "lat": 37.8960971,
         "lon": -122.3018893,
-        "distance_m": 11.107107717248391
+        "distance_m": 11.107108
       },
       "existing_within_100m": [
         {
@@ -9461,7 +9461,7 @@
           "name": "542 Adams St",
           "lat": 37.8960971,
           "lon": -122.3018893,
-          "distance_m": 11.107107717248391
+          "distance_m": 11.107108
         }
       ],
       "osm_within_20m": []
@@ -9493,7 +9493,7 @@
         "name": "905 Solano Ave",
         "lat": 37.8898351,
         "lon": -122.3021368,
-        "distance_m": 10.845824559403225
+        "distance_m": 10.845825
       },
       "existing_within_100m": [
         {
@@ -9501,21 +9501,21 @@
           "name": "905 Solano Ave",
           "lat": 37.8898351,
           "lon": -122.3021368,
-          "distance_m": 10.845824559403225
+          "distance_m": 10.845825
         },
         {
           "key": "placemark-115-point-1",
           "name": "836 Jackson St",
           "lat": 37.8904888,
           "lon": -122.3020507,
-          "distance_m": 75.73365034669067
+          "distance_m": 75.73365
         },
         {
           "key": "placemark-496-point-1",
           "name": "913 Cerrito St",
           "lat": 37.8891183,
           "lon": -122.3020483,
-          "distance_m": 76.75944738709218
+          "distance_m": 76.759447
         }
       ],
       "osm_within_20m": []
@@ -9542,7 +9542,7 @@
         "name": "221 Stonewall Rd",
         "lat": 37.8616757,
         "lon": -122.2419051,
-        "distance_m": 4.416573718894962
+        "distance_m": 4.416574
       },
       "existing_within_100m": [
         {
@@ -9550,7 +9550,7 @@
           "name": "221 Stonewall Rd",
           "lat": 37.8616757,
           "lon": -122.2419051,
-          "distance_m": 4.416573718894962
+          "distance_m": 4.416574
         }
       ],
       "osm_within_20m": []
@@ -9579,7 +9579,7 @@
         "name": "1728 Sonoma Ave",
         "lat": 37.8862921,
         "lon": -122.2809127,
-        "distance_m": 2.408518248710756
+        "distance_m": 2.408518
       },
       "existing_within_100m": [
         {
@@ -9587,13 +9587,13 @@
           "name": "1728 Sonoma Ave",
           "lat": 37.8862921,
           "lon": -122.2809127,
-          "distance_m": 2.408518248710756
+          "distance_m": 2.408518
         }
       ],
       "osm_within_20m": [
         {
           "osm_id": "node/7227017047",
-          "distance_m": 1.0666995856202868
+          "distance_m": 1.0667
         }
       ]
     },
@@ -9619,7 +9619,7 @@
         "name": "1728 Sonoma Ave",
         "lat": 37.8862921,
         "lon": -122.2809127,
-        "distance_m": 3.328923223016446
+        "distance_m": 3.328923
       },
       "existing_within_100m": [
         {
@@ -9627,13 +9627,13 @@
           "name": "1728 Sonoma Ave",
           "lat": 37.8862921,
           "lon": -122.2809127,
-          "distance_m": 3.328923223016446
+          "distance_m": 3.328923
         }
       ],
       "osm_within_20m": [
         {
           "osm_id": "node/7227017046",
-          "distance_m": 1.0666995856202868
+          "distance_m": 1.0667
         }
       ]
     },
@@ -9658,7 +9658,7 @@
         "name": "1800 Sonoma Ave",
         "lat": 37.8856145,
         "lon": -122.2780507,
-        "distance_m": 4.057256403052822
+        "distance_m": 4.057256
       },
       "existing_within_100m": [
         {
@@ -9666,14 +9666,14 @@
           "name": "1800 Sonoma Ave",
           "lat": 37.8856145,
           "lon": -122.2780507,
-          "distance_m": 4.057256403052822
+          "distance_m": 4.057256
         },
         {
           "key": "placemark-214-point-1",
           "name": "1161 Colusa Ave",
           "lat": 37.884841,
           "lon": -122.278259,
-          "distance_m": 91.57451586297412
+          "distance_m": 91.574516
         }
       ],
       "osm_within_20m": []
@@ -9700,7 +9700,7 @@
         "name": "4035 Oakmore Rd",
         "lat": 37.809662,
         "lon": -122.21462,
-        "distance_m": 19.228120349717155
+        "distance_m": 19.22812
       },
       "existing_within_100m": [
         {
@@ -9708,7 +9708,7 @@
           "name": "4035 Oakmore Rd",
           "lat": 37.809662,
           "lon": -122.21462,
-          "distance_m": 19.228120349717155
+          "distance_m": 19.22812
         }
       ],
       "osm_within_20m": []
@@ -9735,13 +9735,13 @@
         "name": "3419 Fruitvale Ave",
         "lat": 37.799665,
         "lon": -122.2166529,
-        "distance_m": 415.03606280354535
+        "distance_m": 415.036063
       },
       "existing_within_100m": [],
       "osm_within_20m": [
         {
           "osm_id": "node/7434608222",
-          "distance_m": 1.636924937899557
+          "distance_m": 1.636925
         }
       ]
     },
@@ -9767,7 +9767,7 @@
         "name": "817 Madison St",
         "lat": 37.8913549,
         "lon": -122.3010542,
-        "distance_m": 5.488130739902673
+        "distance_m": 5.488131
       },
       "existing_within_100m": [
         {
@@ -9775,14 +9775,14 @@
           "name": "817 Madison St",
           "lat": 37.8913549,
           "lon": -122.3010542,
-          "distance_m": 5.488130739902673
+          "distance_m": 5.488131
         },
         {
           "key": "placemark-1040-point-1",
           "name": "749 Madison St",
           "lat": 37.8921314,
           "lon": -122.3012993,
-          "distance_m": 91.89032428487907
+          "distance_m": 91.890324
         }
       ],
       "osm_within_20m": []
@@ -9806,7 +9806,7 @@
         "name": "1462 Trestle Glen Rd",
         "lat": 37.8096352,
         "lon": -122.225748,
-        "distance_m": 528.3355036742737
+        "distance_m": 528.335504
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -9831,7 +9831,7 @@
         "name": "1417 Josephine St",
         "lat": 37.8805741,
         "lon": -122.2750245,
-        "distance_m": 6.382724455660333
+        "distance_m": 6.382724
       },
       "existing_within_100m": [
         {
@@ -9839,14 +9839,14 @@
           "name": "1417 Josephine St",
           "lat": 37.8805741,
           "lon": -122.2750245,
-          "distance_m": 6.382724455660333
+          "distance_m": 6.382724
         },
         {
           "key": "placemark-751-point-1",
           "name": "1400 Josephine St",
           "lat": 37.881199,
           "lon": -122.275431,
-          "distance_m": 72.85033996758078
+          "distance_m": 72.85034
         }
       ],
       "osm_within_20m": []
@@ -9873,13 +9873,13 @@
         "name": "3419 Fruitvale Ave",
         "lat": 37.799665,
         "lon": -122.2166529,
-        "distance_m": 416.0844284915955
+        "distance_m": 416.084428
       },
       "existing_within_100m": [],
       "osm_within_20m": [
         {
           "osm_id": "node/7300494341",
-          "distance_m": 1.636924937899557
+          "distance_m": 1.636925
         }
       ]
     },
@@ -9902,7 +9902,7 @@
         "name": "1462 Trestle Glen Rd",
         "lat": 37.8096352,
         "lon": -122.225748,
-        "distance_m": 312.389266173871
+        "distance_m": 312.389266
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -9929,7 +9929,7 @@
         "name": "1462 Trestle Glen Rd",
         "lat": 37.8096352,
         "lon": -122.225748,
-        "distance_m": 259.70836377177466
+        "distance_m": 259.708364
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -9960,7 +9960,7 @@
         "name": "1501 Le Roy Ave",
         "lat": 37.8818502,
         "lon": -122.2601468,
-        "distance_m": 7.5750663537114455
+        "distance_m": 7.575066
       },
       "existing_within_100m": [
         {
@@ -9968,7 +9968,7 @@
           "name": "1501 Le Roy Ave",
           "lat": 37.8818502,
           "lon": -122.2601468,
-          "distance_m": 7.5750663537114455
+          "distance_m": 7.575066
         }
       ],
       "osm_within_20m": []
@@ -9998,7 +9998,7 @@
         "name": "1635 Le Roy Ave",
         "lat": 37.8793208,
         "lon": -122.2585843,
-        "distance_m": 2.7323173966733854
+        "distance_m": 2.732317
       },
       "existing_within_100m": [
         {
@@ -10006,21 +10006,21 @@
           "name": "1635 Le Roy Ave",
           "lat": 37.8793208,
           "lon": -122.2585843,
-          "distance_m": 2.7323173966733854
+          "distance_m": 2.732317
         },
         {
           "key": "placemark-621-point-1",
           "name": "1596 Le Roy Ave",
           "lat": 37.8798825,
           "lon": -122.2589672,
-          "distance_m": 73.65691162386264
+          "distance_m": 73.656912
         },
         {
           "key": "placemark-826-point-1",
           "name": "1600 La Loma Ave",
           "lat": 37.8797792,
           "lon": -122.2578325,
-          "distance_m": 83.81348513642307
+          "distance_m": 83.813485
         }
       ],
       "osm_within_20m": []
@@ -10050,7 +10050,7 @@
         "name": "1600 La Loma Ave",
         "lat": 37.8797792,
         "lon": -122.2578325,
-        "distance_m": 3.5954342313636922
+        "distance_m": 3.595434
       },
       "existing_within_100m": [
         {
@@ -10058,21 +10058,21 @@
           "name": "1600 La Loma Ave",
           "lat": 37.8797792,
           "lon": -122.2578325,
-          "distance_m": 3.5954342313636922
+          "distance_m": 3.595434
         },
         {
           "key": "placemark-991-point-1",
           "name": "1635 Le Roy Ave",
           "lat": 37.8793208,
           "lon": -122.2585843,
-          "distance_m": 79.7928758992396
+          "distance_m": 79.792876
         },
         {
           "key": "placemark-621-point-1",
           "name": "1596 Le Roy Ave",
           "lat": 37.8798825,
           "lon": -122.2589672,
-          "distance_m": 97.52084787510366
+          "distance_m": 97.520848
         }
       ],
       "osm_within_20m": []
@@ -10102,7 +10102,7 @@
         "name": "1311 Walnut St",
         "lat": 37.8834984,
         "lon": -122.2684136,
-        "distance_m": 4.671964695803168
+        "distance_m": 4.671965
       },
       "existing_within_100m": [
         {
@@ -10110,7 +10110,7 @@
           "name": "1311 Walnut St",
           "lat": 37.8834984,
           "lon": -122.2684136,
-          "distance_m": 4.671964695803168
+          "distance_m": 4.671965
         }
       ],
       "osm_within_20m": []
@@ -10139,7 +10139,7 @@
         "name": "1518 Bonita Ave",
         "lat": 37.8788995,
         "lon": -122.2727751,
-        "distance_m": 2.0808449412687327
+        "distance_m": 2.080845
       },
       "existing_within_100m": [
         {
@@ -10147,7 +10147,7 @@
           "name": "1518 Bonita Ave",
           "lat": 37.8788995,
           "lon": -122.2727751,
-          "distance_m": 2.0808449412687327
+          "distance_m": 2.080845
         }
       ],
       "osm_within_20m": []
@@ -10176,7 +10176,7 @@
         "name": "Terrace View Park\n",
         "lat": 37.8842033,
         "lon": -122.2501594,
-        "distance_m": 2.656037707593153
+        "distance_m": 2.656038
       },
       "existing_within_100m": [
         {
@@ -10184,7 +10184,7 @@
           "name": "Terrace View Park\n",
           "lat": 37.8842033,
           "lon": -122.2501594,
-          "distance_m": 2.656037707593153
+          "distance_m": 2.656038
         }
       ],
       "osm_within_20m": []
@@ -10214,7 +10214,7 @@
         "name": "2000 Yolo Ave",
         "lat": 37.8857063,
         "lon": -122.2725186,
-        "distance_m": 7.503611727510617
+        "distance_m": 7.503612
       },
       "existing_within_100m": [
         {
@@ -10222,7 +10222,7 @@
           "name": "2000 Yolo Ave",
           "lat": 37.8857063,
           "lon": -122.2725186,
-          "distance_m": 7.503611727510617
+          "distance_m": 7.503612
         }
       ],
       "osm_within_20m": []
@@ -10248,7 +10248,7 @@
         "name": "2001 Los Angeles Ave",
         "lat": 37.890151,
         "lon": -122.2719722,
-        "distance_m": 5.833713453468683
+        "distance_m": 5.833713
       },
       "existing_within_100m": [
         {
@@ -10256,14 +10256,14 @@
           "name": "2001 Los Angeles Ave",
           "lat": 37.890151,
           "lon": -122.2719722,
-          "distance_m": 5.833713453468683
+          "distance_m": 5.833713
         },
         {
           "key": "placemark-258-point-1",
           "name": "1990 Marin Ave",
           "lat": 37.8896789,
           "lon": -122.2728709,
-          "distance_m": 91.64015021216414
+          "distance_m": 91.64015
         }
       ],
       "osm_within_20m": []
@@ -10291,7 +10291,7 @@
         "name": "3020 College Ave",
         "lat": 37.8551919,
         "lon": -122.2529863,
-        "distance_m": 5.4142379090619555
+        "distance_m": 5.414238
       },
       "existing_within_100m": [
         {
@@ -10299,14 +10299,14 @@
           "name": "3020 College Ave",
           "lat": 37.8551919,
           "lon": -122.2529863,
-          "distance_m": 5.4142379090619555
+          "distance_m": 5.414238
         },
         {
           "key": "placemark-355-point-1",
           "name": "3028 College Ave",
           "lat": 37.8549574,
           "lon": -122.2529562,
-          "distance_m": 30.745548894300086
+          "distance_m": 30.745549
         }
       ],
       "osm_within_20m": []
@@ -10330,7 +10330,7 @@
         "name": "857 Sunnyhills Rd",
         "lat": 37.807424,
         "lon": -122.234636,
-        "distance_m": 84.87457397148263
+        "distance_m": 84.874574
       },
       "existing_within_100m": [
         {
@@ -10338,7 +10338,7 @@
           "name": "857 Sunnyhills Rd",
           "lat": 37.807424,
           "lon": -122.234636,
-          "distance_m": 84.87457397148263
+          "distance_m": 84.874574
         }
       ],
       "osm_within_20m": []
@@ -10366,7 +10366,7 @@
         "name": "349 15th St",
         "lat": 37.8042036,
         "lon": -122.2680156,
-        "distance_m": 291.59687169550136
+        "distance_m": 291.596872
       },
       "existing_within_100m": [],
       "osm_within_20m": []
@@ -10390,7 +10390,7 @@
         "name": "143 Santa Fe Ave",
         "lat": 37.9001137,
         "lon": -122.2884145,
-        "distance_m": 15.037266757717815
+        "distance_m": 15.037267
       },
       "existing_within_100m": [
         {
@@ -10398,7 +10398,7 @@
           "name": "143 Santa Fe Ave",
           "lat": 37.9001137,
           "lon": -122.2884145,
-          "distance_m": 15.037266757717815
+          "distance_m": 15.037267
         }
       ],
       "osm_within_20m": []
@@ -10425,7 +10425,7 @@
         "name": "24 Highland Blvd",
         "lat": 37.9163428,
         "lon": -122.2818216,
-        "distance_m": 15.155755893849607
+        "distance_m": 15.155756
       },
       "existing_within_100m": [
         {
@@ -10433,14 +10433,14 @@
           "name": "24 Highland Blvd",
           "lat": 37.9163428,
           "lon": -122.2818216,
-          "distance_m": 15.155755893849607
+          "distance_m": 15.155756
         },
         {
           "key": "placemark-809-point-1",
           "name": "16 Highland Blvd",
           "lat": 37.9165938,
           "lon": -122.2821102,
-          "distance_m": 52.727274868542764
+          "distance_m": 52.727275
         }
       ],
       "osm_within_20m": []
@@ -10465,7 +10465,7 @@
         "name": "2300 Eunice St",
         "lat": 37.8860997,
         "lon": -122.265402,
-        "distance_m": 10.008502611694349
+        "distance_m": 10.008503
       },
       "existing_within_100m": [
         {
@@ -10473,14 +10473,14 @@
           "name": "2300 Eunice St",
           "lat": 37.8860997,
           "lon": -122.265402,
-          "distance_m": 10.008502611694349
+          "distance_m": 10.008503
         },
         {
           "key": "placemark-1073-point-1",
           "name": "1209 Spruce St",
           "lat": 37.8857327,
           "lon": -122.2664163,
-          "distance_m": 96.33407725252782
+          "distance_m": 96.334077
         }
       ],
       "osm_within_20m": []
@@ -10508,7 +10508,7 @@
         "name": "900 Santa Barbara Rd",
         "lat": 37.8925356,
         "lon": -122.2684827,
-        "distance_m": 3.058968052533238
+        "distance_m": 3.058968
       },
       "existing_within_100m": [
         {
@@ -10516,7 +10516,7 @@
           "name": "900 Santa Barbara Rd",
           "lat": 37.8925356,
           "lon": -122.2684827,
-          "distance_m": 3.058968052533238
+          "distance_m": 3.058968
         }
       ],
       "osm_within_20m": []
@@ -10541,7 +10541,7 @@
         "name": "1062 Spruce St",
         "lat": 37.8894395,
         "lon": -122.2669904,
-        "distance_m": 2.6535280229105127
+        "distance_m": 2.653528
       },
       "existing_within_100m": [
         {
@@ -10549,14 +10549,14 @@
           "name": "1062 Spruce St",
           "lat": 37.8894395,
           "lon": -122.2669904,
-          "distance_m": 2.6535280229105127
+          "distance_m": 2.653528
         },
         {
           "key": "placemark-792-point-1",
           "name": "1080 Spruce St",
           "lat": 37.8891106,
           "lon": -122.2669068,
-          "distance_m": 39.522296693044595
+          "distance_m": 39.522297
         }
       ],
       "osm_within_20m": []
@@ -10581,7 +10581,7 @@
         "name": "1080 Spruce St",
         "lat": 37.8891106,
         "lon": -122.2669068,
-        "distance_m": 8.770689907253626
+        "distance_m": 8.77069
       },
       "existing_within_100m": [
         {
@@ -10589,14 +10589,14 @@
           "name": "1080 Spruce St",
           "lat": 37.8891106,
           "lon": -122.2669068,
-          "distance_m": 8.770689907253626
+          "distance_m": 8.77069
         },
         {
           "key": "placemark-134-point-1",
           "name": "1062 Spruce St",
           "lat": 37.8894395,
           "lon": -122.2669904,
-          "distance_m": 45.379265202251275
+          "distance_m": 45.379265
         }
       ],
       "osm_within_20m": []
@@ -10620,7 +10620,7 @@
         "name": "1449 Oxford St",
         "lat": 37.880613,
         "lon": -122.26692,
-        "distance_m": 5.84354560363254
+        "distance_m": 5.843546
       },
       "existing_within_100m": [
         {
@@ -10628,7 +10628,7 @@
           "name": "1449 Oxford St",
           "lat": 37.880613,
           "lon": -122.26692,
-          "distance_m": 5.84354560363254
+          "distance_m": 5.843546
         }
       ],
       "osm_within_20m": []
@@ -10656,7 +10656,7 @@
         "name": "7345 Fairmount Ave",
         "lat": 37.903793,
         "lon": -122.292992,
-        "distance_m": 14.600818289073827
+        "distance_m": 14.600818
       },
       "existing_within_100m": [
         {
@@ -10664,14 +10664,14 @@
           "name": "7345 Fairmount Ave",
           "lat": 37.903793,
           "lon": -122.292992,
-          "distance_m": 14.600818289073827
+          "distance_m": 14.600818
         },
         {
           "key": "placemark-824-point-1",
           "name": "333 Ramona Ave",
           "lat": 37.9035159,
           "lon": -122.2920817,
-          "distance_m": 80.13488145549717
+          "distance_m": 80.134881
         }
       ],
       "osm_within_20m": []
